@@ -1,0 +1,187 @@
+=== start 20:22:26 ===
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded zlib-rs v0.6.8
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.27
+   Compiling quote v1.0.47
+   Compiling windows-link v0.2.1
+   Compiling shlex v2.0.1
+   Compiling find-msvc-tools v0.1.15
+   Compiling serde_core v1.0.229
+   Compiling once_cell v1.21.4
+   Compiling thiserror v2.0.21
+   Compiling regex-syntax v0.8.12
+   Compiling cfg-if v1.0.5
+   Compiling lazy_static v1.5.1
+   Compiling windows-sys v0.61.2
+   Compiling windows-result v0.4.1
+   Compiling windows-strings v0.5.1
+   Compiling log v0.4.35
+   Compiling serde v1.0.229
+   Compiling tracing-core v0.1.36
+   Compiling anyhow v1.0.104
+   Compiling cc v1.11.3
+   Compiling winnow v1.0.5
+   Compiling pin-project-lite v0.2.18
+   Compiling regex-automata v0.4.19
+   Compiling tracing-log v0.2.0
+   Compiling sharded-slab v0.1.7
+   Compiling thread_local v1.1.10
+   Compiling toml_parser v1.1.6+spec-1.1.0
+   Compiling toml_writer v1.2.0+spec-1.1.0
+   Compiling smallvec v1.16.6
+   Compiling syn v2.0.119
+   Compiling syn v3.0.10
+   Compiling windows-threading v0.2.1
+   Compiling blake3 v1.8.7
+   Compiling cpufeatures v0.3.1
+   Compiling arrayvec v0.7.8
+   Compiling matchers v0.2.0
+   Compiling toml_datetime v1.1.3+spec-1.1.0
+   Compiling serde_spanned v1.1.3
+   Compiling toml v1.2.2+spec-1.1.0
+   Compiling constant_time_eq v0.4.2
+   Compiling memchr v2.8.3
+   Compiling zlib-rs v0.6.8
+   Compiling victory-shader v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-shader)
+   Compiling utf8parse v0.2.2
+   Compiling anstyle v1.0.14
+   Compiling once_cell_polyfill v1.70.2
+   Compiling thiserror-impl v2.0.21
+   Compiling serde_derive v1.0.229
+   Compiling anstyle-parse v1.0.0
+   Compiling object v0.41.0
+   Compiling nu-ansi-term v0.50.3
+   Compiling windows-implement v0.60.2
+   Compiling windows-interface v0.59.3
+   Compiling tracing-attributes v0.1.31
+   Compiling anstyle-query v1.1.5
+   Compiling anstyle-wincon v3.0.11
+   Compiling is_terminal_polyfill v1.70.2
+   Compiling colorchoice v1.0.5
+   Compiling windows-core v0.62.2
+   Compiling anstream v1.0.0
+   Compiling winapi-util v0.1.11
+   Compiling strsim v0.11.1
+   Compiling victory-pe v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-pe)
+   Compiling tracing v0.1.44
+   Compiling windows-future v0.3.2
+   Compiling tracing-subscriber v0.3.23
+   Compiling windows-numerics v0.3.1
+   Compiling windows-collections v0.3.2
+   Compiling victory-formats v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-formats)
+   Compiling clap_lex v1.1.2
+   Compiling heck v0.5.0
+   Compiling windows v0.62.2
+   Compiling clap_derive v4.6.9
+   Compiling clap_builder v4.6.7
+   Compiling same-file v1.0.6
+   Compiling opus-pure v0.2.4
+   Compiling walkdir v2.5.1
+   Compiling victory-core v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-core)
+   Compiling victory-game v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-game)
+   Compiling victory-pipeline v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-pipeline)
+   Compiling victory-loader v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-loader)
+   Compiling victory-gpu v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-gpu)
+   Compiling clap v4.6.9
+warning: variant `Title` is never constructed
+    --> crates\victory-gpu\src\host.rs:7756:5
+     |
+7750 | enum Touch {
+     |      ----- variant in this enum
+...
+7756 |     Title,
+     |     ^^^^^
+     |
+     = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `DIRECT` is never used
+  --> crates\victory-gpu\src\host\indirects.rs:18:18
+   |
+18 | pub(crate) const DIRECT: u32 = u32::MAX;
+   |                  ^^^^^^
+
+warning: constant `WORDS` is never used
+  --> crates\victory-gpu\src\host\indirects.rs:21:18
+   |
+21 | pub(crate) const WORDS: usize = 16;
+   |                  ^^^^^
+
+warning: struct `Ran` is never constructed
+  --> crates\victory-gpu\src\host\indirects.rs:25:19
+   |
+25 | pub(crate) struct Ran {
+   |                   ^^^
+
+warning: struct `Indirects` is never constructed
+  --> crates\victory-gpu\src\host\indirects.rs:34:19
+   |
+34 | pub(crate) struct Indirects {
+   |                   ^^^^^^^^^
+
+warning: type alias `Shared` is never used
+  --> crates\victory-gpu\src\host\indirects.rs:42:17
+   |
+42 | pub(crate) type Shared = Arc<Mutex<Indirects>>;
+   |                 ^^^^^^
+
+warning: methods `note`, `clear`, and `nth` are never used
+  --> crates\victory-gpu\src\host\indirects.rs:48:19
+   |
+44 | impl Indirects {
+   | -------------- methods in this implementation
+...
+48 |     pub(crate) fn note(&mut self, pipeline: usize, name: &str, kind: u32, count: u32, user: &[u32]) {
+   |                   ^^^^
+...
+61 |     pub(crate) fn clear(&mut self) {
+   |                   ^^^^^
+...
+71 |     pub(crate) fn nth(&self, nth: usize, direct: bool) -> Option<(String, &[u32])> {
+   |                   ^^^
+
+warning: function `before` is never used
+  --> crates\victory-gpu\src\host\indirects.rs:88:15
+   |
+88 | pub(crate) fn before<T>(history: &[T], at: usize, is: impl Fn(&T) -> bool) -> usize {
+   |               ^^^^^^
+
+warning: function `slots` is never used
+  --> crates\victory-gpu\src\host\indirects.rs:95:15
+   |
+95 | pub(crate) fn slots(words: &[u32], count: u32, table: u32) -> Vec<(usize, u32)> {
+   |               ^^^^^
+
+warning: function `placed_filler_twins` is never used
+    --> crates\victory-gpu\src\resource.rs:2957:15
+     |
+2957 | pub(crate) fn placed_filler_twins() -> u64 {
+     |               ^^^^^^^^^^^^^^^^^^^
+
+warning: calls to `std::mem::drop` with a value that implements `Copy` does nothing
+  --> crates\victory-gpu\src\pipeline\known.rs:64:48
+   |
+64 |             walk_shaders(&dir, |_, hash, _, _| drop(shaders.insert(hash))),
+   |                                                ^^^^^--------------------^
+   |                                                     |
+   |                                                     argument has type `bool`
+   |
+   = note: use `let _ = ...` to ignore the expression or result
+   = note: `#[warn(dropping_copy_types)]` on by default
+
+warning: calls to `std::mem::drop` with a value that implements `Copy` does nothing
+   --> crates\victory-gpu\src\pipeline\known.rs:223:46
+    |
+223 |     walk_shaders(dir, |stage, hash, at, len| drop(places.insert(hash, (stage, at, len))));
+    |                                              ^^^^^-------------------------------------^
+    |                                                   |
+    |                                                   argument has type `Option<(u8, u64, u32)>`
+    |
+    = note: use `let _ = ...` to ignore the expression or result
+
+   Compiling victory-hle v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-hle)
+warning: `victory-gpu` (lib) generated 12 warnings
+   Compiling victory v0.1.0 (G:\GTA\cool_fox\cool_fox-main\apps\victory)
+    Finished `release` profile [optimized + debuginfo] target(s) in 2m 18s
+=== exit=0 20:24:44 ===

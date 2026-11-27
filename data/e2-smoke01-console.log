@@ -1,0 +1,110 @@
+=== smoke label=smoke-01 start 2026-11-27 04:54:05
+exe_sha256=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
+commit_limit_gb=49.84 commit_free_gb=36.04
+label=smoke-01-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+start=2026-11-27 04:54:10
+pid=20772
+stdout=G:\GTA\cool_fox-优化方案\data\auto-smoke-01-preflight-1127-045409.log
+stderr=G:\GTA\cool_fox-优化方案\data\auto-smoke-01-preflight-1127-045409.err.log
+t=  5s draws=1 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 1 draws/frame
+t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 20s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 25s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 30s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 35s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 40s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 45s draws=9 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 9 draws/frame
+t= 50s draws=9 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 9 draws/frame
+t= 55s draws=8 ms=34.2 title=Americas | VIctory 29 fps 34.2 ms/frame 8 draws/frame
+t= 60s draws=12 ms=31.9 title=Americas | VIctory 31 fps 31.9 ms/frame 12 draws/frame
+t= 65s draws=2841 ms=292.6 title=Americas | VIctory 3 fps 292.6 ms/frame 2841 draws/frame
+>> ENTERED at t=65 s draws=2841
+t= 70s draws=1280 ms=300.5 title=Americas | VIctory 3 fps 300.5 ms/frame 1280 draws/frame
+t= 75s draws=3923 ms=298.4 title=Americas | VIctory 3 fps 298.4 ms/frame 3923 draws/frame
+loop_s=15 samples=15
+entered=True
+entered_at_s=65
+entered_draws=2841
+samples=15
+leftover=0
+end=2026-11-27 04:55:41
+preflight_EXIT=0
+label=smoke-01 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+  t=   8s fps=    30 ms=    33.3 draws=     1 priv=   6.5 commitfree= 24.33
+  t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.95 commitfree=  24.4
+  t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree=  24.4
+  t=  26s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.39
+  t=  32s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.39
+  t=  38s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree=  24.4
+  t=  44s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.39
+  t=  51s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.39
+  t=  57s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.39
+  t=  63s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.41
+  t=  69s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree=  24.4
+  t=  76s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree=  24.4
+  t=  82s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.42
+  t=  89s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.41
+  t=  95s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.37
+  t= 101s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.37
+  t= 107s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.37
+  t= 113s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.36
+  t= 123s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.37
+  t= 131s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.38
+  t= 137s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.39
+  t= 143s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.39
+  t= 149s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.39
+  t= 155s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.39
+  t= 161s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.39
+  t= 167s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.41
+  t= 173s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.42
+  t= 180s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.42
+  t= 188s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.42
+  t= 194s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.42
+  t= 200s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.42
+  t= 207s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.41
+  t= 214s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree=  24.4
+  t= 220s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 34.82
+
+  T Fps   Ms Draws PrivGB RssGB FreeGB CommitFreeGB
+  - ---   -- ----- ------ ----- ------ ------------
+  8  30 33.3     1    6.5     4  18.01        24.33
+ 14  30 33.3     8   6.95  4.51  18.01         24.4
+ 20  30 33.3     8   6.94  4.36  18.15         24.4
+ 26  30 33.3     8   6.94  4.36  18.13        24.39
+ 32  30 33.3     8   6.94  4.36  18.14        24.39
+ 38  30 33.3     8   6.94  4.36  18.14         24.4
+ 44  30 33.3     8   6.94  4.36  18.14        24.39
+ 51  30 33.3     8   6.94  4.36  18.14        24.39
+ 57  30 33.3     8   6.94  4.36  18.14        24.39
+ 63  30 33.3     8   6.94  4.36  18.15        24.41
+ 69  30 33.3     8   6.94  4.36  18.15         24.4
+ 76  30 33.3     8   6.94  4.36  18.15         24.4
+ 82  30 33.3     8   6.94  4.36  18.16        24.42
+ 89  30 33.3     8   6.94  4.36  18.15        24.41
+ 95  30 33.3     8   6.94  4.36  18.12        24.37
+101  30 33.3     8   6.94  4.36  18.11        24.37
+107  30 33.3     8   6.94  4.36  18.11        24.37
+113  30 33.3     8   6.94  4.36   18.1        24.36
+123  30 33.3     8   6.94  4.36  18.11        24.37
+131  30 33.3     8   6.94  4.36  18.13        24.38
+137  30 33.3     8   6.94  4.36  18.13        24.39
+143  30 33.3     8   6.94  4.36  18.13        24.39
+149  30 33.3     8   6.94  4.36  18.13        24.39
+155  30 33.3     8   6.94  4.36  18.14        24.39
+161  30 33.3     8   6.94  4.36  18.14        24.39
+167  30 33.3     8   6.94  4.36  18.15        24.41
+173  30 33.3     8   6.94  4.36  18.16        24.42
+180  30 33.3     8   6.94  4.36  18.16        24.42
+188  30 33.3     8   6.94  4.36  18.16        24.42
+194  30 33.3     8   6.94  4.36  18.16        24.42
+200  30 33.3     8   6.94  4.36  18.16        24.42
+207  30 33.3     8   6.94  4.36  18.15        24.41
+214  30 33.3     8   6.94  4.36  18.15         24.4
+220  30 33.3     8   6.94  4.36  21.42        34.82
+
+
+
+window = world+200 s (from t= s) ；采样 34 条，窗内 34 条
+median_ms_world =  （filter v2，0 条世界样本，中位 draws=）；max_priv_gb = 6.95 ；min_free_gb = 18.01 ；min_commit_free_gb = 24.33 ；leftover_procs = 0
+详情写入 bench-v3.csv

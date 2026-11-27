@@ -1,0 +1,39 @@
+=== start 20:25:46
+2026-11-26T12:25:46.826774Z  INFO victory_gpu::tdr: GPU timeout detection (TdrLevel, TdrDelay, TdrDdiDelay) level=default delay=default ddi_delay=default
+2026-11-26T12:25:46.826838Z  INFO victory_gpu::host: host wave lanes min=32 max=32
+2026-11-26T12:25:46.872044Z  INFO victory_gpu::host: host D3D12 device ready
+2026-11-26T12:25:46.873397Z  INFO victory_gpu::descriptor::host: host view heaps hold 1000000 views; view indices are clamped to the null slot at the end from the first shader on views=1000000 raw_twins=false
+1000 shaders in the cache, 95 s
+2000 shaders in the cache, 99 s
+3000 shaders in the cache, 103 s
+4000 shaders in the cache, 105 s
+5000 shaders in the cache, 109 s
+6000 shaders in the cache, 113 s
+7000 shaders in the cache, 116 s
+8000 shaders in the cache, 119 s
+9000 shaders in the cache, 122 s
+10000 shaders in the cache, 126 s
+11000 shaders in the cache, 129 s
+12000 shaders in the cache, 132 s
+13000 shaders in the cache, 137 s
+14000 shaders in the cache, 144 s
+15000 shaders in the cache, 148 s
+16000 shaders in the cache, 151 s
+17000 shaders in the cache, 161 s
+18000 shaders in the cache, 166 s
+19000 shaders in the cache, 173 s
+20000 shaders in the cache, 178 s
+21000 shaders in the cache, 183 s
+22000 shaders in the cache, 196 s
+23000 shaders in the cache, 275 s
+24000 shaders in the cache, 352 s
+25000 shaders in the cache, 354 s
+25756 shaders in the cache, 229 do not translate, 356 s
+    198  converter shader.dxil v1: GFX10 code at 0x0: a container without a vertex, pixel, compute or mesh program is not supported  (e.g. 4020190494a61497)
+     26  converter shader.dxil v1: GFX10 code at 0x0: no wave32 lowering for this wave64 program is not supported  (e.g. 407eca669212d400)
+      1  converter shader.dxil v1: GFX10 code at 0x1d70: a descriptor read only as data is not supported  (e.g. 002e93a6cc2aa355)
+      1  converter shader.dxil v1: GFX10 code at 0x1e18: a descriptor read only as data is not supported  (e.g. 0e64f14fae060d04)
+      1  converter shader.dxil v1: GFX10 code at 0x1e48: a descriptor read only as data is not supported  (e.g. dbdbf36298727135)
+      1  converter shader.dxil v1: GFX10 code at 0x1e70: a descriptor read only as data is not supported  (e.g. 96ccb14ef981fd85)
+      1  converter shader.dxil v1: GFX10 code at 0x2070: a descriptor read only as data is not supported  (e.g. 07c93bfb77fecebb)
+=== exit=0 20:31:42

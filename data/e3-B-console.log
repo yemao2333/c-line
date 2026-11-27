@@ -1,0 +1,35 @@
+=== e3-B start 2026-11-27 08:06:58 ===
+
+--- label=sr-off-1 extra=[] at 08:06:58 ---
+rc[sr-off-1]=0
+4511,20.44,3.16,10.74,0,run-sr-off-1-1127-080834.log
+world_samples=35 median_ms_world=[252.1] median_draws=[4511] leftover_procs=[0]
+post_run_leftover=0
+=== smoke end 2026-11-27 08:13:03
+SMOKE=PASS
+
+--- label=sr-on-1 extra=[VICTORY_SETTLE_ROOM=1] at 08:13:08 ---
+rc[sr-on-1]=0
+451,20.81,3.24,10.53,0,run-sr-on-1-1127-081434.log
+world_samples=34 median_ms_world=[258.4] median_draws=[4451] leftover_procs=[0]
+post_run_leftover=0
+=== smoke end 2026-11-27 08:19:03
+SMOKE=PASS
+
+--- label=sr-on-2 extra=[VICTORY_SETTLE_ROOM=1] at 08:19:09 ---
+rc[sr-on-2]=0
+451,20.52,2.93,10.54,0,run-sr-on-2-1127-082029.log
+world_samples=34 median_ms_world=[247.4] median_draws=[4451] leftover_procs=[0]
+post_run_leftover=0
+=== smoke end 2026-11-27 08:24:54
+SMOKE=PASS
+
+--- label=sr-off-2 extra=[] at 08:24:59 ---
+rc[sr-off-2]=0
+,4375,20.34,2.92,10.52,0,run-sr-off-2-1127-082634.log
+world_samples=34 median_ms_world=[299.8] median_draws=[4375] leftover_procs=[0]
+post_run_leftover=0
+=== smoke end 2026-11-27 08:31:00
+SMOKE=PASS
+
+=== e3-B end 2026-11-27 08:31:10 ===

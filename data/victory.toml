@@ -1,0 +1,8 @@
+# cool_fox 本地部署配置（本机）
+# 路径全部位于仓库之外，符合仓库的 asset-policy 要求。
+
+[paths]
+game_dir = 'G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK'
+cache_dir = 'G:\GTA\victory-data\coolfox-cache'
+data_dir = 'G:\GTA\victory-data\coolfox-data'
+test_titles = []

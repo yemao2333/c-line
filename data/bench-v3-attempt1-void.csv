@@ -1,0 +1,3 @@
+time,label,world_seconds,cap_seconds,samples,world_from_s,world_samples,world_filter,median_ms_world,median_draws,max_priv_gb,min_free_gb,min_commit_free_gb,leftover_procs,log
+2026-11-27 02:47:52,R10-control,200,420,0,,0,ms>40&draws>=200,0,,,,,0,run-R10-control-1127-024747.log
+2026-11-27 02:47:58,R10-sendown0,200,420,0,,0,ms>40&draws>=200,0,,,,,0,run-R10-sendown0-1127-024753.log

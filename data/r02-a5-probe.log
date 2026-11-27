@@ -1,0 +1,13 @@
+SHA256=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
+commit_limit_gb=33.84 commit_used_gb=16.81 commit_free_gb=17.03
+exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe  bytes=49681038  written=2026-11-26 22:02:32
+--- attempt 1 : G:\GTA\cool_fox-优化方案\data\ledger-a1-1126-223308.err.log ---
+attempt 1: captured 5 / 5 lines
+=== 账本 ===
+[2m2026-11-26T14:33:10.337106Z[0m [32m INFO[0m [2mvictory_gpu::list::thin[0m[2m:[0m threads that translate lists (VICTORY_THIN_THREADS) [3mthreads[0m[2m=[0m6
+[2m2026-11-26T14:33:10.424303Z[0m [32m INFO[0m [2mvictory_gpu::pipeline::make[0m[2m:[0m pipeline workers [3mworkers[0m[2m=[0m4
+[2m2026-11-26T14:33:11.093409Z[0m [32m INFO[0m [2mvictory_gpu::shadow[0m[2m:[0m card buffer limits [3mvram_budget_mb[0m[2m=[0m7256 [3mcard_buffers_min_kb[0m[2m=[0m64 [3mcard_buffers_max_mb[0m[2m=[0m512
+[2m2026-11-26T14:33:11.501916Z[0m [32m INFO[0m [2mvictory_gpu::resource[0m[2m:[0m the card's room kept for the render targets a world makes in its first frame (VICTORY_CARD_ROOM_FOR_TARGETS_MB) [3mmost_mb[0m[2m=[0m3072
+[2m2026-11-26T14:34:05.823024Z[0m [32m INFO[0m [2mvictory_gpu::shadow[0m[2m:[0m the card's most title memory by address (VICTORY_MEMORY_CARD_MB) [3mmost_mb[0m[2m=[0m4096 [3mcard_mb[0m[2m=[0m6625
+=== 结束 ===
+probe_done 22:35:41 leftover=1

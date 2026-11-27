@@ -1,0 +1,605 @@
+3 frames in 588.6 ms (196.2 ms a frame); 42094 events
+
+frame of 73.9 ms, present on 7100 (victory-image-b99f876b74d4a77f+0x2215ea1): the chain it came out of, by cause
+    19.16 ms  submit: the lists' steps
+    15.03 ms  a job for another thread
+    14.45 ms  outside our spans on 16644 "victory-wide-1"
+     7.84 ms  a copy's refresh
+     4.62 ms  work spread over threads
+     1.83 ms  woken, not running yet
+     1.11 ms  kernel: GetWriteWatch
+     1.07 ms  outside our spans on 6624 "victory-submit"
+     1.06 ms  landing: read-backs, telling the title
+     0.86 ms  ExecuteCommandLists
+     0.79 ms  refreshes of copies
+     0.62 ms  submit: copies in the card's memory
+     0.59 ms  submit: asking the write watch
+     0.57 ms  a texture's refresh
+     0.48 ms  a landing's job
+     0.47 ms  copies in the card's memory: the list
+     0.41 ms  submit: refreshes ahead of writes
+     0.33 ms  copies in the card's memory: what changed
+     0.32 ms  the host's Present
+     0.30 ms  closing a host list
+     0.25 ms  submit: title bytes under flights' writes
+     0.16 ms  the line: submissions joined
+     0.12 ms  steps on the card: chosen
+     0.12 ms  submit: steps given to the card
+
+frame of 280.1 ms, present on 7100 (victory-image-b99f876b74d4a77f+0x2215ea1): the chain it came out of, by cause
+   175.96 ms  outside our spans on 18652 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    26.19 ms  a long list call
+    16.86 ms  landing: read-backs, telling the title
+    11.77 ms  work spread over threads
+     9.02 ms  the frame meter
+     8.59 ms  recording: inside our list calls
+     7.09 ms  a copy's refresh
+     4.51 ms  outside our spans on 8860 "title-main"
+     3.92 ms  the heap pass: textures
+     3.02 ms  woken, not running yet
+     2.73 ms  a landing's job
+     1.56 ms  recording: between list calls (the caller's code)
+     1.14 ms  outside our spans on 11024 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.74 ms  submit: the lists' steps
+     0.73 ms  a job for another thread
+     0.62 ms  outside our spans on 18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.60 ms  outside our spans on 5904 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.51 ms  closing a host list
+     0.42 ms  kernel: GetWriteWatch
+     0.34 ms  the host's Present
+     0.29 ms  submit: asking the write watch
+     0.28 ms  copies in the card's memory: the list
+     0.27 ms  ExecuteCommandLists
+     0.26 ms  resetting a host list
+
+frame of 234.6 ms, present on 7100 (victory-image-b99f876b74d4a77f+0x2215ea1): the chain it came out of, by cause
+   206.55 ms  the card running submissions
+     8.52 ms  a job for another thread
+     7.30 ms  a copy's refresh
+     3.51 ms  work spread over threads
+     1.65 ms  a landing's job
+     1.02 ms  the card between submissions
+     0.92 ms  submit: the lists' steps
+     0.78 ms  woken, not running yet
+     0.56 ms  kernel: GetWriteWatch
+     0.38 ms  the host's Present
+     0.35 ms  submit: asking the write watch
+     0.34 ms  ExecuteCommandLists
+     0.31 ms  copies in the card's memory: the list
+     0.22 ms  refreshes of copies
+     0.22 ms  landing: ranges done with
+     0.21 ms  submit: copies in the card's memory
+     0.18 ms  landing: looking through copies, beside the fetch
+     0.18 ms  landing: what is to be looked through
+     0.18 ms  landing: copies in the card's memory
+     0.12 ms  submit: refreshes ahead of writes
+     0.11 ms  kernel: VirtualProtect
+     0.10 ms  copies in the card's memory: what changed
+     0.09 ms  landing: read-backs, telling the title
+     0.09 ms  outside our spans on 16472 "victory-relay"
+
+the chain back through all frames, per frame, by cause
+    83.27 ms  outside our spans on 18652 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    72.22 ms  the card running submissions
+     8.73 ms  a long list call
+     5.65 ms  landing: read-backs, telling the title
+     5.09 ms  work spread over threads
+     4.79 ms  a copy's refresh
+     3.08 ms  a job for another thread
+     2.86 ms  recording: inside our list calls
+     1.50 ms  outside our spans on 8860 "title-main"
+     1.46 ms  a landing's job
+     1.31 ms  the heap pass: textures
+     1.25 ms  woken, not running yet
+     0.52 ms  recording: between list calls (the caller's code)
+     0.48 ms  submit: the lists' steps
+     0.38 ms  outside our spans on 11024 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.34 ms  the card between submissions
+     0.32 ms  kernel: GetWriteWatch
+     0.21 ms  outside our spans on 18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.20 ms  outside our spans on 5904 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.20 ms  submit: asking the write watch
+     0.17 ms  closing a host list
+     0.17 ms  copies in the card's memory: the list
+     0.15 ms  ExecuteCommandLists
+     0.14 ms  landing: copies in the card's memory
+     0.13 ms  landing: ranges done with
+     0.13 ms  the host's Present
+     0.12 ms  sent, the card not started yet
+     0.12 ms  refreshes of copies
+     0.10 ms  kernel: VirtualProtect
+     0.10 ms  landing: looking through copies, beside the fetch
+     0.10 ms  submit: copies in the card's memory
+     0.09 ms  resetting a host list
+     0.08 ms  landing: what is to be looked through
+     0.07 ms  submit: refreshes ahead of writes
+     0.06 ms  a fault looked at
+     0.06 ms  copies in the card's memory: what changed
+     0.04 ms  outside our spans on 16980 "victory-list-1"
+     0.04 ms  outside our spans on 16472 "victory-relay"
+     0.04 ms  landing: fetching pieces
+     0.04 ms  outside our spans on 6556 "victory-list-2"
+
+by thread, per frame
+    83.27 ms  18652 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    72.69 ms  the card
+     9.32 ms  16472 "victory-relay"
+     7.51 ms  6624 "victory-submit"
+     7.48 ms  16980 "victory-list-1"
+     2.98 ms  16644 "victory-wide-1"
+     2.92 ms  6468 "victory-list-5"
+     2.88 ms  6556 "victory-list-2"
+     1.51 ms  8860 "title-main"
+     1.42 ms  5408 "victory-wide-2"
+     1.20 ms  3004 "victory-list-3"
+     0.79 ms  4912 "victory-land-1"
+     0.52 ms  11024 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.46 ms  424 "victory-land-2"
+     0.33 ms  15392 "victory-wide-0"
+     0.22 ms  18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.21 ms  5904 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.13 ms  10000 "victory-records-3"
+     0.11 ms  13560 "victory-records-2"
+     0.09 ms  16404 "victory-heap-sync"
+     0.03 ms  7100 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.03 ms  18796 "victory-views-3"
+     0.03 ms  11112 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.02 ms  17096 "victory-records-1"
+     0.02 ms  15164 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.02 ms  18636 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.01 ms  2804 "victory-list-0"
+     0.01 ms  11588 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     0.00 ms  2892 "victory-late-wait"
+
+that chain, oldest first (parts under 0.15 ms left out; ms since the first present)
+      0.00 +249.81  18652 (victory-image-b99f876b74d4a77f+0x2215ea1) outside our spans
+    249.82 +  4.43  8860 "title-main"                outside our spans
+    254.65 +  0.27  18144 (victory-image-b99f876b74d4a77f+0x2215ea1) outside our spans
+    254.93 +  0.27  18144 (victory-image-b99f876b74d4a77f+0x2215ea1) outside our spans
+    255.20 +  0.59  5904 (victory-image-b99f876b74d4a77f+0x2215ea1) outside our spans
+    256.03 +  2.38  6468 "victory-list-5"            the heap pass: textures
+    258.64 +  0.32  13560 "victory-records-2"        a landing's job
+    259.06 +  1.54  6468 "victory-list-5"            the heap pass: textures
+    260.69 +  0.22  11024 (victory-image-b99f876b74d4a77f+0x2215ea1) woken, not running yet
+    260.90 +  0.32  11024 (victory-image-b99f876b74d4a77f+0x2215ea1) outside our spans
+    261.35 +  0.45  11024 (victory-image-b99f876b74d4a77f+0x2215ea1) outside our spans
+    261.89 +  0.27  11024 (victory-image-b99f876b74d4a77f+0x2215ea1) outside our spans
+    262.19 +  0.51  16980 "victory-list-1"           woken, not running yet
+    262.89 + 18.81  16980 "victory-list-1"           a long list call
+    282.12 +  0.61  16980 "victory-list-1"           recording: inside our list calls
+    282.86 +  1.07  16980 "victory-list-1"           recording: inside our list calls
+    283.92 +  0.17  16980 "victory-list-1"           recording: between list calls (the caller's code)
+    284.14 +  0.41  16980 "victory-list-1"           recording: inside our list calls
+    284.67 +  0.79  6468 "victory-list-5"            recording: inside our list calls
+    285.47 +  0.23  6468 "victory-list-5"            recording: between list calls (the caller's code)
+    285.80 +  0.30  6468 "victory-list-5"            recording: inside our list calls
+    286.14 +  0.35  6468 "victory-list-5"            closing a host list
+    286.57 +  1.78  6468 "victory-list-5"            a long list call
+    288.46 +  0.19  6468 "victory-list-5"            a long list call
+    289.09 +  0.47  6468 "victory-list-5"            a long list call
+    290.09 +  0.17  3004 "victory-list-3"            recording: inside our list calls
+    290.33 +  0.16  3004 "victory-list-3"            recording: inside our list calls
+    290.79 +  0.16  3004 "victory-list-3"            recording: inside our list calls
+    292.06 +  0.19  3004 "victory-list-3"            recording: inside our list calls
+    292.38 +  0.21  3004 "victory-list-3"            recording: inside our list calls
+    292.73 +  0.24  3004 "victory-list-3"            recording: inside our list calls
+    293.18 +  1.57  6556 "victory-list-2"            woken, not running yet
+    294.76 +  0.27  6556 "victory-list-2"            recording: inside our list calls
+    295.07 +  0.34  6556 "victory-list-2"            recording: inside our list calls
+    295.71 +  0.68  6556 "victory-list-2"            recording: inside our list calls
+    296.39 +  0.15  6556 "victory-list-2"            recording: between list calls (the caller's code)
+    296.80 +  0.62  6556 "victory-list-2"            recording: inside our list calls
+    297.61 +  0.36  6556 "victory-list-2"            recording: inside our list calls
+    298.05 +  0.21  6556 "victory-list-2"            a long list call
+    298.42 +  0.54  6556 "victory-list-2"            a long list call
+    299.20 +  0.26  6556 "victory-list-2"            a long list call
+    299.59 +  0.48  6556 "victory-list-2"            a long list call
+    300.07 +  0.35  6556 "victory-list-2"            recording: inside our list calls
+    301.02 +  0.50  6556 "victory-list-2"            a long list call
+    301.81 + 16.74  16472 "victory-relay"            landing: read-backs, telling the title
+    318.67 +  0.24  16472 "victory-relay"            landing: copies in the card's memory
+    319.04 +  8.89  16472 "victory-relay"            work spread over threads
+    328.05 +  0.18  424 "victory-land-2"             a landing's job
+    328.23 +  0.19  424 "victory-land-2"             a landing's job
+    328.51 +  0.29  424 "victory-land-2"             a landing's job
+    329.62 +  0.16  4912 "victory-land-1"            a landing's job
+    329.78 +  0.17  4912 "victory-land-1"            a landing's job
+    330.17 +  0.16  16472 "victory-relay"            landing: ranges done with
+    331.89 +  0.16  5408 "victory-wide-2"            a copy's refresh
+    332.15 +  3.63  5408 "victory-wide-2"            a copy's refresh
+    336.39 +  2.95  6624 "victory-submit"            a copy's refresh
+    339.54 +  2.77  6624 "victory-submit"            work spread over threads
+    342.45 +  0.22  16644 "victory-wide-1"           a job for another thread
+    342.67 +  0.22  16644 "victory-wide-1"           a job for another thread
+    342.89 +  0.19  16644 "victory-wide-1"           a job for another thread
+    343.11 +  0.19  6624 "victory-submit"            copies in the card's memory: the list
+    343.46 +  0.37  the card                         sent, the card not started yet
+    343.83 +157.94  the card                         the card running submissions
+    501.80 +  1.38  the card                         the card running submissions
+    503.23 +  0.59  the card                         the card between submissions
+    503.83 +  5.14  the card                         the card running submissions
+    509.00 +  1.54  the card                         the card running submissions
+    510.54 +  0.20  the card                         the card between submissions
+    510.74 +  0.71  the card                         the card running submissions
+    511.47 +  3.00  the card                         the card running submissions
+    514.50 + 12.01  the card                         the card running submissions
+    526.53 + 10.18  the card                         the card running submissions
+    536.74 +  2.82  the card                         the card running submissions
+    539.57 +  7.84  the card                         the card running submissions
+    547.55 + 13.95  the card                         the card running submissions
+    561.62 +  0.18  16472 "victory-relay"            landing: what is to be looked through
+    561.80 +  0.17  16472 "victory-relay"            landing: copies in the card's memory
+    562.24 +  0.25  16644 "victory-wide-1"           a job for another thread
+    562.49 +  0.20  16644 "victory-wide-1"           a job for another thread
+    562.69 +  0.25  16644 "victory-wide-1"           a job for another thread
+    562.94 +  0.24  16644 "victory-wide-1"           a job for another thread
+    563.18 +  0.24  16644 "victory-wide-1"           a job for another thread
+    563.42 +  0.24  16644 "victory-wide-1"           a job for another thread
+    563.66 +  0.16  16644 "victory-wide-1"           a job for another thread
+    563.82 +  0.21  16644 "victory-wide-1"           a job for another thread
+    564.04 +  0.22  16644 "victory-wide-1"           a job for another thread
+    564.25 +  0.21  16644 "victory-wide-1"           a job for another thread
+    564.47 +  0.30  16644 "victory-wide-1"           a job for another thread
+    564.77 +  0.26  16644 "victory-wide-1"           a job for another thread
+    565.03 +  0.30  16644 "victory-wide-1"           a job for another thread
+    565.34 +  0.25  16644 "victory-wide-1"           a job for another thread
+    565.58 +  0.26  16644 "victory-wide-1"           a job for another thread
+    565.85 +  0.23  16644 "victory-wide-1"           a job for another thread
+    566.08 +  0.25  16644 "victory-wide-1"           a job for another thread
+    566.33 +  0.25  16644 "victory-wide-1"           a job for another thread
+    566.58 +  0.27  16644 "victory-wide-1"           a job for another thread
+    566.85 +  0.27  16644 "victory-wide-1"           a job for another thread
+    567.12 +  0.28  16644 "victory-wide-1"           a job for another thread
+    567.40 +  0.48  16644 "victory-wide-1"           a job for another thread
+    567.89 +  0.40  16644 "victory-wide-1"           a job for another thread
+    568.28 +  0.27  16644 "victory-wide-1"           a job for another thread
+    568.55 +  0.26  16644 "victory-wide-1"           a job for another thread
+    568.82 +  0.27  16644 "victory-wide-1"           a job for another thread
+    569.09 +  0.40  16644 "victory-wide-1"           a job for another thread
+    569.50 +  0.28  16644 "victory-wide-1"           a job for another thread
+    569.78 +  0.22  16644 "victory-wide-1"           a job for another thread
+    570.07 +  0.16  424 "victory-land-2"             a landing's job
+    571.21 +  0.18  4912 "victory-land-1"            a landing's job
+    571.39 +  0.16  4912 "victory-land-1"            a landing's job
+    571.81 +  0.18  16472 "victory-relay"            woken, not running yet
+    572.02 +  0.22  16472 "victory-relay"            landing: ranges done with
+    573.53 +  0.22  16644 "victory-wide-1"           woken, not running yet
+    574.26 +  0.17  6624 "victory-submit"            a copy's refresh
+    574.56 +  3.71  6624 "victory-submit"            a copy's refresh
+    578.54 +  0.17  6624 "victory-submit"            submit: the lists' steps
+    579.12 +  2.92  6624 "victory-submit"            a copy's refresh
+    582.26 +  3.22  6624 "victory-submit"            work spread over threads
+    585.65 +  0.25  15392 "victory-wide-0"           a job for another thread
+    585.91 +  0.23  15392 "victory-wide-0"           a job for another thread
+    586.14 +  0.23  15392 "victory-wide-0"           a job for another thread
+    586.39 +  0.25  6624 "victory-submit"            copies in the card's memory: the list
+    586.73 +  0.17  6624 "victory-submit"            ExecuteCommandLists
+    587.20 +  0.25  6624 "victory-submit"            submit: the lists' steps
+    588.07 +  0.38  6624 "victory-submit"            the host's Present
+
+the card, per frame: 162.64 ms running 14.0 submissions, 33.55 ms idle between them; of the idle time, by what the chain to the next submission was
+     5.65 ms  landing: read-backs, telling the title
+     5.18 ms  work spread over threads
+     5.15 ms  a copy's refresh
+     4.89 ms  a job for another thread
+     4.81 ms  outside our spans on 16644 "victory-wide-1"
+     2.07 ms  submit: the lists' steps
+     1.21 ms  a landing's job
+     0.73 ms  a long list call
+     0.40 ms  woken, not running yet
+     0.32 ms  kernel: GetWriteWatch
+     0.29 ms  recording: inside our list calls
+     0.23 ms  copies in the card's memory: the list
+     0.21 ms  submit: copies in the card's memory
+     0.17 ms  submit: asking the write watch
+     0.16 ms  ExecuteCommandLists
+     0.13 ms  landing: ranges done with
+     0.12 ms  a texture's refresh
+     0.12 ms  kernel: VirtualProtect
+     0.11 ms  refreshes of copies
+     0.09 ms  copies in the card's memory: what changed
+     0.08 ms  landing: copies in the card's memory
+     0.06 ms  submit: refreshes ahead of writes
+     0.05 ms  landing: looking through copies, beside the fetch
+     0.04 ms  recording: between list calls (the caller's code)
+     0.04 ms  submit: snapshots
+     0.04 ms  resetting a host list
+     0.03 ms  closing a host list
+     0.03 ms  outside our spans on 6556 "victory-list-2"
+     0.03 ms  landing: copies in the PC's memory
+     0.02 ms  landing: fetching pieces
+
+threads, per frame: running, waiting in what is wrapped, outermost spans of ours
+   173.2 ran    0.0 waited  7580 "victory-sample"                
+   163.3 ran   45.9 waited  18144 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 0.0
+    64.1 ran  133.5 waited  6624 "victory-submit"                the line: submissions joined 182.8, the line: a present 3.6, submit: the lists' steps 1.5, submit: title bytes under flights' writes 1.2, submit: refreshes ahead of writes 0.8
+    43.0 ran  154.9 waited  3836 (victory-image-b99f876b74d4a77f+0x2215ea1) 
+    40.9 ran  134.0 waited  2804 "victory-list-0"                list calls 59.4, the title's Close 0.3, the title's list Reset 0.3, closing a host list 0.0, a long list call 0.0
+    40.8 ran  135.5 waited  6468 "victory-list-5"                list calls 60.8, the title's list Reset 0.7, the title's Close 0.5, closing a host list 0.0, a long list call 0.0
+    37.7 ran  155.4 waited  5408 "victory-wide-2"                a job for another thread 36.3
+    37.2 ran  155.9 waited  15392 "victory-wide-0"               a job for another thread 35.6
+    37.0 ran  156.4 waited  16644 "victory-wide-1"               a job for another thread 35.4
+    35.9 ran  134.7 waited  16980 "victory-list-1"               list calls 54.9, the title's Close 0.7, the title's list Reset 0.7, a long list call 0.0, closing a host list 0.0
+    35.2 ran  144.1 waited  13784 "victory-list-4"               list calls 55.7, the title's Close 8.9, the title's list Reset 0.3, closing a host list 0.0, a long list call 0.0
+    34.9 ran  131.7 waited  16472 "victory-relay"                landing: copies in the card's memory 33.7, landing: read-backs, telling the title 29.2, landing: copies in the PC's memory 6.3, landing: ranges done with 0.4, landing: what is to be looked through 0.3
+    34.6 ran  135.3 waited  3004 "victory-list-3"                list calls 62.6, the title's list Reset 0.6, the title's Close 0.5, closing a host list 0.0, a long list call 0.0
+    32.6 ran  135.7 waited  6556 "victory-list-2"                list calls 50.5, the title's Close 1.2, the title's list Reset 0.9, a long list call 0.0, closing a host list 0.0
+    12.3 ran    0.0 waited  5484 "victory-timeline"              
+    11.7 ran  100.0 waited  11112 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 2.4
+    10.8 ran  180.9 waited  4196 "victory-card-awake"            
+    10.8 ran  181.1 waited  4912 "victory-land-1"                a landing's job 12.3
+    10.4 ran  101.7 waited  14604 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 1.9, the title's XMemMapPhysicalPages 0.0
+    10.1 ran  101.5 waited  11556 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 0.6, the title's XMemMapPhysicalPages 0.0
+    10.0 ran  180.2 waited  424 "victory-land-2"                 a landing's job 12.7
+     9.9 ran  182.4 waited  2768 "victory-aside"                 beside: the heap's views 23.4
+     9.7 ran  102.0 waited  18652 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 2.5, the title's XMemMapPhysicalPages 0.0
+     8.5 ran  102.1 waited  18636 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 2.0, the title's XMemMapPhysicalPages 0.8
+     8.5 ran  103.7 waited  14532 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 1.8, the title's XMemMapPhysicalPages 0.0
+     7.8 ran  184.9 waited  16404 "victory-heap-sync"            the heaps' records, early 22.5, the heaps' records, for a submission 0.6
+     7.0 ran  105.6 waited  15164 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 1.4, the title's XMemMapPhysicalPages 0.0
+     6.8 ran  162.5 waited  10032 (victory-image-cb71456919aada87+0x23e11) 
+     6.2 ran  103.3 waited  11504 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 0.6
+     5.8 ran  105.9 waited  18980 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 2.4
+     5.7 ran   99.9 waited  16860 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 0.1
+     5.7 ran  103.5 waited  11024 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 0.8
+     5.4 ran  187.0 waited  2892 "victory-late-wait"             helper: landed lists reset and given back 8.0
+     5.2 ran  172.9 waited  9676 (victory-image-cb71456919aada87+0x23e11) 
+     5.1 ran  196.0 waited  7100 (victory-image-b99f876b74d4a77f+0x2215ea1) the title's Present 64.5, the title's queue Signal 0.1, the title's ExecuteCommandLists 0.0, the title's frame wait 0.0
+     4.8 ran  107.3 waited  6108 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 1.8, the title's XMemMapPhysicalPages 0.0
+     4.4 ran  190.6 waited  4760 (victory.exe+0x191be1)          
+     4.0 ran  187.7 waited  17096 "victory-records-1"            a landing's job 18.3
+     4.0 ran  187.9 waited  13560 "victory-records-2"            a landing's job 18.4
+     3.9 ran  108.2 waited  1952 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 1.8
+     3.9 ran  108.0 waited  16832 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 2.0
+     3.8 ran  189.1 waited  18796 "victory-views-3"              a landing's job 11.4
+     3.4 ran  186.9 waited  10000 "victory-records-3"            a landing's job 17.6
+     3.3 ran  101.0 waited  5904 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 1.2
+     3.1 ran  188.3 waited  3000 "victory-views-1"               a landing's job 11.4
+     2.8 ran  108.9 waited  18928 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 2.3
+     2.8 ran  191.1 waited  14464 "victory XMA decoder"          
+     2.7 ran  102.0 waited  11588 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 0.5
+     2.6 ran  189.8 waited  10328 "victory-views-2"              a landing's job 11.5
+     2.5 ran  109.8 waited  5956 (victory-image-b99f876b74d4a77f+0x2215ea1) a fault looked at 2.2
+     2.2 ran  190.1 waited  8868 (victory-image-b99f876b74d4a77f+0x2215ea1) 
+     1.7 ran  195.4 waited  4252 "victory-under-3"               a landing's job 0.8
+     1.6 ran  190.7 waited  9116 "victory-under-1"               a landing's job 0.7
+     1.6 ran  195.4 waited  14400 "victory-under-2"              a landing's job 0.8
+     1.3 ran  189.8 waited  16112 (victory-image-b99f876b74d4a77f+0x2215ea1) the title's DirectStorage Submit 0.1
+     1.3 ran  108.8 waited  8860 "title-main"                    the title's XMemMapPhysicalPages 0.3
+     1.1 ran  192.9 waited  19108 (victory-image-b99f876b74d4a77f+0x2215ea1) 
+     0.7 ran  194.1 waited  8352 (victory-image-b99f876b74d4a77f+0x2215ea1) 
+     0.7 ran  193.3 waited  19584 (victory-image-b99f876b74d4a77f+0x2215ea1) 
+     0.6 ran    0.0 waited  19324 (nvwgf2umx+0xecd8f1)           
+
+spans and kernel calls, all threads, per frame (a span counts what lies in it)
+    210.78 ms in    529.3, longest  18.81  a long list call
+    182.83 ms in     12.3, longest 223.84  the line: submissions joined
+    129.79 ms in      3.7, longest 210.71  submit: waiting for flights it reads from
+    129.72 ms in      0.7, longest 210.70  waiting for landings: title memory read
+    115.84 ms in    268.0, longest  16.82  a landing's job
+    107.28 ms in    378.7, longest   4.97  a job for another thread
+     64.50 ms in      1.0, longest  73.79  the title's Present
+     64.50 ms in      1.0, longest  73.78  a present waits for the one before it to be sent
+     48.53 ms in     17.3, longest  23.06  landing: spread over threads
+     47.60 ms in     49.0, longest   8.89  work spread over threads
+     33.68 ms in      7.0, longest  12.09  landing: copies in the card's memory
+     29.20 ms in      7.3, longest  42.09  landing: read-backs, telling the title
+     28.28 ms in    248.3, longest   3.57  a fault looked at
+     23.45 ms in      7.0, longest   9.07  landing: fetching pieces
+     23.40 ms in      1.0, longest  28.88  beside: the heap's views
+     22.53 ms in     34.0, longest  31.29  the heaps' records, early
+     21.10 ms in    284.0, longest   3.71  a copy's refresh
+     14.99 ms in      7.7, longest   8.60  submit: snapshots
+     14.17 ms in      5.7, longest   9.00  landing: looking through copies, beside the fetch
+     14.04 ms in     12.3, longest  14.02  submit: the lists' steps
+     13.02 ms in     14.0, longest   8.87  submit: refreshes ahead of writes
+     12.77 ms in    166.0, longest  25.90  closing a host list
+     12.58 ms in     18.3, longest   8.12  refreshes of copies
+     12.28 ms in    108.0, longest  25.90  the title's Close
+     11.78 ms in    368.0, longest   4.68  resetting a host list
+      9.33 ms in      0.7, longest  25.76  a list's close waits for the heap's views
+      8.86 ms in      7.0, longest   7.42  landing: merging fetched pieces
+      8.05 ms in      7.3, longest   5.83  helper: landed lists reset and given back
+      6.94 ms in      1.0, longest  11.46  the heap pass: textures
+      6.31 ms in      6.0, longest   4.82  landing: copies in the PC's memory
+      4.85 ms in    181.3, longest   0.69  the title's list Reset
+      3.66 ms in     11.3, longest   2.48  submit: steps given to the card
+      3.62 ms in      1.0, longest   9.60  the line: a present
+      3.33 ms in     12.3, longest   1.18  submit: asking the write watch
+      3.01 ms in      1.0, longest   9.02  the frame meter
+      2.96 ms in     14.7, longest   1.25  submit: copies in the card's memory
+      2.76 ms in     12.0, longest   3.53  submit: title bytes under flights' writes
+      2.31 ms in     14.7, longest   2.99  the title's XMemMapPhysicalPages
+      2.02 ms in     41.0, longest   0.36  GetWriteWatch
+      1.63 ms in     92.7, longest   0.39  a texture's refresh
+      1.29 ms in     14.7, longest   0.21  submit: sending
+      1.22 ms in     14.7, longest   0.20  ExecuteCommandLists
+      1.07 ms in      7.3, longest   0.67  steps on the card: chosen
+      1.01 ms in      5.0, longest   0.80  steps on the card: the slots
+      0.97 ms in      3.3, longest   0.78  copies in the card's memory: taken
+      0.81 ms in      8.0, longest   0.52  steps on the card: the list
+      0.72 ms in      7.7, longest   1.10  submit: gathering what to ask about
+      0.70 ms in     14.0, longest   0.66  VirtualProtect
+      0.68 ms in      0.3, longest   2.03  streaming: a request
+      0.67 ms in      5.3, longest   0.25  copies in the card's memory: the list
+      0.59 ms in     14.7, longest   0.07  the heaps' records, for a submission
+      0.52 ms in      8.0, longest   0.42  steps on the card: what holds their bytes
+      0.48 ms in     14.7, longest   0.07  copies in the card's memory: what changed
+      0.39 ms in      7.0, longest   0.22  landing: ranges done with
+      0.34 ms in      1.0, longest   0.38  the host's Present
+      0.33 ms in      1.0, longest   0.40  the line: a submission
+      0.29 ms in      6.3, longest   0.18  landing: what is to be looked through
+      0.26 ms in      3.3, longest   0.18  submit: the last refreshes
+      0.19 ms in      7.3, longest   0.06  landing: the rest
+      0.19 ms in      4.0, longest   0.14  textures brought up to date
+      0.12 ms in      0.3, longest   0.37  landed lists reset and given back
+      0.11 ms in      9.0, longest   0.04  submit: noting what is in the air
+      0.10 ms in      0.3, longest   0.31  the title's DirectStorage Submit
+      0.09 ms in      0.3, longest   0.28  the title's queue Signal
+      0.05 ms in      0.7, longest   0.13  submit: waiting for the heaps' records
+      0.05 ms in      6.0, longest   0.01  the title's ExecuteCommandLists
+      0.01 ms in      0.7, longest   0.03  the title's frame wait
+      0.01 ms in      0.3, longest   0.03  VirtualQuery
+      0.01 ms in      1.0, longest   0.01  the heap pass: begun, or done here
+
+waits of 50 us or more, per frame: who, what and where, who ended them
+   195.70 ms in     3.0, longest 244.12  18316 (victory-image-cb71456919aada87+0x23e11) | SleepConditionVariableCS at victory.exe+0x796f58 < victory-image-cb71456919aada87+0x237d8 < victory-image-cb71456919aada87+0x58a6 | ended by 10076 (victory-image-b99f876b74d4a77f+0x2215ea1)
+   195.63 ms in    14.7, longest  14.98  16456 (victory-image-cb71456919aada87+0x23e11) | SleepConditionVariableCS at victory.exe+0x796f58 < victory-image-cb71456919aada87+0x23878 < victory-image-cb71456919aada87+0x5d56 | ended by nobody seen
+   195.37 ms in     5.7, longest 259.84  4252 "victory-under-3" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by 6624 "victory-submit"
+   195.37 ms in     4.7, longest 259.86  14400 "victory-under-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by 6624 "victory-submit"
+   193.63 ms in    19.7, longest  10.51  8352 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x43adeda < victory-image-b99f876b74d4a77f+0x43add8d | ended by nobody seen
+   193.34 ms in    11.7, longest  22.81  19584 (victory-image-b99f876b74d4a77f+0x2215ea1) | Sleep at victory.exe+0x7971f9 < victory-image-b99f876b74d4a77f+0x3da3da9 < victory-image-b99f876b74d4a77f+0x2215eca | ended by nobody seen
+   190.87 ms in    95.0, longest   4.53  14464 "victory XMA decoder" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x187f9c < victory.exe+0x8240f6 | ended by nobody seen
+   190.74 ms in     5.3, longest 259.83  9116 "victory-under-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by 6624 "victory-submit"
+   190.64 ms in    22.7, longest  12.39  4760 (victory.exe+0x191be1) | WaitForSingleObject at victory.exe+0x7963ca < victory.exe+0x190516 < victory.exe+0x8256fc | ended by nobody seen
+   189.06 ms in   125.0, longest   6.45  16112 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x22511f < victory-image-b99f876b74d4a77f+0x2a8bc5c | ended by nobody seen
+   181.85 ms in     1.0, longest 252.85  3000 "victory-views-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by 2768 "victory-aside"
+   181.80 ms in     1.0, longest 253.01  18796 "victory-views-3" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by 2768 "victory-aside"
+   181.73 ms in     1.0, longest 252.69  10328 "victory-views-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by 2768 "victory-aside"
+   180.84 ms in   125.3, longest   5.28  4196 "victory-card-awake" | WaitForSingleObject at victory.exe+0x7963ca < victory.exe+0x74bcb3 < victory.exe+0x3e95ff | ended by nobody seen
+   176.02 ms in    12.7, longest  15.73  8868 (victory-image-b99f876b74d4a77f+0x2215ea1) | Sleep at victory.exe+0x7971f9 < victory-image-b99f876b74d4a77f+0x25a595c < victory-image-b99f876b74d4a77f+0x25a5764 | ended by nobody seen
+   175.27 ms in     3.3, longest 247.55  10000 "victory-records-3" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by 16404 "victory-heap-sync"
+   174.78 ms in     3.3, longest 247.78  17096 "victory-records-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by 16404 "victory-heap-sync"
+   174.70 ms in     3.7, longest 247.79  13560 "victory-records-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by 16404 "victory-heap-sync"
+   174.27 ms in     3.7, longest  51.10  2668 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x22511f < victory-image-b99f876b74d4a77f+0x2a1bc0 | ended by nobody seen
+   172.85 ms in     2.7, longest 242.49  9676 (victory-image-cb71456919aada87+0x23e11) | SleepConditionVariableCS at victory.exe+0x796f58 < victory-image-cb71456919aada87+0x237d8 < victory-image-cb71456919aada87+0xa505 | ended by 10076 (victory-image-b99f876b74d4a77f+0x2215ea1)
+   163.55 ms in     3.3, longest 163.22  7708 "victory-card-clock" | WaitForSingleObject at victory.exe+0x7963ca < victory.exe+0x3edd7f < victory.exe+0x4f33b2 | ended by nobody seen
+   162.52 ms in     2.7, longest 238.22  10032 (victory-image-cb71456919aada87+0x23e11) | SleepConditionVariableCS at victory.exe+0x796f58 < victory-image-cb71456919aada87+0x237d8 < victory-image-cb71456919aada87+0xa505 | ended by 10076 (victory-image-b99f876b74d4a77f+0x2215ea1)
+   149.72 ms in     1.7, longest 100.44  9384 "victory-caption" | WaitForSingleObject at victory.exe+0x7963ca < victory.exe+0x190516 < victory.exe+0x4b64cc | ended by nobody seen
+   145.09 ms in    34.0, longest   6.28  16404 "victory-heap-sync" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4b6c42 < victory.exe+0x3ee009 | ended by nobody seen
+   134.27 ms in    35.0, longest   9.80  3836 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 19108 (victory-image-b99f876b74d4a77f+0x2215ea1)
+   132.59 ms in     6.3, longest 121.07  4912 "victory-land-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by 16472 "victory-relay"
+   132.16 ms in     6.3, longest 121.24  424 "victory-land-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by 16472 "victory-relay"
+   129.58 ms in     4.3, longest 124.41  6624 "victory-submit" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x6334f3 < victory.exe+0x6510b7 | ended by 16472 "victory-relay"
+   124.55 ms in     6.0, longest 124.74  2892 "victory-late-wait" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x400ed6 < victory.exe+0x4f5106 | ended by 16472 "victory-relay"
+   122.46 ms in     5.0, longest 117.75  5408 "victory-wide-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4b79e5 < victory.exe+0x3f1bf9 | ended by 16472 "victory-relay"
+   122.29 ms in     5.0, longest 117.49  16644 "victory-wide-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4b79e5 < victory.exe+0x3f1bf9 | ended by 16472 "victory-relay"
+   122.13 ms in     5.3, longest 117.11  15392 "victory-wide-0" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4b79e5 < victory.exe+0x3f1bf9 | ended by 16472 "victory-relay"
+   117.13 ms in     5.3, longest 180.80  7100 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x56a0d < victory-image-b99f876b74d4a77f+0x4e7f358 | ended by 18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+   113.21 ms in     3.0, longest 158.31  16472 "victory-relay" | WaitForSingleObject at victory.exe+0x7963ca < victory.exe+0x401769 < victory.exe+0x4f5226 | ended by the card
+   103.83 ms in    36.7, longest   3.95  19108 (victory-image-b99f876b74d4a77f+0x2215ea1) | Sleep at victory.exe+0x7971f9 < victory-image-b99f876b74d4a77f+0x43ae2ad < victory-image-b99f876b74d4a77f+0x1e95177 | ended by nobody seen
+   102.87 ms in     0.7, longest 253.86  716 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221957f < victory-image-b99f876b74d4a77f+0x25933da | ended by 8860 "title-main"
+   101.81 ms in     2.0, longest 229.10  5956 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+   101.52 ms in     2.3, longest 229.05  15164 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+    95.81 ms in     3.7, longest 228.87  18980 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+    95.74 ms in     4.0, longest 228.87  11556 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+    95.52 ms in     2.7, longest 228.88  18652 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+    95.47 ms in     3.0, longest 229.11  16832 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 15164 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    95.47 ms in     3.0, longest 228.87  18636 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+    95.44 ms in     3.0, longest 228.81  14532 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+    95.39 ms in     4.3, longest 228.77  11112 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+    95.05 ms in     0.7, longest 233.87  5904 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x43c421e < victory-image-b99f876b74d4a77f+0x2215eca | ended by 18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    94.89 ms in     0.7, longest 234.12  16860 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x43c421e < victory-image-b99f876b74d4a77f+0x2215eca | ended by 18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    94.85 ms in     3.7, longest 228.86  14604 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+    94.83 ms in     0.7, longest 233.00  11024 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x43c421e < victory-image-b99f876b74d4a77f+0x2215eca | ended by 18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    94.65 ms in     0.7, longest 233.06  11588 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x43c421e < victory-image-b99f876b74d4a77f+0x2215eca | ended by 18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    93.92 ms in     0.7, longest 233.00  11504 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x43c421e < victory-image-b99f876b74d4a77f+0x2215eca | ended by 18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    93.76 ms in     0.7, longest 228.84  8860 "title-main" | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x56a0d < victory-image-b99f876b74d4a77f+0x23cf735 | ended by 18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    93.11 ms in     0.7, longest 235.56  2768 "victory-aside" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4c0ae5 < victory.exe+0x3ea179 | ended by 13784 "victory-list-4"
+    89.81 ms in     0.7, longest 231.39  10076 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x3a1a200 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 5904 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    89.09 ms in    47.0, longest   3.44  19108 (victory-image-b99f876b74d4a77f+0x2215ea1) | Sleep at victory.exe+0x7971f9 < victory-image-b99f876b74d4a77f+0x1e951bb < victory-image-b99f876b74d4a77f+0x2215eca | ended by nobody seen
+    82.32 ms in    11.3, longest 228.88  18928 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 14604 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    79.43 ms in     0.3, longest 238.28  2768 "victory-aside" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4c0ae5 < victory.exe+0x3ea179 | ended by 6468 "victory-list-5"
+    78.04 ms in     2.7, longest 229.27  1952 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 15164 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    77.88 ms in     2.7, longest 229.11  6108 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 15164 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    69.44 ms in     0.7, longest 208.19  16980 "victory-list-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 5904 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    69.42 ms in     1.0, longest 207.87  6468 "victory-list-5" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 5904 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    69.33 ms in     0.3, longest 208.00  2804 "victory-list-0" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 16860 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    69.09 ms in     0.3, longest 207.28  6556 "victory-list-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    68.91 ms in     0.7, longest 206.34  13784 "victory-list-4" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 5904 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    68.77 ms in     0.3, longest 206.32  3004 "victory-list-3" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 16860 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    67.48 ms in     0.3, longest 202.43  10076 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x3a1a200 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 11588 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    64.39 ms in     6.0, longest  61.40  7100 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4fabcf < victory.exe+0x6cdbfb | ended by 6624 "victory-submit"
+    61.48 ms in     0.7, longest 183.84  2804 "victory-list-0" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 5904 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    61.45 ms in     0.3, longest 184.35  6556 "victory-list-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 11588 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    61.43 ms in     0.3, longest 184.30  6468 "victory-list-5" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 11504 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    61.41 ms in     0.3, longest 184.24  16980 "victory-list-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 18144 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    60.53 ms in     0.3, longest 181.59  3004 "victory-list-3" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 11588 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    60.09 ms in     0.3, longest 180.26  13784 "victory-list-4" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 11588 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    47.84 ms in     9.7, longest  29.13  4912 "victory-land-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by nobody seen
+    47.83 ms in    10.0, longest  29.12  424 "victory-land-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3f3abd < victory.exe+0x4f4138 | ended by nobody seen
+    41.87 ms in    16.3, longest  13.06  2892 "victory-late-wait" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x400ed6 < victory.exe+0x4f5106 | ended by 6624 "victory-submit"
+    33.41 ms in    34.3, longest  14.61  16644 "victory-wide-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4b79e5 < victory.exe+0x3f1bf9 | ended by 6624 "victory-submit"
+    33.19 ms in    34.3, longest  14.60  15392 "victory-wide-0" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4b79e5 < victory.exe+0x3f1bf9 | ended by 6624 "victory-submit"
+    32.05 ms in    34.3, longest  14.61  5408 "victory-wide-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4b79e5 < victory.exe+0x3f1bf9 | ended by 6624 "victory-submit"
+    25.93 ms in    14.7, longest   4.45  16404 "victory-heap-sync" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4b6c42 < victory.exe+0x3ee009 | ended by 6624 "victory-submit"
+    25.31 ms in     1.3, longest  44.82  7708 "victory-card-clock" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x3edf11 < victory.exe+0x4f33b2 | ended by 6624 "victory-submit"
+    23.83 ms in     3.0, longest  21.58  10076 (victory-image-b99f876b74d4a77f+0x2215ea1) | SleepConditionVariableCS at victory.exe+0x796f58 < victory-image-cb71456919aada87+0x237d8 < victory-image-cb71456919aada87+0xa505 | ended by 9676 (victory-image-cb71456919aada87+0x23e11)
+    20.61 ms in     8.0, longest   7.32  3836 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8868 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    20.46 ms in     8.7, longest  12.03  2892 "victory-late-wait" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x400ed6 < victory.exe+0x4f5106 | ended by nobody seen
+    19.24 ms in     2.7, longest  52.45  18928 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+    17.64 ms in     0.7, longest  52.53  6108 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 5956 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    17.51 ms in     0.3, longest  52.53  1952 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 5956 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    14.09 ms in    13.0, longest   2.50  8868 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x5271890 < victory-image-b99f876b74d4a77f+0x43ba85 | ended by 3836 (victory-image-b99f876b74d4a77f+0x2215ea1)
+    13.86 ms in   105.0, longest   0.99  18144 (victory-image-b99f876b74d4a77f+0x2215ea1) | Sleep at victory.exe+0x7971f9 < victory-image-b99f876b74d4a77f+0x4fb0c27 < victory-image-b99f876b74d4a77f+0x4fb0ac4 | ended by nobody seen
+    11.65 ms in     1.3, longest  13.75  16472 "victory-relay" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e562 < victory.exe+0x4014db | ended by 6624 "victory-submit"
+    11.38 ms in     0.3, longest  34.15  2668 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x22511f < victory-image-b99f876b74d4a77f+0x2a1bc0 | ended by 11112 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     8.59 ms in     0.3, longest  25.76  13784 "victory-list-4" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x654906 < victory.exe+0x659469 | ended by 2768 "victory-aside"
+     7.71 ms in     1.0, longest  11.06  16832 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+     7.71 ms in     1.0, longest  11.11  1952 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+     7.57 ms in     1.7, longest   8.53  18144 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x43c3d5d < victory-image-b99f876b74d4a77f+0x23cf4f2 | ended by 11504 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     7.28 ms in     1.0, longest  11.68  7100 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x56a0d < victory-image-b99f876b74d4a77f+0x4e7f358 | ended by 11504 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     7.19 ms in     0.7, longest  10.98  6108 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 8860 "title-main"
+     5.98 ms in     1.0, longest   8.97  13560 "victory-records-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 11024 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     5.98 ms in     2.3, longest   5.22  10076 (victory-image-b99f876b74d4a77f+0x2215ea1) | SleepConditionVariableCS at victory.exe+0x796f58 < victory-image-cb71456919aada87+0x237d8 < victory-image-cb71456919aada87+0xa505 | ended by 10032 (victory-image-cb71456919aada87+0x23e11)
+     5.46 ms in     3.3, longest   3.91  16472 "victory-relay" | WaitForSingleObject at victory.exe+0x7963ca < victory.exe+0x62bc6d < victory.exe+0x60b44c | ended by the card's copy queue
+     4.44 ms in     0.7, longest  10.43  7100 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x56a0d < victory-image-b99f876b74d4a77f+0x4e7f358 | ended by 11588 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     4.33 ms in     1.0, longest   5.40  11504 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 17096 "victory-records-1"
+     4.20 ms in     1.3, longest   8.65  3000 "victory-views-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 2768 "victory-aside"
+     4.17 ms in     1.3, longest  10.43  18144 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x43c3d5d < victory-image-b99f876b74d4a77f+0x23cf4f2 | ended by 11588 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     3.57 ms in     0.3, longest  10.70  10328 "victory-views-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 13560 "victory-records-2"
+     3.52 ms in     0.7, longest   5.94  17096 "victory-records-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 11588 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     3.25 ms in     0.7, longest   5.02  18144 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x56a0d < victory-image-b99f876b74d4a77f+0x23cf4dc | ended by 8860 "title-main"
+     3.22 ms in     0.3, longest   9.67  11588 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5be254 | ended by 13560 "victory-records-2"
+     3.02 ms in     0.3, longest   9.07  10000 "victory-records-3" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5be254 | ended by 16404 "victory-heap-sync"
+     2.79 ms in     0.3, longest   8.37  13784 "victory-list-4" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 3004 "victory-list-3"
+     2.64 ms in     0.3, longest   7.91  2768 "victory-aside" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 10328 "victory-views-2"
+     2.55 ms in    10.7, longest   1.15  18928 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 11112 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     2.44 ms in     0.3, longest   7.31  16404 "victory-heap-sync" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5be254 | ended by 11024 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     2.38 ms in     4.0, longest   4.38  18980 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 18636 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     2.36 ms in     0.3, longest   7.09  17096 "victory-records-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 10000 "victory-records-3"
+     2.29 ms in     0.7, longest   4.99  10076 (victory-image-b99f876b74d4a77f+0x2215ea1) | Sleep at victory.exe+0x7971f9 < victory-image-b99f876b74d4a77f+0x3a1a214 < victory-image-b99f876b74d4a77f+0x2215eca | ended by nobody seen
+     2.04 ms in     7.7, longest   1.71  18980 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 14604 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.96 ms in     0.3, longest   5.88  8860 "title-main" | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x509898d < victory-image-b99f876b74d4a77f+0x6c539a | ended by 18652 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.95 ms in    10.7, longest   0.39  18980 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 11112 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.89 ms in     0.7, longest   2.92  18144 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x43c3d5d < victory-image-b99f876b74d4a77f+0x23cf4f2 | ended by 5904 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.87 ms in     0.3, longest   5.62  5904 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 16404 "victory-heap-sync"
+     1.84 ms in     0.3, longest   5.53  16980 "victory-list-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 11024 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.84 ms in     0.3, longest   5.53  16404 "victory-heap-sync" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 5904 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.84 ms in     1.0, longest   4.96  17096 "victory-records-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 16404 "victory-heap-sync"
+     1.75 ms in     1.3, longest   2.59  6624 "victory-submit" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x6e9319 < victory.exe+0x63aaff | ended by 5408 "victory-wide-2"
+     1.75 ms in     0.7, longest   4.56  18796 "victory-views-3" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 10328 "victory-views-2"
+     1.74 ms in     0.3, longest   5.21  10000 "victory-records-3" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 11504 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.74 ms in     2.3, longest   1.85  5956 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 15164 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.71 ms in     0.3, longest   5.14  8860 "title-main" | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x509898d < victory-image-b99f876b74d4a77f+0x6c539a | ended by 14604 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.70 ms in     0.7, longest   3.71  17096 "victory-records-1" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5be254 | ended by 13560 "victory-records-2"
+     1.69 ms in     7.3, longest   0.84  14532 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 11112 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.68 ms in     0.3, longest   5.05  2804 "victory-list-0" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x4e0ea1 < victory.exe+0x7e1c59 | ended by 11024 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.67 ms in     0.3, longest   5.01  18796 "victory-views-3" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5be201 | ended by 11504 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.60 ms in     0.3, longest   4.80  11024 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 11504 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.54 ms in     7.3, longest   0.97  14604 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 11112 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.53 ms in     0.3, longest   4.60  16832 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 18636 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.53 ms in     0.3, longest   4.60  11024 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5be254 | ended by 11504 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.52 ms in     0.3, longest   4.56  8860 "title-main" | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x5df645 < victory-image-b99f876b74d4a77f+0x8c4ea0 | ended by 18652 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.51 ms in     0.7, longest   2.74  13560 "victory-records-2" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 10000 "victory-records-3"
+     1.50 ms in     0.3, longest   4.51  2768 "victory-aside" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5c243b | ended by 13784 "victory-list-4"
+     1.43 ms in     0.3, longest   4.29  14532 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 1952 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.43 ms in     6.3, longest   1.18  18636 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 14604 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.41 ms in     0.3, longest   4.24  7100 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x56a0d < victory-image-b99f876b74d4a77f+0x4e7f358 | ended by 11024 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.41 ms in     9.0, longest   0.35  18636 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 11112 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.41 ms in     0.3, longest   4.23  8860 "title-main" | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x509898d < victory-image-b99f876b74d4a77f+0x3d97378 | ended by 11112 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.41 ms in     7.3, longest   0.48  18652 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 11112 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.39 ms in     1.0, longest   4.02  16404 "victory-heap-sync" | WaitOnAddress at victory.exe+0x795f60 < victory.exe+0x16e077 < victory.exe+0x5be254 | ended by 17096 "victory-records-1"
+     1.39 ms in     3.0, longest   2.06  15164 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 11112 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.38 ms in     1.3, longest   1.60  6108 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 11112 (victory-image-b99f876b74d4a77f+0x2215ea1)
+     1.38 ms in     6.3, longest   1.00  18652 (victory-image-b99f876b74d4a77f+0x2215ea1) | WaitForSingleObject at victory.exe+0x7963ca < victory-image-b99f876b74d4a77f+0x221c3c2 < victory-image-b99f876b74d4a77f+0x2215eca | ended by 14604 (victory-image-b99f876b74d4a77f+0x2215ea1)
+
+list calls of 50 us or more, per frame
+    91.82 ms in   322.0  victory.exe+0x6af6f1 < victory.exe+0x4daad9 < victory.exe+0x7e1c59
+    91.08 ms in   112.7  victory.exe+0x4db2c8 < victory.exe+0x7e1c59 < victory.exe+0x3fcdd9
+    11.58 ms in    14.0  victory.exe+0x4dbb09 < victory.exe+0x7e1c59 < victory.exe+0x3fcdd9
+    11.19 ms in    44.0  victory.exe+0x4daea4 < victory.exe+0x7e1c59 < victory.exe+0x3fcdd9
+     4.05 ms in    24.3  victory.exe+0x4e0038 < victory.exe+0x7e1c59 < victory.exe+0x3fcdd9
+     1.31 ms in    11.7  victory.exe+0x6b2d5d < victory.exe+0x4dce01 < victory.exe+0x7e1c59
+     0.06 ms in     0.3  victory.exe+0x4de286 < victory.exe+0x7e1c59 < victory.exe+0x3fcdd9
+     0.03 ms in     0.3  victory.exe+0x75a7a0 < victory.exe+0x4dfbf0 < victory.exe+0x7e1c59

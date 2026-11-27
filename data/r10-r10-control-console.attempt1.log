@@ -1,0 +1,5 @@
+label=R10-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+
+window = world+200 s (from t= s) ；采样 0 条，窗内 0 条
+median_ms_world =  （filter v2，0 条世界样本，中位 draws=）；max_priv_gb =  ；min_free_gb =  ；min_commit_free_gb =  ；leftover_procs = 0
+详情写入 bench-v3.csv

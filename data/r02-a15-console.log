@@ -1,0 +1,128 @@
+=== r02-a15 start 2026-11-27 02:00:36
+SHA256=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
+commit_limit_gb=49.84 commit_free_gb=37.90
+before: known_pipelines_bytes=50326544
+=== S1 book run at 02:00:42
+pid=6584
+title_before_close=Americas | VIctory 4 fps 253.0 ms/frame 5204 draws/frame
+clean_exit=False waited_s=60
+title_at_giveup=
+after_close: known_pipelines_bytes=50326544
+after_close: leftover=1
+=== S2 warm (no --used) at 02:05:05
+warm_EXIT=-1 warm_elapsed=1215s
+=== warm tail 8 ===
+7000 of 83581, 682 s
+8000 of 83581, 756 s
+9000 of 83581, 823 s
+10000 of 83581, 891 s
+11000 of 83581, 957 s
+12000 of 83581, 1026 s
+13000 of 83581, 1086 s
+14000 of 83581, 1150 s
+
+warm_line=83581 pipelines known, 0 made before (efb900b470e1ead1), 0 bad; 83581 to make, 4 processes
+after_warm: known_pipelines_bytes=50326544
+known_pipelines_head32=33000000884f148a67b0e3ae9f8b708c416551040105eaaf3a4f6c87b0803581
+=== S3 R9-after-warm2 at 02:25:20
+label=R9-after-warm2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+  t=   9s fps=    31 ms=    31.8 draws=     1 priv=  6.21 commitfree=  25.3
+  t=  15s fps=    30 ms=    33.3 draws=     8 priv=  6.98 commitfree= 25.36
+  t=  21s fps=    30 ms=    33.3 draws=     4 priv=  7.26 commitfree= 25.11
+  t=  27s fps=    30 ms=    33.3 draws=     4 priv=  7.26 commitfree= 25.12
+  t=  33s fps=    30 ms=    33.3 draws=     9 priv=  7.26 commitfree= 24.92
+  t=  39s fps=    30 ms=    33.3 draws=     9 priv=  7.76 commitfree= 24.57
+  t=  45s fps=    30 ms=    33.3 draws=     9 priv=  8.97 commitfree= 22.05
+  t=  51s fps=    22 ms=    44.8 draws=    10 priv= 12.58 commitfree= 18.78
+  t=  57s fps=     3 ms=   364.5 draws=  2779 priv= 17.78 commitfree= 14.38
+  t=  63s fps=     2 ms=   521.8 draws=  1651 priv= 18.44 commitfree= 13.66
+  t=  69s fps=     3 ms=   297.4 draws=  1976 priv= 18.85 commitfree= 13.36
+  t=  75s fps=     3 ms=   342.4 draws=  1617 priv= 19.05 commitfree= 13.15
+  t=  81s fps=     3 ms=   394.1 draws=  2972 priv= 19.54 commitfree= 12.67
+  t=  87s fps=     3 ms=   320.7 draws=  1726 priv= 19.83 commitfree= 12.38
+  t=  93s fps=     3 ms=   333.7 draws=  4700 priv=  20.1 commitfree= 12.04
+  t= 100s fps=     3 ms=   321.8 draws=  2925 priv=  20.3 commitfree= 11.95
+  t= 106s fps=     3 ms=   298.1 draws=  2515 priv= 20.42 commitfree= 11.84
+  t= 112s fps=     3 ms=   311.4 draws=  1781 priv= 20.46 commitfree= 11.78
+  t= 118s fps=     2 ms=   448.5 draws=  1149 priv= 20.42 commitfree= 11.83
+  t= 124s fps=     3 ms=   293.2 draws=  5136 priv= 20.09 commitfree= 12.41
+  t= 130s fps=     3 ms=   380.4 draws=  5019 priv= 19.86 commitfree= 12.36
+  t= 136s fps=     3 ms=   295.8 draws=  4258 priv= 19.67 commitfree= 12.65
+  t= 142s fps=     4 ms=   279.5 draws=  4654 priv= 19.56 commitfree= 12.69
+  t= 148s fps=     4 ms=   277.8 draws=  4566 priv= 19.46 commitfree= 12.79
+  t= 154s fps=     4 ms=   281.4 draws=  4310 priv= 19.46 commitfree= 12.78
+  t= 160s fps=     3 ms=   295.6 draws=  4481 priv= 19.51 commitfree= 12.72
+  t= 166s fps=     3 ms=   312.3 draws=  6557 priv= 19.61 commitfree= 12.64
+  t= 172s fps=     3 ms=   300.1 draws=  4778 priv= 19.58 commitfree= 12.67
+  t= 178s fps=     4 ms=     281 draws=  3205 priv= 19.57 commitfree= 12.68
+  t= 184s fps=     4 ms=   278.7 draws=  3178 priv= 19.58 commitfree=  12.7
+  t= 190s fps=     4 ms=   278.9 draws=  3180 priv= 19.55 commitfree= 12.74
+  t= 196s fps=     4 ms=   275.2 draws=  3180 priv= 19.52 commitfree= 12.76
+  t= 202s fps=     4 ms=   283.1 draws=  3186 priv= 19.52 commitfree= 12.75
+  t= 208s fps=     4 ms=   280.5 draws=  3180 priv= 19.52 commitfree= 12.76
+  t= 214s fps=     4 ms=   277.9 draws=  3168 priv= 19.53 commitfree= 12.76
+  t= 220s fps=     3 ms=   311.4 draws=  4274 priv= 19.56 commitfree= 12.73
+  t= 226s fps=     3 ms=   298.5 draws=  4790 priv= 19.67 commitfree= 12.62
+  t= 232s fps=     3 ms=   303.4 draws=  3770 priv= 19.66 commitfree= 12.51
+  t= 238s fps=     3 ms=     305 draws=  4950 priv=  19.7 commitfree= 12.52
+  t= 244s fps=     3 ms=   294.7 draws=  4964 priv= 19.69 commitfree= 12.52
+
+  T Fps    Ms Draws PrivGB RssGB FreeGB CommitFreeGB
+  - ---    -- ----- ------ ----- ------ ------------
+  9  31  31.8     1   6.21  3.83  17.46         25.3
+ 15  30  33.3     8   6.98  4.49  17.46        25.36
+ 21  30  33.3     4   7.26  4.92  16.91        25.11
+ 27  30  33.3     4   7.26  4.92  16.92        25.12
+ 33  30  33.3     9   7.26  5.11  16.47        24.92
+ 39  30  33.3     9   7.76  5.65  16.07        24.57
+ 45  30  33.3     9   8.97   6.8  12.74        22.05
+ 51  22  44.8    10  12.58  9.83  10.79        18.78
+ 57   3 364.5  2779  17.78 16.41    5.8        14.38
+ 63   2 521.8  1651  18.44 17.79   4.81        13.66
+ 69   3 297.4  1976  18.85 17.97   4.57        13.36
+ 75   3 342.4  1617  19.05 18.36   4.26        13.15
+ 81   3 394.1  2972  19.54 19.06   3.86        12.67
+ 87   3 320.7  1726  19.83 19.65   3.55        12.38
+ 93   3 333.7  4700   20.1 20.12   3.18        12.04
+100   3 321.8  2925   20.3  20.2    3.2        11.95
+106   3 298.1  2515  20.42 20.57   3.08        11.84
+112   3 311.4  1781  20.46 20.44   3.06        11.78
+118   2 448.5  1149  20.42 20.23   3.09        11.83
+124   3 293.2  5136  20.09  19.2   3.82        12.41
+130   3 380.4  5019  19.86 18.84   3.73        12.36
+136   3 295.8  4258  19.67 18.62   4.01        12.65
+142   4 279.5  4654  19.56 18.59   4.04        12.69
+148   4 277.8  4566  19.46 17.94   4.74        12.79
+154   4 281.4  4310  19.46 17.96   4.71        12.78
+160   3 295.6  4481  19.51 18.09   4.59        12.72
+166   3 312.3  6557  19.61  18.2   4.54        12.64
+172   3 300.1  4778  19.58 18.17   4.55        12.67
+178   4   281  3205  19.57 18.12   4.54        12.68
+184   4 278.7  3178  19.58 18.14   4.55         12.7
+190   4 278.9  3180  19.55 18.09   4.59        12.74
+196   4 275.2  3180  19.52 18.07    4.6        12.76
+202   4 283.1  3186  19.52 18.06    4.6        12.75
+208   4 280.5  3180  19.52 18.06    4.6        12.76
+214   4 277.9  3168  19.53 18.07   4.61        12.76
+220   3 311.4  4274  19.56 18.49   4.21        12.73
+226   3 298.5  4790  19.67 18.66   4.08        12.62
+232   3 303.4  3770  19.66  18.5   4.15        12.51
+238   3   305  4950   19.7 18.53   4.15        12.52
+244   3 294.7  4964  19.69 18.51   4.16        12.52
+
+
+
+median_ms_world = 298.5 （filter v2，32 条世界样本，中位 draws=3205）；max_priv_gb = 20.46 ；min_free_gb = 3.06 ；min_commit_free_gb = 11.78 ；leftover_procs = 0
+详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+S3_exit=0
+leftover_after_group=0
+final_procs=0
+=== S3 stall count from run log ===
+runlog=run-R9-after-warm2-1127-022521.log
+R9-after-warm2: samples=0 world_n=0 gt200=0 gt400=0 max_ms=
+=== bench-v2.csv from L19 ===
+19: 2026-11-27 01:43:10,R7-mapauto,200,40,ms>40&draws>=200,30,279.5,4927,20.69,3.76,12.86,0,run-R7-mapauto-1127-013901.log
+20: 2026-11-27 01:51:30,R8-before-book,200,40,ms>40&draws>=200,32,267.8,4948,20.89,3.8,12.36,0,run-R8-before-book-1127-014722.log
+21: 2026-11-27 01:55:44,R8-after-warm,200,40,ms>40&draws>=200,32,256.1,4710,20.82,4.17,12.69,0,run-R8-after-warm-1127-015134.log
+22: 2026-11-27 02:29:32,R9-after-warm2,200,40,ms>40&draws>=200,32,298.5,3205,20.46,3.06,11.78,0,run-R9-after-warm2-1127-022521.log
+=== r02-a15 done 2026-11-27 02:29:37

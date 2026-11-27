@@ -1,0 +1,1675 @@
+=== r02-z2 run start 2026-11-27 11:08:08
+exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
+---- z2-base-1 at 11:08:09
+=== smoke label=z2-base-1 start 2026-11-27 11:08:09
+exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
+commit_limit_gb=49.84 commit_free_gb=34.89
+label=z2-base-1-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+start=2026-11-27 11:08:12
+pid=19468
+stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-base-1-preflight-1127-110812.log
+stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-base-1-preflight-1127-110812.err.log
+t=  5s draws=1 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 1 draws/frame
+t= 10s draws=5 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 5 draws/frame
+t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 20s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 25s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 30s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 35s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 40s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 45s draws=9 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 9 draws/frame
+t= 50s draws=9 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 9 draws/frame
+t= 55s draws=9 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 9 draws/frame
+t= 60s draws=10 ms=95.6 title=Americas | VIctory 10 fps 95.6 ms/frame 10 draws/frame
+t= 65s draws=8 ms=32.3 title=Americas | VIctory 31 fps 32.3 ms/frame 8 draws/frame
+t= 70s draws=9 ms=34.7 title=Americas | VIctory 29 fps 34.7 ms/frame 9 draws/frame
+t= 75s draws=11 ms=33.4 title=Americas | VIctory 30 fps 33.4 ms/frame 11 draws/frame
+t= 80s draws=2072 ms=301 title=Americas | VIctory 3 fps 301.0 ms/frame 2072 draws/frame
+>> ENTERED at t=80 s draws=2072
+t= 85s draws=1726 ms=297.3 title=Americas | VIctory 3 fps 297.3 ms/frame 1726 draws/frame
+t= 90s draws=1763 ms=216.1 title=Americas | VIctory 5 fps 216.1 ms/frame 1763 draws/frame
+loop_s=18 samples=18
+entered=True
+entered_at_s=80
+entered_draws=2072
+samples=18
+leftover=0
+end=2026-11-27 11:09:51
+preflight_EXIT=0
+extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=z2-base-1 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+  t=   8s fps=    31 ms=    32.6 draws=     1 priv=  6.27 commitfree= 23.44
+  t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.98 commitfree= 23.51
+  t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.22 commitfree= 23.27
+  t=  26s fps=    30 ms=    33.3 draws=     4 priv=  7.22 commitfree= 23.28
+  t=  32s fps=    30 ms=    33.3 draws=     4 priv=  7.22 commitfree= 23.24
+  t=  38s fps=    30 ms=    33.3 draws=    10 priv=  7.43 commitfree= 22.91
+  t=  44s fps=    30 ms=    33.3 draws=    10 priv=  7.85 commitfree= 22.61
+  t=  50s fps=    29 ms=    34.4 draws=     8 priv=  11.8 commitfree= 17.04
+  t=  56s fps=    28 ms=    35.6 draws=     9 priv= 12.43 commitfree=  18.2
+  t=  62s fps=    26 ms=    38.3 draws=    10 priv= 12.18 commitfree= 18.26
+  t=  68s fps=    30 ms=    33.3 draws=     8 priv= 13.69 commitfree= 13.86
+  t=  74s fps=     3 ms=   299.2 draws=  1694 priv= 18.05 commitfree= 12.19
+  >> 进世界：draws=1694，世界窗自 t=74 s 起，采 600 s
+  t=  80s fps=     3 ms=   291.3 draws=  4512 priv= 19.01 commitfree= 11.27
+  t=  86s fps=     3 ms=     287 draws=  2737 priv= 19.59 commitfree= 10.56
+  t=  92s fps=     4 ms=   235.6 draws=  2028 priv= 19.68 commitfree= 10.61
+  t=  98s fps=     4 ms=     264 draws=  3464 priv= 19.87 commitfree= 10.53
+  t= 104s fps=     3 ms=   305.5 draws=  3882 priv= 19.95 commitfree= 10.42
+  t= 111s fps=     3 ms=     359 draws=  5119 priv= 20.16 commitfree=  10.2
+  t= 117s fps=     4 ms=   262.7 draws=  1614 priv= 20.22 commitfree= 10.16
+  t= 123s fps=     3 ms=   348.8 draws=  3476 priv= 20.27 commitfree= 10.11
+  t= 129s fps=     3 ms=   332.8 draws=  1626 priv= 20.34 commitfree= 10.05
+  t= 135s fps=     3 ms=   287.3 draws=  3752 priv= 20.45 commitfree=  9.95
+  t= 141s fps=     4 ms=   266.7 draws=  5030 priv= 20.36 commitfree= 10.04
+  t= 147s fps=     4 ms=     281 draws=  5976 priv=  19.9 commitfree= 10.48
+  t= 153s fps=     4 ms=   255.6 draws=  4487 priv= 19.79 commitfree= 10.61
+  t= 159s fps=     4 ms=   264.2 draws=  4390 priv= 19.67 commitfree=  10.7
+  t= 165s fps=     4 ms=   257.7 draws=  4376 priv= 19.63 commitfree= 10.64
+  t= 171s fps=     4 ms=   254.6 draws=  4382 priv=  19.6 commitfree= 10.73
+  t= 177s fps=     4 ms=     254 draws=  4375 priv=  19.6 commitfree= 10.74
+  t= 183s fps=     4 ms=   251.2 draws=  4387 priv=  19.6 commitfree= 10.72
+  t= 189s fps=     4 ms=   224.1 draws=  4407 priv= 19.62 commitfree=  10.7
+  t= 195s fps=     4 ms=   254.1 draws=  4410 priv= 19.62 commitfree= 10.68
+  t= 201s fps=     4 ms=   257.8 draws=  4404 priv= 19.61 commitfree= 10.63
+  t= 207s fps=     4 ms=   256.2 draws=  4400 priv= 19.63 commitfree= 10.77
+  t= 213s fps=     4 ms=   242.6 draws=  4393 priv= 19.63 commitfree= 11.01
+  t= 219s fps=     4 ms=   239.5 draws=  4364 priv= 19.63 commitfree= 11.06
+  t= 225s fps=     4 ms=   243.3 draws=  4344 priv= 19.64 commitfree= 11.06
+  t= 231s fps=     4 ms=   241.9 draws=  4287 priv= 19.63 commitfree= 11.06
+  t= 237s fps=     4 ms=   237.7 draws=  4287 priv= 19.63 commitfree= 11.08
+  t= 243s fps=     4 ms=   240.2 draws=  4305 priv= 19.63 commitfree= 11.07
+  t= 249s fps=     4 ms=   239.8 draws=  4316 priv= 19.63 commitfree= 11.06
+  t= 255s fps=     4 ms=   237.9 draws=  4351 priv= 19.64 commitfree= 11.06
+  t= 261s fps=     4 ms=   238.7 draws=  4336 priv= 19.64 commitfree= 11.06
+  t= 267s fps=     4 ms=   238.6 draws=  4304 priv= 19.63 commitfree= 11.06
+  t= 273s fps=     4 ms=     235 draws=  4242 priv= 19.65 commitfree= 11.03
+  t= 279s fps=     4 ms=   240.7 draws=  4238 priv= 19.64 commitfree= 11.04
+  t= 285s fps=     4 ms=   237.6 draws=  4205 priv= 19.65 commitfree= 11.05
+  t= 291s fps=     4 ms=   238.2 draws=  4209 priv= 19.65 commitfree= 11.04
+  t= 297s fps=     4 ms=   237.5 draws=  4203 priv= 19.65 commitfree= 11.04
+  t= 303s fps=     4 ms=   239.3 draws=  4199 priv= 19.66 commitfree= 11.03
+  t= 309s fps=     4 ms=   236.9 draws=  4200 priv= 19.66 commitfree= 11.03
+  t= 315s fps=     4 ms=   237.3 draws=  4211 priv= 19.65 commitfree= 11.04
+  t= 321s fps=     4 ms=     239 draws=  4206 priv= 19.65 commitfree= 11.04
+  t= 327s fps=     3 ms=   373.1 draws=  4203 priv= 19.69 commitfree= 10.98
+  t= 333s fps=     4 ms=     240 draws=  4211 priv= 19.72 commitfree= 10.98
+  t= 339s fps=     4 ms=   240.8 draws=  4211 priv=  19.7 commitfree=    11
+  t= 345s fps=     4 ms=   238.8 draws=  4210 priv=  19.7 commitfree= 11.01
+  t= 351s fps=     4 ms=   235.8 draws=  4199 priv= 19.69 commitfree= 11.01
+  t= 358s fps=     4 ms=   238.7 draws=  4205 priv= 19.69 commitfree= 11.01
+  t= 364s fps=     4 ms=   250.4 draws=  4200 priv=  19.7 commitfree= 10.82
+  t= 370s fps=     5 ms=   220.9 draws=  4197 priv= 19.73 commitfree= 10.84
+  t= 376s fps=     4 ms=   243.7 draws=  4199 priv= 19.72 commitfree= 10.86
+  t= 382s fps=     4 ms=   282.2 draws=  4205 priv= 19.73 commitfree= 10.66
+  t= 388s fps=     4 ms=   259.8 draws=  4201 priv= 19.74 commitfree= 10.67
+  t= 394s fps=     4 ms=   259.3 draws=  4233 priv= 19.72 commitfree= 10.71
+  t= 400s fps=     4 ms=     258 draws=  4233 priv= 19.72 commitfree= 10.71
+  t= 406s fps=     4 ms=   259.3 draws=  4232 priv= 19.73 commitfree=  10.7
+  t= 412s fps=     4 ms=     255 draws=  4231 priv= 19.74 commitfree= 10.69
+  t= 418s fps=     4 ms=   256.4 draws=  4232 priv= 19.73 commitfree= 10.73
+  t= 424s fps=     4 ms=   254.2 draws=  4237 priv= 19.73 commitfree= 10.77
+  t= 430s fps=     4 ms=   251.3 draws=  4242 priv= 19.73 commitfree=  10.8
+  t= 436s fps=     4 ms=   261.5 draws=  4233 priv= 19.75 commitfree= 10.77
+  t= 442s fps=     4 ms=   262.4 draws=  4211 priv= 19.74 commitfree= 10.78
+  t= 448s fps=     4 ms=   261.5 draws=  4208 priv= 19.75 commitfree= 10.77
+  t= 454s fps=     4 ms=   257.5 draws=  4211 priv= 19.76 commitfree= 10.77
+  t= 460s fps=     4 ms=   255.2 draws=  4193 priv= 19.76 commitfree= 10.77
+  t= 466s fps=     4 ms=   261.8 draws=  4253 priv= 19.75 commitfree= 10.78
+  t= 472s fps=     4 ms=   259.7 draws=  4257 priv= 19.74 commitfree= 10.79
+  t= 478s fps=     4 ms=   259.7 draws=  4194 priv= 19.74 commitfree= 10.78
+  t= 484s fps=     4 ms=   252.5 draws=  4212 priv= 19.75 commitfree= 10.78
+  t= 490s fps=     4 ms=   255.1 draws=  4206 priv= 19.75 commitfree= 10.78
+  t= 496s fps=     4 ms=   260.8 draws=  4193 priv= 19.75 commitfree= 10.77
+  t= 502s fps=     4 ms=   261.5 draws=  4176 priv= 19.76 commitfree= 10.76
+  t= 508s fps=     4 ms=   261.4 draws=  4164 priv= 19.76 commitfree= 10.77
+  t= 514s fps=     4 ms=   256.7 draws=  4176 priv= 19.76 commitfree= 10.77
+  t= 520s fps=     4 ms=   262.7 draws=  4177 priv= 19.76 commitfree= 10.77
+  t= 526s fps=     4 ms=   259.4 draws=  4188 priv= 19.77 commitfree= 10.75
+  t= 532s fps=     4 ms=   260.2 draws=  4169 priv= 19.77 commitfree= 10.77
+  t= 538s fps=     4 ms=   259.8 draws=  4178 priv= 19.76 commitfree= 10.77
+  t= 544s fps=     4 ms=   262.1 draws=  4172 priv= 19.77 commitfree= 10.77
+  t= 550s fps=     4 ms=   261.1 draws=  4170 priv= 19.76 commitfree= 10.77
+  t= 556s fps=     4 ms=   261.6 draws=  4166 priv= 19.76 commitfree= 10.76
+  t= 562s fps=     4 ms=   259.6 draws=  4165 priv= 19.77 commitfree= 10.77
+  t= 569s fps=     4 ms=     259 draws=  4165 priv= 19.77 commitfree= 10.77
+  t= 575s fps=     4 ms=   260.6 draws=  4166 priv= 19.77 commitfree= 10.77
+  t= 581s fps=     4 ms=   258.4 draws=  4177 priv= 19.77 commitfree= 10.77
+  t= 587s fps=     4 ms=     263 draws=  4178 priv= 19.77 commitfree= 10.76
+  t= 593s fps=     4 ms=   260.3 draws=  4165 priv= 19.78 commitfree= 10.77
+  t= 599s fps=     4 ms=   256.5 draws=  4168 priv= 19.79 commitfree= 10.76
+  t= 605s fps=     4 ms=   263.5 draws=  4162 priv= 19.78 commitfree= 10.77
+  t= 611s fps=     4 ms=   260.9 draws=  4155 priv= 19.77 commitfree= 10.77
+  t= 617s fps=     4 ms=   261.9 draws=  4138 priv= 19.78 commitfree= 10.76
+  t= 623s fps=     4 ms=   260.7 draws=  4139 priv= 19.79 commitfree= 10.76
+  t= 629s fps=     4 ms=   255.7 draws=  4139 priv= 19.78 commitfree= 10.75
+  t= 635s fps=     4 ms=     263 draws=  4142 priv= 19.78 commitfree= 10.75
+  t= 641s fps=     4 ms=     261 draws=  4143 priv= 19.77 commitfree= 10.76
+  t= 647s fps=     4 ms=   261.1 draws=  4139 priv= 19.77 commitfree= 10.76
+  t= 653s fps=     4 ms=   258.5 draws=  4138 priv= 19.78 commitfree= 10.76
+  t= 659s fps=     4 ms=   261.1 draws=  4141 priv= 19.78 commitfree= 10.75
+  t= 665s fps=     4 ms=   257.8 draws=  4140 priv= 19.78 commitfree= 10.75
+  t= 671s fps=     4 ms=   260.6 draws=  4142 priv= 19.79 commitfree= 10.74
+  t= 677s fps=     4 ms=   259.8 draws=  4145 priv= 19.79 commitfree= 10.73
+
+  T Fps    Ms Draws PrivGB RssGB FreeGB CommitFreeGB
+  - ---    -- ----- ------ ----- ------ ------------
+  8  31  32.6     1   6.27  3.96  15.96        23.44
+ 14  30  33.3     8   6.98  4.54  15.95        23.51
+ 20  30  33.3     4   7.22  4.92  15.44        23.27
+ 26  30  33.3     4   7.22  4.92  15.44        23.28
+ 32  30  33.3     4   7.22  4.92   15.4        23.24
+ 38  30  33.3    10   7.43  5.33  14.78        22.91
+ 44  30  33.3    10   7.85  5.79  14.47        22.61
+ 50  29  34.4     8   11.8  8.24  10.08        17.04
+ 56  28  35.6     9  12.43  8.94  11.13         18.2
+ 62  26  38.3    10  12.18  8.39  11.05        18.26
+ 68  30  33.3     8  13.69 10.91   6.77        13.86
+ 74   3 299.2  1694  18.05 16.26   4.37        12.19
+ 80   3 291.3  4512  19.01 18.06   3.38        11.27
+ 86   3   287  2737  19.59 18.96   2.54        10.56
+ 92   4 235.6  2028  19.68 19.06   2.59        10.61
+ 98   4   264  3464  19.87 19.27    2.5        10.53
+104   3 305.5  3882  19.95 19.42   2.38        10.42
+111   3   359  5119  20.16 19.81   2.18         10.2
+117   4 262.7  1614  20.22  19.9   2.16        10.16
+123   3 348.8  3476  20.27 20.06    2.1        10.11
+129   3 332.8  1626  20.34 20.05   2.06        10.05
+135   3 287.3  3752  20.45  19.7   2.09         9.95
+141   4 266.7  5030  20.36 19.18   2.21        10.04
+147   4   281  5976   19.9 18.68   2.65        10.48
+153   4 255.6  4487  19.79  18.5   2.82        10.61
+159   4 264.2  4390  19.67 18.33   2.92         10.7
+165   4 257.7  4376  19.63 18.29    2.9        10.64
+171   4 254.6  4382   19.6 18.25   2.97        10.73
+177   4   254  4375   19.6 18.25   2.98        10.74
+183   4 251.2  4387   19.6 18.25   2.96        10.72
+189   4 224.1  4407  19.62 18.27   2.94         10.7
+195   4 254.1  4410  19.62 18.24   2.95        10.68
+201   4 257.8  4404  19.61 18.22   2.93        10.63
+207   4 256.2  4400  19.63 18.23   2.99        10.77
+213   4 242.6  4393  19.63 18.24   3.22        11.01
+219   4 239.5  4364  19.63 18.23   3.25        11.06
+225   4 243.3  4344  19.64 18.24   3.25        11.06
+231   4 241.9  4287  19.63 18.02   3.53        11.06
+237   4 237.7  4287  19.63    18   3.54        11.08
+243   4 240.2  4305  19.63 18.01   3.53        11.07
+249   4 239.8  4316  19.63 18.01   3.52        11.06
+255   4 237.9  4351  19.64 18.02   3.51        11.06
+261   4 238.7  4336  19.64 18.02   3.51        11.06
+267   4 238.6  4304  19.63 18.01    3.5        11.06
+273   4   235  4242  19.65 18.02   3.49        11.03
+279   4 240.7  4238  19.64 18.02    3.5        11.04
+285   4 237.6  4205  19.65 18.02    3.5        11.05
+291   4 238.2  4209  19.65 18.03    3.5        11.04
+297   4 237.5  4203  19.65 18.03    3.5        11.04
+303   4 239.3  4199  19.66 18.04   3.48        11.03
+309   4 236.9  4200  19.66 18.04   3.49        11.03
+315   4 237.3  4211  19.65 18.03    3.5        11.04
+321   4   239  4206  19.65 18.03    3.5        11.04
+327   3 373.1  4203  19.69 18.05   3.45        10.98
+333   4   240  4211  19.72 18.07   3.45        10.98
+339   4 240.8  4211   19.7 18.07   3.46           11
+345   4 238.8  4210   19.7 18.06   3.46        11.01
+351   4 235.8  4199  19.69 18.05   3.46        11.01
+358   4 238.7  4205  19.69 18.05   3.45        11.01
+364   4 250.4  4200   19.7 18.06   3.27        10.82
+370   5 220.9  4197  19.73 18.08   3.27        10.84
+376   4 243.7  4199  19.72 18.08   3.28        10.86
+382   4 282.2  4205  19.73 18.09   3.14        10.66
+388   4 259.8  4201  19.74 18.09   3.16        10.67
+394   4 259.3  4233  19.72 18.08   3.19        10.71
+400   4   258  4233  19.72 18.08   3.19        10.71
+406   4 259.3  4232  19.73 18.08   3.19         10.7
+412   4   255  4231  19.74 18.08   3.18        10.69
+418   4 256.4  4232  19.73 18.07   3.22        10.73
+424   4 254.2  4237  19.73 18.07   3.22        10.77
+430   4 251.3  4242  19.73 18.07   3.26         10.8
+436   4 261.5  4233  19.75 18.09   3.23        10.77
+442   4 262.4  4211  19.74 18.09   3.23        10.78
+448   4 261.5  4208  19.75  18.1   3.23        10.77
+454   4 257.5  4211  19.76 18.11   3.22        10.77
+460   4 255.2  4193  19.76  18.1   3.24        10.77
+466   4 261.8  4253  19.75  18.1   3.25        10.78
+472   4 259.7  4257  19.74 18.08   3.26        10.79
+478   4 259.7  4194  19.74 18.09   3.24        10.78
+484   4 252.5  4212  19.75 18.09   3.24        10.78
+490   4 255.1  4206  19.75  18.1   3.23        10.78
+496   4 260.8  4193  19.75  18.1   3.23        10.77
+502   4 261.5  4176  19.76 18.11   3.23        10.76
+508   4 261.4  4164  19.76 18.11   3.24        10.77
+514   4 256.7  4176  19.76 18.11   3.24        10.77
+520   4 262.7  4177  19.76 18.11   3.25        10.77
+526   4 259.4  4188  19.77 18.12   3.23        10.75
+532   4 260.2  4169  19.77 18.12   3.33        10.77
+538   4 259.8  4178  19.76 18.09   3.33        10.77
+544   4 262.1  4172  19.77 18.09   3.33        10.77
+550   4 261.1  4170  19.76 18.09   3.33        10.77
+556   4 261.6  4166  19.76 18.09   3.32        10.76
+562   4 259.6  4165  19.77 18.09   3.32        10.77
+569   4   259  4165  19.77 18.09   3.33        10.77
+575   4 260.6  4166  19.77 18.09   3.33        10.77
+581   4 258.4  4177  19.77  18.1   3.33        10.77
+587   4   263  4178  19.77  18.1   3.32        10.76
+593   4 260.3  4165  19.78  18.1   3.33        10.77
+599   4 256.5  4168  19.79 18.12   3.32        10.76
+605   4 263.5  4162  19.78 18.11   3.32        10.77
+611   4 260.9  4155  19.77 18.11   3.32        10.77
+617   4 261.9  4138  19.78 18.11   3.31        10.76
+623   4 260.7  4139  19.79 18.12   3.31        10.76
+629   4 255.7  4139  19.78 18.12    3.3        10.75
+635   4   263  4142  19.78 18.11    3.3        10.75
+641   4   261  4143  19.77  18.1   3.31        10.76
+647   4 261.1  4139  19.77  18.1   3.32        10.76
+653   4 258.5  4138  19.78  18.1   3.32        10.76
+659   4 261.1  4141  19.78 18.12    3.3        10.75
+665   4 257.8  4140  19.78 18.12    3.3        10.75
+671   4 260.6  4142  19.79 18.12   3.29        10.74
+677   4 259.8  4145  19.79 18.13   3.28        10.73
+
+
+
+window = world+600 s (from t=74 s) ；采样 112 条，窗内 101 条
+median_ms_world = 258.4 （filter v2，101 条世界样本，中位 draws=4203）；max_priv_gb = 20.45 ；min_free_gb = 2.06 ；min_commit_free_gb = 9.95 ；leftover_procs = 0
+详情写入 bench-v3.csv
+bench_EXIT=0
+v3_lines_before=16 after=17
+row=2026-11-27 11:21:15,z2-base-1,600,800,112,74,101,ms>40&draws>=200,258.4,4203,20.45,2.06,9.95,0,run-z2-base-1-1127-110951.log
+world_samples=101 median_ms_world=[258.4] median_draws=[4203] leftover_procs=[0]
+post_run_leftover=0
+=== smoke end 2026-11-27 11:21:18
+SMOKE=PASS
+z2-base-1 EXIT=0
+leftover=0
+---- z2-base-2 at 11:21:26
+=== smoke label=z2-base-2 start 2026-11-27 11:21:27
+exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
+commit_limit_gb=49.84 commit_free_gb=35.27
+label=z2-base-2-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+start=2026-11-27 11:21:29
+pid=5828
+stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-base-2-preflight-1127-112129.log
+stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-base-2-preflight-1127-112129.err.log
+t=  5s draws=1 ms=42 title=Americas | VIctory 24 fps 42.0 ms/frame 1 draws/frame
+t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 20s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 25s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 30s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 35s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 40s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 45s draws=10 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 10 draws/frame
+t= 50s draws=10 ms=33.4 title=Americas | VIctory 30 fps 33.4 ms/frame 10 draws/frame
+t= 55s draws=8 ms=33.4 title=Americas | VIctory 30 fps 33.4 ms/frame 8 draws/frame
+t= 60s draws=10 ms=41.8 title=Americas | VIctory 24 fps 41.8 ms/frame 10 draws/frame
+t= 65s draws=9 ms=39.6 title=Americas | VIctory 25 fps 39.6 ms/frame 9 draws/frame
+t= 70s draws=401 ms=182.1 title=Americas | VIctory 5 fps 182.1 ms/frame 401 draws/frame
+t= 75s draws=1722 ms=305.5 title=Americas | VIctory 3 fps 305.5 ms/frame 1722 draws/frame
+>> ENTERED at t=75 s draws=1722
+t= 80s draws=4266 ms=294.2 title=Americas | VIctory 3 fps 294.2 ms/frame 4266 draws/frame
+t= 85s draws=4994 ms=260.4 title=Americas | VIctory 4 fps 260.4 ms/frame 4994 draws/frame
+loop_s=17 samples=17
+entered=True
+entered_at_s=75
+entered_draws=1722
+samples=17
+leftover=0
+end=2026-11-27 11:23:02
+preflight_EXIT=0
+extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=z2-base-2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+  t=   8s fps=    30 ms=      33 draws=     1 priv=   6.2 commitfree= 23.42
+  t=  14s fps=    30 ms=    33.3 draws=     8 priv=  7.09 commitfree=  23.4
+  t=  20s fps=    30 ms=    33.4 draws=     8 priv=  6.96 commitfree= 23.55
+  t=  26s fps=    30 ms=    33.3 draws=     8 priv=  6.96 commitfree= 23.56
+  t=  32s fps=    30 ms=    33.3 draws=     4 priv=  7.27 commitfree= 23.23
+  t=  38s fps=    30 ms=    33.3 draws=     4 priv=  7.27 commitfree= 23.23
+  t=  44s fps=    29 ms=    34.1 draws=     6 priv=  7.28 commitfree= 22.99
+  t=  50s fps=    30 ms=    33.3 draws=     9 priv=  7.85 commitfree= 22.57
+  t=  56s fps=    30 ms=    33.7 draws=     8 priv=  9.07 commitfree= 20.66
+  t=  62s fps=    30 ms=    33.3 draws=    10 priv= 12.83 commitfree= 17.59
+  t=  68s fps=    30 ms=    33.3 draws=     9 priv=  12.4 commitfree= 18.14
+  t=  74s fps=    24 ms=      42 draws=     9 priv= 12.29 commitfree= 18.12
+  t=  80s fps=     3 ms=   293.6 draws=  2765 priv=  17.3 commitfree= 12.78
+  >> 进世界：draws=2765，世界窗自 t=80 s 起，采 600 s
+  t=  86s fps=     3 ms=   371.5 draws=  1745 priv= 18.35 commitfree= 11.72
+  t=  92s fps=     3 ms=   302.8 draws=  5205 priv= 19.37 commitfree=  10.9
+  t=  98s fps=     4 ms=   255.1 draws=  1961 priv= 19.61 commitfree= 10.75
+  t= 104s fps=     4 ms=   264.5 draws=  3308 priv= 19.73 commitfree= 10.57
+  t= 110s fps=     3 ms=   290.5 draws=  3184 priv= 19.89 commitfree= 10.43
+  t= 116s fps=     4 ms=   279.4 draws=  3009 priv= 19.99 commitfree=  10.3
+  t= 122s fps=     4 ms=   282.1 draws=  3221 priv= 20.13 commitfree= 10.18
+  t= 128s fps=     3 ms=   288.1 draws=  1881 priv= 20.07 commitfree= 10.12
+  t= 134s fps=     3 ms=   329.4 draws=  3424 priv= 20.29 commitfree= 10.02
+  t= 140s fps=     4 ms=   262.7 draws=  1138 priv= 20.31 commitfree= 10.08
+  t= 146s fps=     4 ms=   273.7 draws=  5203 priv= 20.26 commitfree= 10.09
+  t= 152s fps=     4 ms=   250.1 draws=  5006 priv= 20.26 commitfree= 10.35
+  t= 158s fps=     4 ms=   238.2 draws=  4427 priv= 19.81 commitfree= 10.53
+  t= 164s fps=     4 ms=   241.7 draws=  4352 priv= 19.75 commitfree= 10.61
+  t= 170s fps=     4 ms=   239.8 draws=  4329 priv= 19.64 commitfree= 10.73
+  t= 177s fps=     4 ms=   236.2 draws=  4389 priv= 19.62 commitfree= 10.75
+  t= 183s fps=     4 ms=   241.9 draws=  4331 priv=  19.6 commitfree= 10.76
+  t= 189s fps=     4 ms=   239.9 draws=  4331 priv= 19.58 commitfree= 10.78
+  t= 195s fps=     4 ms=   234.7 draws=  4343 priv= 19.58 commitfree= 10.77
+  t= 201s fps=     4 ms=   235.9 draws=  4336 priv= 19.59 commitfree= 10.78
+  t= 207s fps=     4 ms=   235.5 draws=  4394 priv= 19.59 commitfree= 10.76
+  t= 213s fps=     4 ms=   235.7 draws=  4335 priv=  19.6 commitfree=  10.9
+  t= 219s fps=     4 ms=   235.2 draws=  4324 priv=  19.6 commitfree= 10.92
+  t= 225s fps=     4 ms=   236.4 draws=  4278 priv= 19.61 commitfree=  10.9
+  t= 231s fps=     4 ms=   238.2 draws=  4257 priv= 19.61 commitfree= 10.91
+  t= 237s fps=     4 ms=   241.4 draws=  4181 priv=  19.6 commitfree= 10.92
+  t= 243s fps=     4 ms=   237.3 draws=  4240 priv=  19.6 commitfree= 10.93
+  t= 249s fps=     4 ms=   237.6 draws=  4227 priv=  19.6 commitfree= 10.94
+  t= 255s fps=     4 ms=   238.2 draws=  4236 priv= 19.61 commitfree= 10.93
+  t= 261s fps=     4 ms=   235.2 draws=  4262 priv= 19.62 commitfree= 10.92
+  t= 267s fps=     4 ms=   235.6 draws=  4217 priv= 19.62 commitfree= 10.92
+  t= 273s fps=     4 ms=   233.5 draws=  4217 priv= 19.61 commitfree= 10.93
+  t= 279s fps=     4 ms=   234.6 draws=  4218 priv= 19.61 commitfree= 10.92
+  t= 285s fps=     4 ms=   232.3 draws=  4226 priv= 19.64 commitfree= 10.89
+  t= 291s fps=     4 ms=   232.9 draws=  4218 priv= 19.64 commitfree= 10.89
+  t= 297s fps=     4 ms=   231.5 draws=  4150 priv= 19.65 commitfree= 10.88
+  t= 303s fps=     4 ms=   232.4 draws=  4165 priv= 19.64 commitfree=  10.9
+  t= 309s fps=     4 ms=   232.8 draws=  4159 priv= 19.63 commitfree=  10.9
+  t= 315s fps=     4 ms=   231.7 draws=  4149 priv= 19.64 commitfree= 10.89
+  t= 321s fps=     4 ms=     234 draws=  4149 priv= 19.63 commitfree= 10.89
+  t= 327s fps=     4 ms=   233.2 draws=  4151 priv= 19.64 commitfree= 10.88
+  t= 333s fps=     4 ms=   233.8 draws=  4153 priv= 19.65 commitfree= 10.89
+  t= 339s fps=     4 ms=   233.2 draws=  4156 priv= 19.64 commitfree=  10.9
+  t= 345s fps=     4 ms=     238 draws=  4149 priv= 19.64 commitfree= 10.89
+  t= 351s fps=     4 ms=   234.1 draws=  4151 priv= 19.64 commitfree= 10.89
+  t= 357s fps=     4 ms=   234.3 draws=  4150 priv= 19.63 commitfree=  10.9
+  t= 363s fps=     4 ms=   232.5 draws=  4154 priv= 19.63 commitfree= 10.91
+  t= 369s fps=     4 ms=   237.3 draws=  4154 priv= 19.63 commitfree= 10.91
+  t= 375s fps=     4 ms=   236.3 draws=  4152 priv= 19.63 commitfree=  10.9
+  t= 381s fps=     4 ms=   233.5 draws=  4158 priv= 19.65 commitfree= 10.87
+  t= 387s fps=     4 ms=   236.9 draws=  4191 priv= 19.67 commitfree= 10.87
+  t= 393s fps=     4 ms=   234.4 draws=  4184 priv= 19.66 commitfree= 10.88
+  t= 399s fps=     4 ms=   240.8 draws=  4175 priv= 19.66 commitfree= 10.87
+  t= 405s fps=     4 ms=   232.9 draws=  4181 priv= 19.65 commitfree= 10.88
+  t= 411s fps=     4 ms=   234.4 draws=  4178 priv= 19.66 commitfree= 10.87
+  t= 417s fps=     4 ms=   236.6 draws=  4184 priv= 19.65 commitfree= 10.88
+  t= 423s fps=     4 ms=   233.1 draws=  4179 priv= 19.66 commitfree= 10.88
+  t= 430s fps=     4 ms=     236 draws=  4188 priv= 19.66 commitfree= 10.88
+  t= 436s fps=     4 ms=   237.2 draws=  4176 priv= 19.66 commitfree= 10.87
+  t= 442s fps=     4 ms=   236.7 draws=  4164 priv= 19.66 commitfree= 10.88
+  t= 448s fps=     4 ms=   240.5 draws=  4159 priv= 19.66 commitfree= 10.87
+  t= 454s fps=     4 ms=   238.5 draws=  4134 priv= 19.66 commitfree= 10.87
+  t= 460s fps=     4 ms=   232.7 draws=  4195 priv= 19.66 commitfree= 10.87
+  t= 466s fps=     4 ms=   233.4 draws=  4213 priv= 19.65 commitfree= 10.88
+  t= 472s fps=     4 ms=   233.4 draws=  4146 priv= 19.64 commitfree= 10.88
+  t= 478s fps=     4 ms=   232.8 draws=  4164 priv= 19.67 commitfree= 10.85
+  t= 484s fps=     4 ms=   235.5 draws=  4149 priv= 19.67 commitfree= 10.85
+  t= 490s fps=     4 ms=   236.8 draws=  4127 priv= 19.67 commitfree= 10.86
+  t= 496s fps=     4 ms=   239.1 draws=  4116 priv= 19.68 commitfree= 10.84
+  t= 502s fps=     4 ms=   238.8 draws=  4119 priv= 19.67 commitfree= 10.86
+  t= 508s fps=     4 ms=   236.1 draws=  4121 priv= 19.67 commitfree= 10.85
+  t= 514s fps=     4 ms=     237 draws=  4118 priv= 19.67 commitfree= 10.86
+  t= 520s fps=     4 ms=   238.2 draws=  4131 priv= 19.67 commitfree= 10.86
+  t= 526s fps=     4 ms=   236.9 draws=  4114 priv= 19.67 commitfree= 10.86
+  t= 532s fps=     4 ms=   236.5 draws=  4116 priv= 19.67 commitfree= 10.85
+  t= 538s fps=     4 ms=   239.8 draws=  4119 priv= 19.67 commitfree= 10.85
+  t= 544s fps=     4 ms=   238.3 draws=  4115 priv= 19.67 commitfree= 10.86
+  t= 550s fps=     4 ms=   240.2 draws=  4117 priv= 19.67 commitfree= 10.87
+  t= 556s fps=     4 ms=   237.4 draws=  4116 priv= 19.67 commitfree= 10.86
+  t= 562s fps=     4 ms=     237 draws=  4117 priv= 19.67 commitfree= 10.87
+  t= 568s fps=     4 ms=   237.9 draws=  4116 priv= 19.67 commitfree= 10.87
+  t= 574s fps=     4 ms=   236.3 draws=  4109 priv= 19.67 commitfree= 10.87
+  t= 580s fps=     4 ms=   237.4 draws=  4109 priv= 19.67 commitfree= 10.87
+  t= 586s fps=     4 ms=   236.9 draws=  4090 priv= 19.68 commitfree= 10.87
+  t= 592s fps=     4 ms=   236.2 draws=  4089 priv= 19.67 commitfree= 10.87
+  t= 598s fps=     4 ms=   239.1 draws=  4090 priv= 19.68 commitfree= 10.87
+  t= 604s fps=     4 ms=   235.6 draws=  4091 priv= 19.67 commitfree= 10.88
+  t= 610s fps=     4 ms=   237.6 draws=  4089 priv= 19.68 commitfree= 10.87
+  t= 616s fps=     4 ms=   236.1 draws=  4089 priv= 19.67 commitfree= 10.87
+  t= 622s fps=     4 ms=   238.2 draws=  4091 priv= 19.68 commitfree= 10.86
+  t= 628s fps=     4 ms=   236.6 draws=  4097 priv= 19.68 commitfree= 10.86
+  t= 634s fps=     4 ms=   235.4 draws=  4098 priv= 19.68 commitfree= 10.87
+  t= 640s fps=     4 ms=   236.7 draws=  4094 priv= 19.67 commitfree= 10.87
+  t= 646s fps=     4 ms=   239.8 draws=  4090 priv= 19.68 commitfree= 10.87
+  t= 652s fps=     4 ms=   239.7 draws=  4085 priv= 19.67 commitfree= 10.88
+  t= 658s fps=     4 ms=   236.9 draws=  4086 priv= 19.66 commitfree= 10.87
+  t= 664s fps=     4 ms=   237.1 draws=  4086 priv= 19.66 commitfree= 10.87
+  t= 670s fps=     4 ms=     237 draws=  4091 priv= 19.66 commitfree= 10.88
+  t= 676s fps=     4 ms=   237.3 draws=  4091 priv= 19.67 commitfree= 10.87
+  t= 683s fps=     4 ms=   236.5 draws=  4078 priv= 19.67 commitfree= 10.86
+
+  T Fps    Ms Draws PrivGB RssGB FreeGB CommitFreeGB
+  - ---    -- ----- ------ ----- ------ ------------
+  8  30    33     1    6.2  3.88  15.43        23.42
+ 14  30  33.3     8   7.09  5.18  15.35         23.4
+ 20  30  33.4     8   6.96  4.91  15.62        23.55
+ 26  30  33.3     8   6.96  4.91  15.64        23.56
+ 32  30  33.3     4   7.27  5.52  14.89        23.23
+ 38  30  33.3     4   7.27  5.52  14.91        23.23
+ 44  29  34.1     6   7.28  5.69  14.67        22.99
+ 50  30  33.3     9   7.85  6.31  14.26        22.57
+ 56  30  33.7     8   9.07  7.52  11.64        20.66
+ 62  30  33.3    10  12.83  9.93  10.29        17.59
+ 68  30  33.3     9   12.4  9.06  11.04        18.14
+ 74  24    42     9  12.29  9.82  10.26        18.12
+ 80   3 293.6  2765   17.3 16.09   4.96        12.78
+ 86   3 371.5  1745  18.35 17.88    3.5        11.72
+ 92   3 302.8  5205  19.37  19.3   2.71         10.9
+ 98   4 255.1  1961  19.61 19.61   2.49        10.75
+104   4 264.5  3308  19.73 19.82   2.35        10.57
+110   3 290.5  3184  19.89 19.98   2.19        10.43
+116   4 279.4  3009  19.99 20.14    2.1         10.3
+122   4 282.1  3221  20.13  20.3   1.98        10.18
+128   3 288.1  1881  20.07 20.43   1.91        10.12
+134   3 329.4  3424  20.29 20.73   1.78        10.02
+140   4 262.7  1138  20.31 20.52   1.86        10.08
+146   4 273.7  5203  20.26 19.67   2.04        10.09
+152   4 250.1  5006  20.26 19.85   2.27        10.35
+158   4 238.2  4427  19.81 19.24   2.49        10.53
+164   4 241.7  4352  19.75 19.07   2.62        10.61
+170   4 239.8  4329  19.64 18.96   2.74        10.73
+177   4 236.2  4389  19.62 18.86   2.87        10.75
+183   4 241.9  4331   19.6 18.79    2.9        10.76
+189   4 239.9  4331  19.58 18.76   2.91        10.78
+195   4 234.7  4343  19.58 18.76    2.9        10.77
+201   4 235.9  4336  19.59 18.76   2.91        10.78
+207   4 235.5  4394  19.59 18.77    2.9        10.76
+213   4 235.7  4335   19.6 18.77   2.95         10.9
+219   4 235.2  4324   19.6 18.77   2.96        10.92
+225   4 236.4  4278  19.61 18.78   2.94         10.9
+231   4 238.2  4257  19.61 18.78   2.96        10.91
+237   4 241.4  4181   19.6 18.74   2.99        10.92
+243   4 237.3  4240   19.6 18.72   3.03        10.93
+249   4 237.6  4227   19.6 18.65   3.09        10.94
+255   4 238.2  4236  19.61 18.64   3.11        10.93
+261   4 235.2  4262  19.62 18.61   3.13        10.92
+267   4 235.6  4217  19.62 18.57   3.16        10.92
+273   4 233.5  4217  19.61 18.55   3.18        10.93
+279   4 234.6  4218  19.61 18.54   3.19        10.92
+285   4 232.3  4226  19.64 18.58   3.16        10.89
+291   4 232.9  4218  19.64 18.58   3.16        10.89
+297   4 231.5  4150  19.65 18.59   3.15        10.88
+303   4 232.4  4165  19.64 18.58   3.17         10.9
+309   4 232.8  4159  19.63 18.57   3.18         10.9
+315   4 231.7  4149  19.64 18.57   3.17        10.89
+321   4   234  4149  19.63 18.57   3.17        10.89
+327   4 233.2  4151  19.64 18.56   3.16        10.88
+333   4 233.8  4153  19.65 18.57   3.16        10.89
+339   4 233.2  4156  19.64 18.57   3.16         10.9
+345   4   238  4149  19.64 18.53   3.45        10.89
+351   4 234.1  4151  19.64 18.53   3.45        10.89
+357   4 234.3  4150  19.63 18.52   3.46         10.9
+363   4 232.5  4154  19.63 18.52   3.46        10.91
+369   4 237.3  4154  19.63 18.52   3.48        10.91
+375   4 236.3  4152  19.63 18.52   3.45         10.9
+381   4 233.5  4158  19.65 18.54   3.44        10.87
+387   4 236.9  4191  19.67 18.54   3.44        10.87
+393   4 234.4  4184  19.66 18.54   3.44        10.88
+399   4 240.8  4175  19.66 18.54   3.44        10.87
+405   4 232.9  4181  19.65 18.53   3.45        10.88
+411   4 234.4  4178  19.66 18.53   3.45        10.87
+417   4 236.6  4184  19.65 18.53   3.44        10.88
+423   4 233.1  4179  19.66 18.54   3.42        10.88
+430   4   236  4188  19.66 18.54   3.42        10.88
+436   4 237.2  4176  19.66 18.55   3.42        10.87
+442   4 236.7  4164  19.66 18.55   3.41        10.88
+448   4 240.5  4159  19.66 18.55   3.41        10.87
+454   4 238.5  4134  19.66 18.55   3.42        10.87
+460   4 232.7  4195  19.66 18.54   3.42        10.87
+466   4 233.4  4213  19.65 18.54   3.42        10.88
+472   4 233.4  4146  19.64 18.53   3.42        10.88
+478   4 232.8  4164  19.67 18.55    3.4        10.85
+484   4 235.5  4149  19.67 18.55   3.41        10.85
+490   4 236.8  4127  19.67 18.55   3.41        10.86
+496   4 239.1  4116  19.68 18.56   3.39        10.84
+502   4 238.8  4119  19.67 18.56    3.4        10.86
+508   4 236.1  4121  19.67 18.56    3.4        10.85
+514   4   237  4118  19.67 18.56    3.4        10.86
+520   4 238.2  4131  19.67 18.56    3.4        10.86
+526   4 236.9  4114  19.67 18.56   3.41        10.86
+532   4 236.5  4116  19.67 18.56    3.4        10.85
+538   4 239.8  4119  19.67 18.56    3.4        10.85
+544   4 238.3  4115  19.67 18.56   3.42        10.86
+550   4 240.2  4117  19.67 18.56   3.42        10.87
+556   4 237.4  4116  19.67 18.56   3.41        10.86
+562   4   237  4117  19.67 18.55   3.41        10.87
+568   4 237.9  4116  19.67 18.55   3.41        10.87
+574   4 236.3  4109  19.67 18.55   3.41        10.87
+580   4 237.4  4109  19.67 18.55   3.41        10.87
+586   4 236.9  4090  19.68 18.55   3.41        10.87
+592   4 236.2  4089  19.67 18.55   3.41        10.87
+598   4 239.1  4090  19.68 18.55   3.41        10.87
+604   4 235.6  4091  19.67 18.54   3.42        10.88
+610   4 237.6  4089  19.68 18.55   3.41        10.87
+616   4 236.1  4089  19.67 18.54   3.41        10.87
+622   4 238.2  4091  19.68 18.55    3.4        10.86
+628   4 236.6  4097  19.68 18.55   3.41        10.86
+634   4 235.4  4098  19.68 18.54   3.41        10.87
+640   4 236.7  4094  19.67 18.54   3.42        10.87
+646   4 239.8  4090  19.68 18.54   3.54        10.87
+652   4 239.7  4085  19.67 18.53   3.57        10.88
+658   4 236.9  4086  19.66 18.53   3.54        10.87
+664   4 237.1  4086  19.66 18.53   3.54        10.87
+670   4   237  4091  19.66 18.53   3.54        10.88
+676   4 237.3  4091  19.67 18.54   3.53        10.87
+683   4 236.5  4078  19.67 18.54   3.53        10.86
+
+
+
+window = world+600 s (from t=80 s) ；采样 113 条，窗内 101 条
+median_ms_world = 236.9 （filter v2，101 条世界样本，中位 draws=4150）；max_priv_gb = 20.31 ；min_free_gb = 1.78 ；min_commit_free_gb = 10.02 ；leftover_procs = 0
+详情写入 bench-v3.csv
+bench_EXIT=0
+v3_lines_before=17 after=18
+row=2026-11-27 11:34:30,z2-base-2,600,800,113,80,101,ms>40&draws>=200,236.9,4150,20.31,1.78,10.02,0,run-z2-base-2-1127-112303.log
+world_samples=101 median_ms_world=[236.9] median_draws=[4150] leftover_procs=[0]
+post_run_leftover=0
+=== smoke end 2026-11-27 11:34:33
+SMOKE=PASS
+z2-base-2 EXIT=0
+leftover=0
+---- z2-batchoff-1 at 11:34:41
+=== smoke label=z2-batchoff-1 start 2026-11-27 11:34:42
+exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
+commit_limit_gb=49.84 commit_free_gb=35.26
+label=z2-batchoff-1-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+start=2026-11-27 11:34:44
+pid=2068
+stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-batchoff-1-preflight-1127-113444.log
+stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-batchoff-1-preflight-1127-113444.err.log
+t=  5s draws=1 ms=39.5 title=Americas | VIctory 25 fps 39.5 ms/frame 1 draws/frame
+t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 20s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 25s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 30s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 35s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 40s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 45s draws=8 ms=33.2 title=Americas | VIctory 30 fps 33.2 ms/frame 8 draws/frame
+t= 50s draws=9 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 9 draws/frame
+t= 55s draws=9 ms=33.8 title=Americas | VIctory 30 fps 33.8 ms/frame 9 draws/frame
+t= 60s draws=9 ms=36.1 title=Americas | VIctory 28 fps 36.1 ms/frame 9 draws/frame
+t= 65s draws=9 ms=33.4 title=Americas | VIctory 30 fps 33.4 ms/frame 9 draws/frame
+t= 70s draws=10 ms=36.8 title=Americas | VIctory 27 fps 36.8 ms/frame 10 draws/frame
+t= 75s draws=9 ms=32.1 title=Americas | VIctory 31 fps 32.1 ms/frame 9 draws/frame
+t= 80s draws=1814 ms=275.1 title=Americas | VIctory 4 fps 275.1 ms/frame 1814 draws/frame
+>> ENTERED at t=80 s draws=1814
+t= 85s draws=1761 ms=370.2 title=Americas | VIctory 3 fps 370.2 ms/frame 1761 draws/frame
+t= 90s draws=3441 ms=293.4 title=Americas | VIctory 3 fps 293.4 ms/frame 3441 draws/frame
+loop_s=18 samples=18
+entered=True
+entered_at_s=80
+entered_draws=1814
+samples=18
+leftover=0
+end=2026-11-27 11:36:28
+preflight_EXIT=0
+extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space;VICTORY_INDIRECT_BATCH=0;VICTORY_JOIN_COPIES=0
+label=z2-batchoff-1 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+  t=   8s fps=    30 ms=      33 draws=     1 priv=  6.22 commitfree= 23.42
+  t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.95 commitfree=  23.5
+  t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 23.53
+  t=  26s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 23.53
+  t=  32s fps=    30 ms=    33.3 draws=     4 priv=  7.29 commitfree= 23.16
+  t=  38s fps=    30 ms=    33.3 draws=     4 priv=  7.29 commitfree= 23.16
+  t=  44s fps=    29 ms=    34.1 draws=     6 priv=  7.29 commitfree= 22.97
+  t=  50s fps=    30 ms=    33.3 draws=     8 priv=  7.81 commitfree= 22.63
+  t=  56s fps=    29 ms=      34 draws=     9 priv=  9.71 commitfree= 17.03
+  t=  62s fps=    21 ms=    46.6 draws=    12 priv= 13.51 commitfree= 17.07
+  t=  68s fps=     3 ms=   349.7 draws=  2312 priv= 17.93 commitfree= 12.32
+  >> 进世界：draws=2312，世界窗自 t=68 s 起，采 600 s
+  t=  74s fps=     3 ms=   316.9 draws=  1861 priv= 18.84 commitfree=  11.4
+  t=  80s fps=     3 ms=   325.4 draws=  5572 priv=  19.7 commitfree=  10.5
+  t=  86s fps=     4 ms=   273.2 draws=  1845 priv=  19.7 commitfree= 10.59
+  t=  92s fps=     2 ms=   407.3 draws=  4629 priv= 19.77 commitfree= 10.52
+  t=  98s fps=     4 ms=   271.8 draws=  2577 priv= 19.95 commitfree= 10.33
+  t= 104s fps=     3 ms=   343.5 draws=  4912 priv= 20.08 commitfree= 10.11
+  t= 110s fps=     4 ms=   261.7 draws=  1964 priv= 20.11 commitfree=  10.1
+  t= 116s fps=     3 ms=   309.8 draws=  3518 priv= 20.17 commitfree= 10.01
+  t= 122s fps=     4 ms=   283.4 draws=  1483 priv=  20.2 commitfree=  9.98
+  t= 128s fps=     4 ms=   277.1 draws=  1119 priv= 20.24 commitfree= 10.03
+  t= 134s fps=     3 ms=   296.9 draws=  4967 priv=  20.3 commitfree= 10.04
+  t= 140s fps=     4 ms=   259.2 draws=  4886 priv= 20.01 commitfree= 10.64
+  t= 146s fps=     4 ms=   260.3 draws=  4600 priv= 19.74 commitfree= 10.66
+  t= 152s fps=     4 ms=     260 draws=  4494 priv= 19.67 commitfree= 10.57
+  t= 158s fps=     4 ms=   260.9 draws=  4482 priv= 19.63 commitfree=  10.6
+  t= 164s fps=     4 ms=   259.2 draws=  4477 priv= 19.59 commitfree= 10.61
+  t= 170s fps=     3 ms=   289.2 draws=  4197 priv= 19.58 commitfree= 10.34
+  t= 176s fps=     3 ms=   346.7 draws=  4482 priv= 19.62 commitfree= 10.06
+  t= 182s fps=     2 ms=     461 draws=  4569 priv=  19.6 commitfree= 10.03
+  t= 188s fps=     3 ms=   385.4 draws=  4577 priv= 19.62 commitfree= 10.01
+  t= 195s fps=     4 ms=   272.1 draws=  4490 priv= 19.62 commitfree= 10.06
+  t= 201s fps=     3 ms=   330.9 draws=  4488 priv=  19.6 commitfree= 10.09
+  t= 207s fps=     3 ms=   305.5 draws=  4486 priv= 19.61 commitfree= 10.25
+  t= 213s fps=     3 ms=   336.8 draws=  4468 priv= 19.62 commitfree= 10.22
+  t= 219s fps=     4 ms=   280.6 draws=  4478 priv= 19.61 commitfree= 10.22
+  t= 225s fps=     3 ms=   287.4 draws=  4440 priv= 19.62 commitfree= 10.23
+  t= 231s fps=     4 ms=   277.9 draws=  4420 priv= 19.62 commitfree= 10.18
+  t= 237s fps=     4 ms=   281.3 draws=  4365 priv=  19.6 commitfree= 10.17
+  t= 243s fps=     4 ms=   269.1 draws=  4366 priv=  19.6 commitfree= 10.25
+  t= 249s fps=     4 ms=   260.1 draws=  4385 priv= 19.62 commitfree= 10.36
+  t= 255s fps=     4 ms=   256.3 draws=  4407 priv= 19.59 commitfree=  10.4
+  t= 261s fps=     4 ms=   254.4 draws=  4400 priv=  19.6 commitfree= 10.38
+  t= 267s fps=     4 ms=   257.3 draws=  4364 priv= 19.59 commitfree= 10.28
+  t= 273s fps=     4 ms=   254.2 draws=  4364 priv= 19.59 commitfree= 10.37
+  t= 279s fps=     4 ms=   257.7 draws=  4380 priv=  19.6 commitfree= 10.35
+  t= 285s fps=     4 ms=   257.4 draws=  4333 priv= 19.61 commitfree=  9.95
+  t= 291s fps=     4 ms=     257 draws=  4322 priv=  19.6 commitfree=  9.79
+  t= 297s fps=     4 ms=   255.3 draws=  4326 priv= 19.61 commitfree= 10.56
+  t= 303s fps=     3 ms=     299 draws=  4326 priv= 19.61 commitfree= 10.55
+  t= 309s fps=     4 ms=   285.1 draws=  4318 priv=  19.6 commitfree= 10.57
+  t= 315s fps=     4 ms=   264.9 draws=  4320 priv= 19.61 commitfree= 10.48
+  t= 321s fps=     4 ms=     258 draws=  4289 priv= 19.61 commitfree= 10.76
+  t= 327s fps=     4 ms=   258.5 draws=  4288 priv= 19.61 commitfree= 10.75
+  t= 333s fps=     4 ms=     259 draws=  4285 priv= 19.62 commitfree= 10.66
+  t= 339s fps=     4 ms=   258.2 draws=  4292 priv= 19.61 commitfree= 10.77
+  t= 345s fps=     4 ms=   255.8 draws=  4295 priv= 19.61 commitfree= 10.76
+  t= 351s fps=     4 ms=   257.2 draws=  4300 priv= 19.61 commitfree= 10.76
+  t= 357s fps=     3 ms=   360.4 draws=  4292 priv= 19.61 commitfree= 10.73
+  t= 363s fps=     4 ms=   252.2 draws=  4295 priv= 19.61 commitfree= 10.77
+  t= 369s fps=     4 ms=   253.3 draws=  4298 priv= 19.61 commitfree= 10.76
+  t= 375s fps=     4 ms=   252.8 draws=  4296 priv= 19.61 commitfree= 10.68
+  t= 381s fps=     4 ms=   254.4 draws=  4297 priv= 19.61 commitfree=  10.7
+  t= 387s fps=     4 ms=   250.8 draws=  4294 priv= 19.61 commitfree= 10.71
+  t= 393s fps=     4 ms=   254.6 draws=  4306 priv= 19.61 commitfree= 10.71
+  t= 399s fps=     4 ms=   254.6 draws=  4306 priv=  19.6 commitfree= 10.72
+  t= 406s fps=     4 ms=   258.4 draws=  4298 priv=  19.6 commitfree= 10.71
+  t= 412s fps=     4 ms=   252.3 draws=  4305 priv= 19.61 commitfree= 10.71
+  t= 418s fps=     4 ms=     250 draws=  4306 priv= 19.62 commitfree= 10.71
+  t= 424s fps=     4 ms=   255.2 draws=  4342 priv= 19.61 commitfree= 10.72
+  t= 430s fps=     4 ms=   257.5 draws=  4346 priv= 19.62 commitfree= 10.71
+  t= 436s fps=     4 ms=   253.6 draws=  4338 priv= 19.62 commitfree= 10.71
+  t= 442s fps=     4 ms=     256 draws=  4336 priv= 19.61 commitfree= 10.71
+  t= 448s fps=     4 ms=   253.6 draws=  4314 priv= 19.62 commitfree= 10.71
+  t= 454s fps=     4 ms=   257.9 draws=  4314 priv= 19.61 commitfree= 10.73
+  t= 460s fps=     4 ms=   258.5 draws=  4314 priv= 19.61 commitfree= 10.72
+  t= 466s fps=     4 ms=   257.7 draws=  4306 priv= 19.62 commitfree= 10.72
+  t= 472s fps=     4 ms=   255.7 draws=  4310 priv= 19.61 commitfree= 10.72
+  t= 478s fps=     4 ms=     256 draws=  4320 priv= 19.62 commitfree= 10.71
+  t= 484s fps=     4 ms=   253.5 draws=  4308 priv= 19.62 commitfree= 10.71
+  t= 490s fps=     4 ms=   255.6 draws=  4345 priv= 19.61 commitfree= 10.72
+  t= 496s fps=     4 ms=   255.8 draws=  4289 priv= 19.61 commitfree= 10.73
+  t= 502s fps=     4 ms=   256.4 draws=  4302 priv= 19.61 commitfree= 10.73
+  t= 508s fps=     4 ms=   252.4 draws=  4298 priv= 19.62 commitfree= 10.72
+  t= 514s fps=     4 ms=   252.3 draws=  4275 priv= 19.62 commitfree= 10.72
+  t= 520s fps=     4 ms=   254.8 draws=  4252 priv= 19.62 commitfree= 10.72
+  t= 526s fps=     4 ms=   253.7 draws=  4250 priv= 19.62 commitfree= 10.72
+  t= 532s fps=     4 ms=     258 draws=  4263 priv= 19.62 commitfree= 10.73
+  t= 538s fps=     4 ms=     256 draws=  4280 priv= 19.62 commitfree= 10.72
+  t= 544s fps=     4 ms=   257.1 draws=  4263 priv= 19.62 commitfree= 10.72
+  t= 550s fps=     4 ms=   257.4 draws=  4264 priv= 19.63 commitfree= 10.71
+  t= 556s fps=     4 ms=   257.1 draws=  4259 priv= 19.63 commitfree= 10.72
+  t= 562s fps=     4 ms=   256.1 draws=  4258 priv= 19.63 commitfree= 10.72
+  t= 568s fps=     4 ms=   253.9 draws=  4258 priv= 19.62 commitfree= 10.72
+  t= 574s fps=     4 ms=     258 draws=  4261 priv= 19.63 commitfree= 10.72
+  t= 580s fps=     4 ms=   255.4 draws=  4266 priv= 19.63 commitfree= 10.72
+  t= 586s fps=     4 ms=     258 draws=  4263 priv= 19.63 commitfree= 10.72
+  t= 592s fps=     4 ms=     256 draws=  4256 priv= 19.63 commitfree= 10.72
+  t= 598s fps=     4 ms=     255 draws=  4270 priv= 19.62 commitfree= 10.73
+  t= 604s fps=     4 ms=   256.5 draws=  4268 priv= 19.62 commitfree= 10.73
+  t= 610s fps=     4 ms=   263.4 draws=  4264 priv= 19.62 commitfree= 10.72
+  t= 616s fps=     4 ms=   257.8 draws=  4254 priv= 19.62 commitfree= 10.72
+  t= 622s fps=     4 ms=   255.7 draws=  4234 priv= 19.62 commitfree= 10.72
+  t= 628s fps=     4 ms=   256.9 draws=  4224 priv= 19.62 commitfree= 10.72
+  t= 634s fps=     4 ms=   260.1 draws=  4228 priv= 19.62 commitfree= 10.72
+  t= 640s fps=     4 ms=   257.7 draws=  4226 priv= 19.62 commitfree= 10.73
+  t= 646s fps=     4 ms=     257 draws=  4228 priv= 19.61 commitfree= 10.74
+  t= 652s fps=     4 ms=   257.6 draws=  4233 priv= 19.62 commitfree= 10.72
+  t= 659s fps=     4 ms=   254.3 draws=  4238 priv= 19.62 commitfree= 10.73
+  t= 665s fps=     4 ms=   256.8 draws=  4232 priv= 19.62 commitfree= 10.72
+  t= 671s fps=     4 ms=   256.7 draws=  4227 priv= 19.63 commitfree= 10.72
+
+  T Fps    Ms Draws PrivGB RssGB FreeGB CommitFreeGB
+  - ---    -- ----- ------ ----- ------ ------------
+  8  30    33     1   6.22  3.94   16.6        23.42
+ 14  30  33.3     8   6.95  4.53  16.62         23.5
+ 20  30  33.3     8   6.94  4.39  16.78        23.53
+ 26  30  33.3     8   6.94  4.39  16.78        23.53
+ 32  30  33.3     4   7.29  5.02     16        23.16
+ 38  30  33.3     4   7.29  5.02     16        23.16
+ 44  29  34.1     6   7.29  5.19  15.48        22.97
+ 50  30  33.3     8   7.81  5.77   15.1        22.63
+ 56  29    34     9   9.71  7.81  10.23        17.03
+ 62  21  46.6    12  13.51 11.27    9.1        17.07
+ 68   3 349.7  2312  17.93 17.31   4.15        12.32
+ 74   3 316.9  1861  18.84 18.68   3.26         11.4
+ 80   3 325.4  5572   19.7 20.05   2.78         10.5
+ 86   4 273.2  1845   19.7 19.95   2.83        10.59
+ 92   2 407.3  4629  19.77 20.11    2.7        10.52
+ 98   4 271.8  2577  19.95  20.4   2.55        10.33
+104   3 343.5  4912  20.08 20.57   2.41        10.11
+110   4 261.7  1964  20.11 20.59   2.39         10.1
+116   3 309.8  3518  20.17  20.9   2.26        10.01
+122   4 283.4  1483   20.2  20.7   2.25         9.98
+128   4 277.1  1119  20.24 20.61   2.31        10.03
+134   3 296.9  4967   20.3 19.92   2.51        10.04
+140   4 259.2  4886  20.01 19.25   3.48        10.64
+146   4 260.3  4600  19.74 18.86   3.57        10.66
+152   4   260  4494  19.67 18.72   3.47        10.57
+158   4 260.9  4482  19.63 18.68   3.52         10.6
+164   4 259.2  4477  19.59 18.64   3.54        10.61
+170   3 289.2  4197  19.58 18.63   3.25        10.34
+176   3 346.7  4482  19.62 18.67   2.98        10.06
+182   2   461  4569   19.6 18.65   2.97        10.03
+188   3 385.4  4577  19.62 18.66   2.93        10.01
+195   4 272.1  4490  19.62 18.66   2.97        10.06
+201   3 330.9  4488   19.6 18.64   3.01        10.09
+207   3 305.5  4486  19.61 18.65      3        10.25
+213   3 336.8  4468  19.62 18.66   2.98        10.22
+219   4 280.6  4478  19.61 18.65   2.94        10.22
+225   3 287.4  4440  19.62 18.64   2.94        10.23
+231   4 277.9  4420  19.62 18.65   2.91        10.18
+237   4 281.3  4365   19.6 18.63   2.92        10.17
+243   4 269.1  4366   19.6 18.63   3.07        10.25
+249   4 260.1  4385  19.62 18.64   3.18        10.36
+255   4 256.3  4407  19.59 18.62   3.19         10.4
+261   4 254.4  4400   19.6 18.62   3.16        10.38
+267   4 257.3  4364  19.59 18.61   3.07        10.28
+273   4 254.2  4364  19.59 18.61   3.12        10.37
+279   4 257.7  4380   19.6 18.62   3.11        10.35
+285   4 257.4  4333  19.61 18.63   2.77         9.95
+291   4   257  4322   19.6 18.63   2.44         9.79
+297   4 255.3  4326  19.61 18.64   3.28        10.56
+303   3   299  4326  19.61 18.62    3.2        10.55
+309   4 285.1  4318   19.6 18.63   3.21        10.57
+315   4 264.9  4320  19.61 18.64   3.16        10.48
+321   4   258  4289  19.61 18.64   3.37        10.76
+327   4 258.5  4288  19.61 18.64   3.38        10.75
+333   4   259  4285  19.62 18.64   3.31        10.66
+339   4 258.2  4292  19.61 18.64   3.42        10.77
+345   4 255.8  4295  19.61 18.63   3.43        10.76
+351   4 257.2  4300  19.61 18.63   3.41        10.76
+357   3 360.4  4292  19.61 18.64   3.36        10.73
+363   4 252.2  4295  19.61 18.63   3.42        10.77
+369   4 253.3  4298  19.61 18.61   3.43        10.76
+375   4 252.8  4296  19.61 18.61   3.37        10.68
+381   4 254.4  4297  19.61 18.61   3.38         10.7
+387   4 250.8  4294  19.61 18.62    3.4        10.71
+393   4 254.6  4306  19.61 18.61    3.4        10.71
+399   4 254.6  4306   19.6 18.61   3.42        10.72
+406   4 258.4  4298   19.6 18.61   3.41        10.71
+412   4 252.3  4305  19.61 18.61   3.39        10.71
+418   4   250  4306  19.62 18.62    3.4        10.71
+424   4 255.2  4342  19.61 18.62   3.41        10.72
+430   4 257.5  4346  19.62 18.63   3.39        10.71
+436   4 253.6  4338  19.62 18.63    3.4        10.71
+442   4   256  4336  19.61 18.62   3.49        10.71
+448   4 253.6  4314  19.62 18.62   3.49        10.71
+454   4 257.9  4314  19.61 18.61    3.5        10.73
+460   4 258.5  4314  19.61 18.62   3.49        10.72
+466   4 257.7  4306  19.62 18.62   3.49        10.72
+472   4 255.7  4310  19.61 18.62    3.5        10.72
+478   4   256  4320  19.62 18.63   3.49        10.71
+484   4 253.5  4308  19.62 18.63   3.49        10.71
+490   4 255.6  4345  19.61 18.62   3.48        10.72
+496   4 255.8  4289  19.61 18.62   3.49        10.73
+502   4 256.4  4302  19.61 18.62    3.5        10.73
+508   4 252.4  4298  19.62 18.63   3.48        10.72
+514   4 252.3  4275  19.62 18.63   3.48        10.72
+520   4 254.8  4252  19.62 18.63   3.48        10.72
+526   4 253.7  4250  19.62 18.62   3.48        10.72
+532   4   258  4263  19.62 18.63   3.48        10.73
+538   4   256  4280  19.62 18.63   3.47        10.72
+544   4 257.1  4263  19.62 18.63   3.48        10.72
+550   4 257.4  4264  19.63 18.63   3.47        10.71
+556   4 257.1  4259  19.63 18.63   3.47        10.72
+562   4 256.1  4258  19.63 18.63   3.47        10.72
+568   4 253.9  4258  19.62 18.63   3.47        10.72
+574   4   258  4261  19.63 18.63   3.47        10.72
+580   4 255.4  4266  19.63 18.64   3.47        10.72
+586   4   258  4263  19.63 18.64   3.47        10.72
+592   4   256  4256  19.63 18.63   3.47        10.72
+598   4   255  4270  19.62 18.63   3.47        10.73
+604   4 256.5  4268  19.62 18.64   3.47        10.73
+610   4 263.4  4264  19.62 18.63   3.46        10.72
+616   4 257.8  4254  19.62 18.64   3.46        10.72
+622   4 255.7  4234  19.62 18.64   3.46        10.72
+628   4 256.9  4224  19.62 18.64   3.46        10.72
+634   4 260.1  4228  19.62 18.64   3.47        10.72
+640   4 257.7  4226  19.62 18.63   3.49        10.73
+646   4   257  4228  19.61 18.63   3.48        10.74
+652   4 257.6  4233  19.62 18.63   3.46        10.72
+659   4 254.3  4238  19.62 18.63   3.47        10.73
+665   4 256.8  4232  19.62 18.63   3.46        10.72
+671   4 256.7  4227  19.63 18.63   3.46        10.72
+
+
+
+window = world+600 s (from t=68 s) ；采样 111 条，窗内 101 条
+median_ms_world = 257.7 （filter v2，101 条世界样本，中位 draws=4300）；max_priv_gb = 20.3 ；min_free_gb = 2.25 ；min_commit_free_gb = 9.79 ；leftover_procs = 0
+详情写入 bench-v3.csv
+bench_EXIT=0
+v3_lines_before=18 after=19
+row=2026-11-27 11:47:44,z2-batchoff-1,600,800,111,68,101,ms>40&draws>=200,257.7,4300,20.3,2.25,9.79,0,run-z2-batchoff-1-1127-113629.log
+world_samples=101 median_ms_world=[257.7] median_draws=[4300] leftover_procs=[0]
+post_run_leftover=0
+=== smoke end 2026-11-27 11:47:47
+SMOKE=PASS
+z2-batchoff-1 EXIT=0
+leftover=0
+---- z2-batchoff-2 at 11:47:55
+=== smoke label=z2-batchoff-2 start 2026-11-27 11:47:56
+exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
+commit_limit_gb=49.84 commit_free_gb=35.04
+label=z2-batchoff-2-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+start=2026-11-27 11:47:59
+pid=22884
+stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-batchoff-2-preflight-1127-114759.log
+stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-batchoff-2-preflight-1127-114759.err.log
+t=  5s draws=1 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 1 draws/frame
+t= 10s draws=6 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 6 draws/frame
+t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 20s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 25s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 30s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 35s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 40s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 45s draws=10 ms=33.4 title=Americas | VIctory 30 fps 33.4 ms/frame 10 draws/frame
+t= 50s draws=10 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 10 draws/frame
+t= 55s draws=10 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 10 draws/frame
+t= 60s draws=11 ms=33.4 title=Americas | VIctory 30 fps 33.4 ms/frame 11 draws/frame
+t= 65s draws=11 ms=31.8 title=Americas | VIctory 31 fps 31.8 ms/frame 11 draws/frame
+t= 70s draws=2145 ms=293.7 title=Americas | VIctory 3 fps 293.7 ms/frame 2145 draws/frame
+>> ENTERED at t=70 s draws=2145
+t= 75s draws=1745 ms=404.2 title=Americas | VIctory 2 fps 404.2 ms/frame 1745 draws/frame
+t= 80s draws=3299 ms=263 title=Americas | VIctory 4 fps 263.0 ms/frame 3299 draws/frame
+loop_s=16 samples=16
+entered=True
+entered_at_s=70
+entered_draws=2145
+samples=16
+leftover=0
+end=2026-11-27 11:49:31
+preflight_EXIT=0
+extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space;VICTORY_INDIRECT_BATCH=0;VICTORY_JOIN_COPIES=0
+label=z2-batchoff-2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+  t=   8s fps=    30 ms=    33.4 draws=     1 priv=  6.48 commitfree= 23.45
+  t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 23.62
+  t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 23.61
+  t=  26s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree=  23.6
+  t=  32s fps=    30 ms=    33.3 draws=     4 priv=  7.32 commitfree= 23.18
+  t=  38s fps=    30 ms=    33.3 draws=     4 priv=   7.3 commitfree=  23.2
+  t=  44s fps=    30 ms=    33.3 draws=     9 priv=   7.3 commitfree= 23.02
+  t=  50s fps=    30 ms=    33.3 draws=     9 priv=  7.81 commitfree= 22.65
+  t=  56s fps=    30 ms=    33.6 draws=    10 priv=   9.6 commitfree= 16.93
+  t=  62s fps=    32 ms=    31.6 draws=    11 priv= 14.09 commitfree=  15.2
+  t=  68s fps=     4 ms=   255.1 draws=  1703 priv= 18.18 commitfree= 12.04
+  >> 进世界：draws=1703，世界窗自 t=68 s 起，采 600 s
+  t=  74s fps=     4 ms=     285 draws=  1994 priv= 19.05 commitfree= 11.09
+  t=  80s fps=     3 ms=   350.3 draws=  5021 priv= 19.52 commitfree= 10.72
+  t=  86s fps=     3 ms=   344.5 draws=  1496 priv= 19.78 commitfree=  10.5
+  t=  92s fps=     3 ms=   377.3 draws=  3514 priv= 20.14 commitfree= 10.18
+  t=  98s fps=     3 ms=   306.8 draws=  2643 priv= 20.08 commitfree= 10.17
+  t= 104s fps=     3 ms=   387.3 draws=  4850 priv= 20.25 commitfree= 10.05
+  t= 110s fps=     3 ms=   330.7 draws=  2377 priv= 20.23 commitfree= 10.04
+  t= 116s fps=     3 ms=   377.5 draws=  4059 priv= 20.33 commitfree=  9.99
+  t= 122s fps=     3 ms=   288.6 draws=  1720 priv= 20.43 commitfree=  9.89
+  t= 128s fps=     4 ms=   276.9 draws=  1099 priv= 20.57 commitfree=  9.76
+  t= 134s fps=     4 ms=   267.8 draws=  4951 priv= 20.59 commitfree=  9.53
+  t= 140s fps=     4 ms=   269.5 draws=  4511 priv= 20.14 commitfree=  9.96
+  t= 146s fps=     4 ms=   254.6 draws=  4593 priv= 19.98 commitfree= 10.15
+  t= 152s fps=     4 ms=   254.5 draws=  4474 priv= 19.91 commitfree= 10.26
+  t= 158s fps=     4 ms=   253.4 draws=  4464 priv= 19.83 commitfree=  10.3
+  t= 164s fps=     4 ms=   252.8 draws=  4452 priv= 19.81 commitfree= 10.32
+  t= 170s fps=     4 ms=   250.5 draws=  4461 priv=  19.8 commitfree= 10.35
+  t= 176s fps=     4 ms=   252.6 draws=  4468 priv= 19.79 commitfree= 10.35
+  t= 182s fps=     4 ms=   250.3 draws=  4484 priv= 19.82 commitfree= 10.31
+  t= 189s fps=     4 ms=     253 draws=  4480 priv= 19.83 commitfree= 10.31
+  t= 195s fps=     4 ms=   252.3 draws=  4474 priv= 19.82 commitfree= 10.32
+  t= 201s fps=     4 ms=   259.5 draws=  4476 priv= 19.84 commitfree= 10.29
+  t= 207s fps=     4 ms=   251.1 draws=  4480 priv= 19.84 commitfree=  10.3
+  t= 213s fps=     4 ms=   251.2 draws=  4458 priv= 19.83 commitfree= 10.31
+  t= 219s fps=     4 ms=   252.2 draws=  4435 priv= 19.83 commitfree= 10.31
+  t= 225s fps=     4 ms=   253.3 draws=  4381 priv= 19.82 commitfree= 10.41
+  t= 231s fps=     4 ms=   250.8 draws=  4381 priv= 19.81 commitfree= 10.32
+  t= 237s fps=     4 ms=   254.2 draws=  4408 priv= 19.81 commitfree= 10.33
+  t= 243s fps=     4 ms=     254 draws=  4414 priv= 19.81 commitfree= 10.33
+  t= 249s fps=     4 ms=   252.4 draws=  4408 priv= 19.81 commitfree= 10.34
+  t= 255s fps=     4 ms=   250.7 draws=  4386 priv= 19.84 commitfree= 10.31
+  t= 261s fps=     4 ms=   251.2 draws=  4393 priv= 19.83 commitfree= 10.32
+  t= 267s fps=     4 ms=   251.4 draws=  4399 priv= 19.83 commitfree= 10.33
+  t= 273s fps=     4 ms=   253.4 draws=  4339 priv= 19.82 commitfree= 10.34
+  t= 279s fps=     4 ms=   251.1 draws=  4340 priv= 19.83 commitfree= 10.33
+  t= 285s fps=     4 ms=     249 draws=  4339 priv= 19.83 commitfree= 10.33
+  t= 291s fps=     4 ms=   250.8 draws=  4340 priv= 19.83 commitfree= 10.33
+  t= 297s fps=     4 ms=   250.6 draws=  4334 priv= 19.83 commitfree= 10.33
+  t= 303s fps=     4 ms=   250.3 draws=  4322 priv= 19.83 commitfree= 10.32
+  t= 309s fps=     4 ms=   248.2 draws=  4309 priv= 19.84 commitfree= 10.32
+  t= 315s fps=     4 ms=   248.5 draws=  4306 priv= 19.84 commitfree= 10.33
+  t= 321s fps=     4 ms=   252.8 draws=  4307 priv= 19.84 commitfree= 10.34
+  t= 327s fps=     4 ms=   248.5 draws=  4303 priv= 19.82 commitfree= 10.33
+  t= 333s fps=     4 ms=   250.2 draws=  4302 priv= 19.83 commitfree= 10.33
+  t= 339s fps=     4 ms=   227.9 draws=  4301 priv= 19.81 commitfree= 10.34
+  t= 345s fps=     4 ms=     251 draws=  4305 priv= 19.82 commitfree= 10.34
+  t= 351s fps=     4 ms=     280 draws=  4301 priv= 19.82 commitfree= 10.34
+  t= 357s fps=     4 ms=   255.3 draws=  4301 priv= 19.82 commitfree= 10.35
+  t= 363s fps=     4 ms=     249 draws=  4299 priv= 19.81 commitfree= 10.36
+  t= 369s fps=     4 ms=   249.3 draws=  4295 priv= 19.81 commitfree= 10.34
+  t= 375s fps=     4 ms=   248.6 draws=  4291 priv= 19.82 commitfree= 10.34
+  t= 381s fps=     4 ms=   252.4 draws=  4290 priv= 19.82 commitfree= 10.24
+  t= 387s fps=     4 ms=   257.2 draws=  4290 priv= 19.83 commitfree= 10.13
+  t= 393s fps=     4 ms=   253.5 draws=  4326 priv= 19.83 commitfree= 10.14
+  t= 399s fps=     4 ms=   254.2 draws=  4331 priv= 19.82 commitfree= 10.15
+  t= 406s fps=     4 ms=     253 draws=  4333 priv= 19.81 commitfree= 10.15
+  t= 412s fps=     4 ms=   252.3 draws=  4336 priv= 19.81 commitfree= 10.15
+  t= 418s fps=     4 ms=     253 draws=  4338 priv= 19.82 commitfree= 10.14
+  t= 424s fps=     4 ms=   253.3 draws=  4330 priv= 19.83 commitfree=  10.1
+  t= 430s fps=     4 ms=   253.8 draws=  4331 priv= 19.83 commitfree= 10.12
+  t= 436s fps=     4 ms=   253.7 draws=  4330 priv= 19.83 commitfree= 10.12
+  t= 442s fps=     4 ms=   254.1 draws=  4315 priv= 19.83 commitfree= 10.13
+  t= 448s fps=     4 ms=   254.4 draws=  4310 priv= 19.83 commitfree= 10.12
+  t= 454s fps=     4 ms=   257.4 draws=  4312 priv= 19.83 commitfree= 10.11
+  t= 460s fps=     4 ms=   252.9 draws=  4315 priv= 19.83 commitfree= 10.11
+  t= 466s fps=     4 ms=     252 draws=  4312 priv= 19.83 commitfree= 10.11
+  t= 472s fps=     4 ms=   251.2 draws=  4347 priv= 19.84 commitfree= 10.12
+  t= 478s fps=     4 ms=   222.9 draws=  4279 priv= 19.84 commitfree= 10.11
+  t= 484s fps=     3 ms=   290.1 draws=  4299 priv= 19.85 commitfree= 10.11
+  t= 490s fps=     4 ms=   249.9 draws=  4283 priv= 19.85 commitfree= 10.12
+  t= 496s fps=     4 ms=   252.8 draws=  4305 priv= 19.84 commitfree= 10.12
+  t= 502s fps=     4 ms=   254.8 draws=  4279 priv= 19.84 commitfree= 10.12
+  t= 508s fps=     4 ms=   254.7 draws=  4264 priv= 19.85 commitfree=  10.1
+  t= 514s fps=     4 ms=   256.1 draws=  4267 priv= 19.85 commitfree= 10.06
+  t= 520s fps=     4 ms=   252.2 draws=  4288 priv= 19.85 commitfree= 10.08
+  t= 526s fps=     4 ms=   252.9 draws=  4277 priv= 19.85 commitfree= 10.09
+  t= 532s fps=     4 ms=   253.7 draws=  4258 priv= 19.85 commitfree=  10.1
+  t= 538s fps=     4 ms=   255.2 draws=  4271 priv= 19.85 commitfree=  10.1
+  t= 544s fps=     4 ms=   253.3 draws=  4274 priv= 19.85 commitfree=  10.1
+  t= 550s fps=     4 ms=   253.4 draws=  4270 priv= 19.84 commitfree=  10.1
+  t= 556s fps=     4 ms=   253.8 draws=  4273 priv= 19.85 commitfree=  10.1
+  t= 562s fps=     4 ms=   255.4 draws=  4265 priv= 19.85 commitfree= 10.11
+  t= 568s fps=     4 ms=   252.8 draws=  4270 priv= 19.85 commitfree= 10.11
+  t= 574s fps=     4 ms=   251.7 draws=  4274 priv= 19.85 commitfree= 10.11
+  t= 580s fps=     4 ms=   253.7 draws=  4276 priv= 19.84 commitfree= 10.12
+  t= 586s fps=     4 ms=     253 draws=  4272 priv= 19.84 commitfree= 10.12
+  t= 592s fps=     4 ms=   254.2 draws=  4273 priv= 19.84 commitfree= 10.13
+  t= 598s fps=     4 ms=   253.3 draws=  4265 priv= 19.83 commitfree= 10.13
+  t= 604s fps=     4 ms=   251.3 draws=  4262 priv= 19.83 commitfree= 10.14
+  t= 610s fps=     4 ms=   253.8 draws=  4235 priv= 19.83 commitfree= 10.13
+  t= 616s fps=     4 ms=   253.4 draws=  4230 priv= 19.82 commitfree= 10.14
+  t= 622s fps=     4 ms=   252.1 draws=  4232 priv= 19.83 commitfree= 10.13
+  t= 628s fps=     4 ms=   253.7 draws=  4237 priv= 19.83 commitfree= 10.13
+  t= 634s fps=     4 ms=   255.2 draws=  4236 priv= 19.84 commitfree= 10.13
+  t= 640s fps=     4 ms=   252.4 draws=  4237 priv= 19.84 commitfree= 10.12
+  t= 646s fps=     4 ms=   252.7 draws=  4238 priv= 19.84 commitfree= 10.13
+  t= 652s fps=     4 ms=   251.6 draws=  4241 priv= 19.85 commitfree= 10.12
+  t= 658s fps=     4 ms=   253.9 draws=  4236 priv= 19.84 commitfree= 10.13
+  t= 665s fps=     4 ms=   252.1 draws=  4233 priv= 19.83 commitfree= 10.14
+  t= 671s fps=     4 ms=   253.6 draws=  4238 priv= 19.83 commitfree= 10.13
+
+  T Fps    Ms Draws PrivGB RssGB FreeGB CommitFreeGB
+  - ---    -- ----- ------ ----- ------ ------------
+  8  30  33.4     1   6.48     4  16.97        23.45
+ 14  30  33.3     8   6.94  4.52  17.08        23.62
+ 20  30  33.3     8   6.94  4.38  17.21        23.61
+ 26  30  33.3     8   6.94  4.38   17.2         23.6
+ 32  30  33.3     4   7.32  5.04  16.38        23.18
+ 38  30  33.3     4    7.3  5.02   16.4         23.2
+ 44  30  33.3     9    7.3  5.07  15.94        23.02
+ 50  30  33.3     9   7.81  5.76  15.54        22.65
+ 56  30  33.6    10    9.6  7.47     11        16.93
+ 62  32  31.6    11  14.09 10.83   8.38         15.2
+ 68   4 255.1  1703  18.18 16.61   5.11        12.04
+ 74   4   285  1994  19.05 18.38   3.91        11.09
+ 80   3 350.3  5021  19.52 19.03   3.59        10.72
+ 86   3 344.5  1496  19.78 19.36   3.28         10.5
+ 92   3 377.3  3514  20.14 19.79   3.03        10.18
+ 98   3 306.8  2643  20.08  19.8   3.04        10.17
+104   3 387.3  4850  20.25 20.25   2.87        10.05
+110   3 330.7  2377  20.23 20.01   2.87        10.04
+116   3 377.5  4059  20.33 20.38   2.81         9.99
+122   3 288.6  1720  20.43 20.31   2.78         9.89
+128   4 276.9  1099  20.57 20.33   2.77         9.76
+134   4 267.8  4951  20.59 19.66   2.75         9.53
+140   4 269.5  4511  20.14 19.15   3.17         9.96
+146   4 254.6  4593  19.98 18.88   3.39        10.15
+152   4 254.5  4474  19.91 18.74   3.49        10.26
+158   4 253.4  4464  19.83 18.54   3.64         10.3
+164   4 252.8  4452  19.81  18.4   3.77        10.32
+170   4 250.5  4461   19.8  18.4    3.8        10.35
+176   4 252.6  4468  19.79 18.38    3.8        10.35
+182   4 250.3  4484  19.82  18.4   3.77        10.31
+189   4   253  4480  19.83 18.41   3.78        10.31
+195   4 252.3  4474  19.82 18.39   3.79        10.32
+201   4 259.5  4476  19.84  18.4    3.8        10.29
+207   4 251.1  4480  19.84 18.41   3.81         10.3
+213   4 251.2  4458  19.83  18.4    3.8        10.31
+219   4 252.2  4435  19.83 18.39   3.81        10.31
+225   4 253.3  4381  19.82 18.38   3.88        10.41
+231   4 250.8  4381  19.81 18.37   3.82        10.32
+237   4 254.2  4408  19.81 18.32   3.88        10.33
+243   4   254  4414  19.81 18.31    3.9        10.33
+249   4 252.4  4408  19.81 18.26   3.95        10.34
+255   4 250.7  4386  19.84 18.26   3.95        10.31
+261   4 251.2  4393  19.83 18.18   4.11        10.32
+267   4 251.4  4399  19.83 18.18   4.11        10.33
+273   4 253.4  4339  19.82 18.18   4.11        10.34
+279   4 251.1  4340  19.83 18.19   4.09        10.33
+285   4   249  4339  19.83 18.19   4.09        10.33
+291   4 250.8  4340  19.83 18.19   4.09        10.33
+297   4 250.6  4334  19.83 18.19   4.09        10.33
+303   4 250.3  4322  19.83 18.19   4.09        10.32
+309   4 248.2  4309  19.84 18.19   4.08        10.32
+315   4 248.5  4306  19.84  18.2   4.04        10.33
+321   4 252.8  4307  19.84 18.19   4.05        10.34
+327   4 248.5  4303  19.82 18.18   4.04        10.33
+333   4 250.2  4302  19.83 18.16   4.04        10.33
+339   4 227.9  4301  19.81 18.15   4.04        10.34
+345   4   251  4305  19.82 18.16   4.04        10.34
+351   4   280  4301  19.82 18.16   4.04        10.34
+357   4 255.3  4301  19.82 18.16   4.04        10.35
+363   4   249  4299  19.81 18.15   4.05        10.36
+369   4 249.3  4295  19.81 18.15   4.04        10.34
+375   4 248.6  4291  19.82 18.16   4.03        10.34
+381   4 252.4  4290  19.82 18.16   3.93        10.24
+387   4 257.2  4290  19.83 18.17   3.86        10.13
+393   4 253.5  4326  19.83 18.17   3.85        10.14
+399   4 254.2  4331  19.82 18.16   3.87        10.15
+406   4   253  4333  19.81 18.16   3.86        10.15
+412   4 252.3  4336  19.81 18.16   3.87        10.15
+418   4   253  4338  19.82 18.16   3.86        10.14
+424   4 253.3  4330  19.83 18.16   3.82         10.1
+430   4 253.8  4331  19.83 18.16   3.83        10.12
+436   4 253.7  4330  19.83 18.16   3.83        10.12
+442   4 254.1  4315  19.83 18.17   3.84        10.13
+448   4 254.4  4310  19.83 18.17   3.83        10.12
+454   4 257.4  4312  19.83 18.17   3.84        10.11
+460   4 252.9  4315  19.83 18.17   3.83        10.11
+466   4   252  4312  19.83 18.17   3.83        10.11
+472   4 251.2  4347  19.84 18.18   3.83        10.12
+478   4 222.9  4279  19.84 18.18   3.82        10.11
+484   3 290.1  4299  19.85 18.19   3.84        10.11
+490   4 249.9  4283  19.85 18.19   3.83        10.12
+496   4 252.8  4305  19.84 18.17   3.84        10.12
+502   4 254.8  4279  19.84 18.17   3.82        10.12
+508   4 254.7  4264  19.85 18.18   3.81         10.1
+514   4 256.1  4267  19.85 18.18    3.8        10.06
+520   4 252.2  4288  19.85 18.18   3.81        10.08
+526   4 252.9  4277  19.85 18.18   3.81        10.09
+532   4 253.7  4258  19.85 18.18   3.82         10.1
+538   4 255.2  4271  19.85 18.18   3.81         10.1
+544   4 253.3  4274  19.85 18.18   3.81         10.1
+550   4 253.4  4270  19.84 18.18   3.81         10.1
+556   4 253.8  4273  19.85 18.18    3.8         10.1
+562   4 255.4  4265  19.85 18.18   3.97        10.11
+568   4 252.8  4270  19.85 18.18   3.99        10.11
+574   4 251.7  4274  19.85 18.18   3.97        10.11
+580   4 253.7  4276  19.84 18.18   3.97        10.12
+586   4   253  4272  19.84 18.18   3.97        10.12
+592   4 254.2  4273  19.84 18.18   3.98        10.13
+598   4 253.3  4265  19.83 18.17   3.98        10.13
+604   4 251.3  4262  19.83 18.17   3.98        10.14
+610   4 253.8  4235  19.83 18.17      4        10.13
+616   4 253.4  4230  19.82 18.16      4        10.14
+622   4 252.1  4232  19.83 18.17   3.99        10.13
+628   4 253.7  4237  19.83 18.17   3.99        10.13
+634   4 255.2  4236  19.84 18.17   3.99        10.13
+640   4 252.4  4237  19.84 18.18   3.98        10.12
+646   4 252.7  4238  19.84 18.17   3.99        10.13
+652   4 251.6  4241  19.85 18.18   3.99        10.12
+658   4 253.9  4236  19.84 18.16   3.99        10.13
+665   4 252.1  4233  19.83 18.16      4        10.14
+671   4 253.6  4238  19.83 18.16      4        10.13
+
+
+
+window = world+600 s (from t=68 s) ；采样 111 条，窗内 101 条
+median_ms_world = 253.3 （filter v2，101 条世界样本，中位 draws=4303）；max_priv_gb = 20.59 ；min_free_gb = 2.75 ；min_commit_free_gb = 9.53 ；leftover_procs = 0
+详情写入 bench-v3.csv
+bench_EXIT=0
+v3_lines_before=19 after=20
+row=2026-11-27 12:00:47,z2-batchoff-2,600,800,111,68,101,ms>40&draws>=200,253.3,4303,20.59,2.75,9.53,0,run-z2-batchoff-2-1127-114932.log
+world_samples=101 median_ms_world=[253.3] median_draws=[4303] leftover_procs=[0]
+post_run_leftover=0
+=== smoke end 2026-11-27 12:00:50
+SMOKE=PASS
+z2-batchoff-2 EXIT=0
+leftover=0
+---- z2-memtight-1 at 12:00:58
+=== smoke label=z2-memtight-1 start 2026-11-27 12:00:59
+exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
+commit_limit_gb=49.84 commit_free_gb=34.67
+label=z2-memtight-1-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+start=2026-11-27 12:01:01
+pid=24284
+stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-memtight-1-preflight-1127-120101.log
+stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-memtight-1-preflight-1127-120101.err.log
+t=  5s draws=1 ms=38.3 title=Americas | VIctory 26 fps 38.3 ms/frame 1 draws/frame
+t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 20s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 25s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 30s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 35s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 40s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 45s draws=9 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 9 draws/frame
+t= 50s draws=10 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 10 draws/frame
+t= 55s draws=8 ms=33.8 title=Americas | VIctory 30 fps 33.8 ms/frame 8 draws/frame
+t= 60s draws=12 ms=37.2 title=Americas | VIctory 27 fps 37.2 ms/frame 12 draws/frame
+t= 65s draws=2439 ms=291.9 title=Americas | VIctory 3 fps 291.9 ms/frame 2439 draws/frame
+>> ENTERED at t=65 s draws=2439
+t= 70s draws=1714 ms=343.7 title=Americas | VIctory 3 fps 343.7 ms/frame 1714 draws/frame
+t= 75s draws=4131 ms=287.5 title=Americas | VIctory 3 fps 287.5 ms/frame 4131 draws/frame
+loop_s=15 samples=15
+entered=True
+entered_at_s=65
+entered_draws=2439
+samples=15
+leftover=0
+end=2026-11-27 12:02:29
+preflight_EXIT=0
+extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space;VICTORY_MEMORY_CARD_MB=1536;VICTORY_KEEP_SNAPSHOTS_MB=64;VICTORY_INPLACE_MB=512;VICTORY_TEXTURE_BUDGET_MB=768
+label=z2-memtight-1 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+  t=   8s fps=    30 ms=    33.3 draws=     1 priv=   6.5 commitfree= 23.13
+  t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree=  23.2
+  t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.93 commitfree= 23.16
+  t=  26s fps=    30 ms=    33.3 draws=     8 priv=  6.93 commitfree= 23.19
+  t=  32s fps=    30 ms=    33.3 draws=     4 priv=   7.2 commitfree= 22.91
+  t=  38s fps=    30 ms=    33.3 draws=     4 priv=   7.2 commitfree= 22.91
+  t=  44s fps=    30 ms=    33.3 draws=     9 priv=   7.2 commitfree= 22.74
+  t=  50s fps=    30 ms=    33.3 draws=     9 priv=  7.75 commitfree= 22.32
+  t=  56s fps=    29 ms=    34.6 draws=     9 priv=  8.89 commitfree= 20.98
+  t=  62s fps=    28 ms=    35.4 draws=     9 priv= 10.74 commitfree= 15.74
+  t=  68s fps=     4 ms=     226 draws=  1703 priv= 15.98 commitfree= 13.91
+  >> 进世界：draws=1703，世界窗自 t=68 s 起，采 600 s
+  t=  74s fps=     4 ms=   242.9 draws=  3016 priv= 16.94 commitfree= 12.92
+  t=  80s fps=     4 ms=   275.2 draws=  3022 priv= 17.21 commitfree= 12.77
+  t=  86s fps=     4 ms=   284.9 draws=  1562 priv= 17.49 commitfree= 12.51
+  t=  92s fps=     3 ms=   295.2 draws=  3522 priv= 18.04 commitfree= 12.05
+  t=  98s fps=     4 ms=   255.3 draws=  3212 priv= 18.19 commitfree= 12.73
+  t= 104s fps=     3 ms=   290.1 draws=  4640 priv= 17.13 commitfree= 12.97
+  t= 110s fps=     4 ms=   276.7 draws=  1655 priv= 17.17 commitfree=    13
+  t= 116s fps=     3 ms=   305.8 draws=  2994 priv= 17.22 commitfree=  12.9
+  t= 122s fps=     4 ms=   249.5 draws=  1206 priv= 17.29 commitfree= 12.86
+  t= 128s fps=     3 ms=   299.5 draws=  1205 priv= 17.39 commitfree= 12.71
+  t= 134s fps=     4 ms=   260.4 draws=  3919 priv= 17.36 commitfree= 12.82
+  t= 140s fps=     4 ms=   235.8 draws=  4822 priv= 17.05 commitfree=  13.3
+  t= 146s fps=     4 ms=   240.8 draws=  4487 priv= 16.79 commitfree= 13.36
+  t= 152s fps=     4 ms=   236.5 draws=  4389 priv= 16.71 commitfree= 13.36
+  t= 158s fps=     5 ms=   207.3 draws=  4383 priv= 16.72 commitfree= 13.49
+  t= 164s fps=     4 ms=     231 draws=  4392 priv= 16.68 commitfree= 13.47
+  t= 170s fps=     4 ms=   229.8 draws=  4376 priv= 16.63 commitfree= 13.51
+  t= 176s fps=     4 ms=   230.2 draws=  4385 priv= 16.63 commitfree=  13.5
+  t= 182s fps=     4 ms=   230.7 draws=  4395 priv= 16.63 commitfree=  13.5
+  t= 188s fps=     4 ms=   233.5 draws=  4392 priv= 16.64 commitfree=  13.5
+  t= 194s fps=     4 ms=   230.9 draws=  4373 priv= 16.64 commitfree=  13.5
+  t= 200s fps=     4 ms=   231.5 draws=  4370 priv= 16.64 commitfree= 13.49
+  t= 206s fps=     4 ms=   230.5 draws=  4344 priv= 16.65 commitfree= 13.53
+  t= 212s fps=     4 ms=   231.3 draws=  4326 priv= 16.64 commitfree= 13.65
+  t= 219s fps=     4 ms=   233.9 draws=  4270 priv= 16.65 commitfree= 13.65
+  t= 225s fps=     4 ms=   229.5 draws=  4274 priv= 16.64 commitfree= 13.67
+  t= 231s fps=     4 ms=   230.4 draws=  4284 priv= 16.63 commitfree= 13.67
+  t= 237s fps=     4 ms=   230.8 draws=  4309 priv= 16.63 commitfree= 13.67
+  t= 243s fps=     4 ms=   231.2 draws=  4295 priv= 16.63 commitfree= 13.66
+  t= 249s fps=     4 ms=   231.4 draws=  4289 priv= 16.65 commitfree= 13.65
+  t= 255s fps=     4 ms=   231.7 draws=  4281 priv= 16.66 commitfree= 13.64
+  t= 261s fps=     4 ms=   230.9 draws=  4247 priv= 16.66 commitfree= 13.64
+  t= 267s fps=     4 ms=   231.3 draws=  4226 priv= 16.66 commitfree= 13.63
+  t= 273s fps=     4 ms=   230.8 draws=  4236 priv= 16.67 commitfree= 13.62
+  t= 279s fps=     4 ms=   229.1 draws=  4231 priv= 16.67 commitfree= 13.63
+  t= 285s fps=     4 ms=   231.2 draws=  4194 priv= 16.66 commitfree= 13.64
+  t= 291s fps=     4 ms=   231.4 draws=  4203 priv= 16.66 commitfree= 13.63
+  t= 297s fps=     4 ms=   229.1 draws=  4202 priv= 16.67 commitfree= 13.63
+  t= 303s fps=     4 ms=   231.3 draws=  4193 priv= 16.67 commitfree= 13.66
+  t= 309s fps=     4 ms=   231.2 draws=  4192 priv= 16.67 commitfree= 13.61
+  t= 315s fps=     4 ms=   227.5 draws=  4191 priv= 16.67 commitfree= 13.61
+  t= 321s fps=     4 ms=   227.6 draws=  4193 priv= 16.66 commitfree= 13.61
+  t= 327s fps=     4 ms=   229.7 draws=  4188 priv= 16.67 commitfree= 13.62
+  t= 333s fps=     4 ms=   232.2 draws=  4192 priv= 16.67 commitfree= 13.62
+  t= 339s fps=     4 ms=     234 draws=  4185 priv= 16.65 commitfree= 13.63
+  t= 345s fps=     4 ms=   232.5 draws=  4194 priv= 16.66 commitfree= 13.64
+  t= 351s fps=     4 ms=     233 draws=  4199 priv= 16.66 commitfree= 13.63
+  t= 357s fps=     4 ms=   231.8 draws=  4202 priv= 16.65 commitfree= 13.64
+  t= 363s fps=     4 ms=   232.2 draws=  4195 priv= 16.66 commitfree= 13.63
+  t= 369s fps=     4 ms=   231.8 draws=  4209 priv= 16.67 commitfree= 13.62
+  t= 375s fps=     4 ms=   232.5 draws=  4202 priv= 16.68 commitfree= 13.62
+  t= 381s fps=     4 ms=   233.2 draws=  4237 priv= 16.67 commitfree= 13.62
+  t= 387s fps=     4 ms=   232.8 draws=  4228 priv= 16.68 commitfree= 13.62
+  t= 393s fps=     4 ms=   233.4 draws=  4233 priv= 16.68 commitfree= 13.62
+  t= 399s fps=     4 ms=   231.3 draws=  4227 priv= 16.68 commitfree=  13.6
+  t= 405s fps=     4 ms=   233.7 draws=  4236 priv= 16.68 commitfree= 13.61
+  t= 411s fps=     4 ms=   233.2 draws=  4221 priv= 16.67 commitfree= 13.63
+  t= 417s fps=     4 ms=   233.2 draws=  4221 priv= 16.67 commitfree= 13.62
+  t= 423s fps=     4 ms=     234 draws=  4209 priv= 16.68 commitfree= 13.62
+  t= 429s fps=     4 ms=   233.2 draws=  4216 priv= 16.68 commitfree= 13.63
+  t= 435s fps=     4 ms=   233.2 draws=  4199 priv= 16.68 commitfree= 13.63
+  t= 441s fps=     4 ms=   230.2 draws=  4259 priv= 16.67 commitfree= 13.62
+  t= 447s fps=     4 ms=   231.8 draws=  4269 priv= 16.67 commitfree= 13.63
+  t= 453s fps=     4 ms=     230 draws=  4213 priv= 16.67 commitfree= 13.64
+  t= 459s fps=     4 ms=   228.3 draws=  4210 priv= 16.68 commitfree= 13.63
+  t= 466s fps=     4 ms=   232.8 draws=  4210 priv= 16.68 commitfree= 13.61
+  t= 472s fps=     4 ms=     231 draws=  4191 priv= 16.69 commitfree=  13.6
+  t= 478s fps=     4 ms=   232.2 draws=  4179 priv=  16.7 commitfree= 13.59
+  t= 484s fps=     4 ms=   232.9 draws=  4182 priv=  16.7 commitfree= 13.59
+  t= 490s fps=     4 ms=   233.3 draws=  4179 priv= 16.69 commitfree= 13.59
+  t= 496s fps=     4 ms=   234.3 draws=  4176 priv= 16.68 commitfree= 13.61
+  t= 502s fps=     4 ms=   232.6 draws=  4186 priv= 16.69 commitfree=  13.6
+  t= 508s fps=     4 ms=   232.5 draws=  4172 priv=  16.7 commitfree= 13.59
+  t= 514s fps=     4 ms=   231.2 draws=  4173 priv=  16.7 commitfree= 13.59
+  t= 520s fps=     4 ms=   233.1 draws=  4179 priv=  16.7 commitfree=  13.6
+  t= 526s fps=     4 ms=   231.7 draws=  4177 priv=  16.7 commitfree= 13.59
+  t= 532s fps=     4 ms=   231.5 draws=  4177 priv=  16.7 commitfree=  13.6
+  t= 538s fps=     4 ms=   233.3 draws=  4173 priv=  16.7 commitfree= 13.58
+  t= 544s fps=     4 ms=   233.5 draws=  4174 priv=  16.7 commitfree= 13.58
+  t= 550s fps=     4 ms=   235.7 draws=  4172 priv= 16.71 commitfree= 13.58
+  t= 556s fps=     4 ms=   231.1 draws=  4170 priv= 16.71 commitfree= 13.57
+  t= 562s fps=     4 ms=   241.1 draws=  4154 priv= 16.73 commitfree= 13.32
+  t= 568s fps=     4 ms=   232.1 draws=  4138 priv= 16.74 commitfree= 13.32
+  t= 574s fps=     4 ms=   231.1 draws=  4144 priv=  16.7 commitfree= 13.35
+  t= 580s fps=     4 ms=   232.4 draws=  4148 priv=  16.7 commitfree= 13.33
+  t= 586s fps=     4 ms=   234.8 draws=  4146 priv= 16.69 commitfree= 13.43
+  t= 592s fps=     4 ms=     237 draws=  4154 priv=  16.7 commitfree= 13.34
+  t= 598s fps=     4 ms=   234.1 draws=  4147 priv= 16.69 commitfree= 13.34
+  t= 604s fps=     4 ms=   230.1 draws=  4141 priv=  16.7 commitfree= 13.34
+  t= 610s fps=     4 ms=   239.2 draws=  4138 priv= 16.72 commitfree= 13.33
+  t= 616s fps=     4 ms=   233.9 draws=  4147 priv= 16.71 commitfree= 13.35
+  t= 622s fps=     4 ms=     235 draws=  4153 priv=  16.7 commitfree= 13.36
+  t= 628s fps=     4 ms=   236.8 draws=  4149 priv=  16.7 commitfree= 13.36
+  t= 634s fps=     4 ms=   232.7 draws=  4151 priv=  16.7 commitfree= 13.36
+  t= 640s fps=     4 ms=   232.6 draws=  4146 priv=  16.7 commitfree= 13.36
+  t= 646s fps=     4 ms=   232.4 draws=  4136 priv= 16.71 commitfree= 13.36
+  t= 652s fps=     4 ms=   236.7 draws=  4143 priv= 16.72 commitfree= 13.35
+  t= 658s fps=     4 ms=   240.7 draws=  4134 priv= 16.71 commitfree= 13.28
+  t= 664s fps=     4 ms=   235.9 draws=  4138 priv= 16.71 commitfree= 13.34
+  t= 670s fps=     4 ms=   238.9 draws=  4147 priv= 16.71 commitfree= 13.32
+
+  T Fps    Ms Draws PrivGB RssGB FreeGB CommitFreeGB
+  - ---    -- ----- ------ ----- ------ ------------
+  8  30  33.3     1    6.5  4.03  16.86        23.13
+ 14  30  33.3     8   6.94  4.52  16.87         23.2
+ 20  30  33.3     8   6.93  4.38  16.98        23.16
+ 26  30  33.3     8   6.93  4.38  17.01        23.19
+ 32  30  33.3     4    7.2  4.93  16.31        22.91
+ 38  30  33.3     4    7.2  4.93  16.32        22.91
+ 44  30  33.3     9    7.2  4.93   15.9        22.74
+ 50  30  33.3     9   7.75  5.69  15.43        22.32
+ 56  29  34.6     9   8.89  6.99  12.01        20.98
+ 62  28  35.4     9  10.74 10.19   7.38        15.74
+ 68   4   226  1703  15.98 16.37   5.35        13.91
+ 74   4 242.9  3016  16.94 17.68   4.43        12.92
+ 80   4 275.2  3022  17.21 18.39   3.92        12.77
+ 86   4 284.9  1562  17.49  18.7   3.69        12.51
+ 92   3 295.2  3522  18.04  19.4   3.24        12.05
+ 98   4 255.3  3212  18.19 19.72   3.26        12.73
+104   3 290.1  4640  17.13 19.47   3.48        12.97
+110   4 276.7  1655  17.17 19.58   3.52           13
+116   3 305.8  2994  17.22 19.82   3.42         12.9
+122   4 249.5  1206  17.29 19.58   3.43        12.86
+128   3 299.5  1205  17.39  19.6   3.39        12.71
+134   4 260.4  3919  17.36 18.73   3.52        12.82
+140   4 235.8  4822  17.05 18.62   3.99         13.3
+146   4 240.8  4487  16.79 18.23    4.1        13.36
+152   4 236.5  4389  16.71 18.09   4.12        13.36
+158   5 207.3  4383  16.72  18.1   4.22        13.49
+164   4   231  4392  16.68 18.05   4.22        13.47
+170   4 229.8  4376  16.63    18   4.26        13.51
+176   4 230.2  4385  16.63 17.99   4.26         13.5
+182   4 230.7  4395  16.63 17.99   4.25         13.5
+188   4 233.5  4392  16.64    18   4.25         13.5
+194   4 230.9  4373  16.64    18   4.24         13.5
+200   4 231.5  4370  16.64 17.99   4.24        13.49
+206   4 230.5  4344  16.65    18   4.26        13.53
+212   4 231.3  4326  16.64 17.99   4.38        13.65
+219   4 233.9  4270  16.65 17.99   4.38        13.65
+225   4 229.5  4274  16.64 17.98    4.4        13.67
+231   4 230.4  4284  16.63 17.98    4.4        13.67
+237   4 230.8  4309  16.63 17.97    4.4        13.67
+243   4 231.2  4295  16.63 17.96   4.41        13.66
+249   4 231.4  4289  16.65 17.98   4.39        13.65
+255   4 231.7  4281  16.66 17.98   4.38        13.64
+261   4 230.9  4247  16.66 17.98   4.38        13.64
+267   4 231.3  4226  16.66 17.99   4.38        13.63
+273   4 230.8  4236  16.67 17.99   4.38        13.62
+279   4 229.1  4231  16.67 17.96   4.41        13.63
+285   4 231.2  4194  16.66 17.95   4.42        13.64
+291   4 231.4  4203  16.66 17.94   4.43        13.63
+297   4 229.1  4202  16.67 17.92   4.45        13.63
+303   4 231.3  4193  16.67 17.89   4.53        13.66
+309   4 231.2  4192  16.67 17.85   4.49        13.61
+315   4 227.5  4191  16.67 17.85   4.49        13.61
+321   4 227.6  4193  16.66 17.86   4.48        13.61
+327   4 229.7  4188  16.67 17.86   4.52        13.62
+333   4 232.2  4192  16.67 17.86   4.52        13.62
+339   4   234  4185  16.65 17.85   4.52        13.63
+345   4 232.5  4194  16.66 17.86   4.52        13.64
+351   4   233  4199  16.66 17.86   4.51        13.63
+357   4 231.8  4202  16.65 17.85   4.52        13.64
+363   4 232.2  4195  16.66 17.85   4.52        13.63
+369   4 231.8  4209  16.67 17.86   4.51        13.62
+375   4 232.5  4202  16.68 17.87   4.52        13.62
+381   4 233.2  4237  16.67 17.86   4.51        13.62
+387   4 232.8  4228  16.68 17.84   4.61        13.62
+393   4 233.4  4233  16.68 17.84    4.6        13.62
+399   4 231.3  4227  16.68 17.85   4.58         13.6
+405   4 233.7  4236  16.68 17.85   4.59        13.61
+411   4 233.2  4221  16.67 17.84   4.61        13.63
+417   4 233.2  4221  16.67 17.84   4.61        13.62
+423   4   234  4209  16.68 17.85    4.6        13.62
+429   4 233.2  4216  16.68 17.85    4.6        13.63
+435   4 233.2  4199  16.68 17.85    4.6        13.63
+441   4 230.2  4259  16.67 17.84    4.6        13.62
+447   4 231.8  4269  16.67 17.84   4.61        13.63
+453   4   230  4213  16.67 17.84   4.61        13.64
+459   4 228.3  4210  16.68 17.85    4.6        13.63
+466   4 232.8  4210  16.68 17.84   4.58        13.61
+472   4   231  4191  16.69 17.86   4.57         13.6
+478   4 232.2  4179   16.7 17.87   4.57        13.59
+484   4 232.9  4182   16.7 17.86   4.56        13.59
+490   4 233.3  4179  16.69 17.86   4.55        13.59
+496   4 234.3  4176  16.68 17.85   4.58        13.61
+502   4 232.6  4186  16.69 17.86   4.56         13.6
+508   4 232.5  4172   16.7 17.87   4.55        13.59
+514   4 231.2  4173   16.7 17.87   4.54        13.59
+520   4 233.1  4179   16.7 17.86   4.54         13.6
+526   4 231.7  4177   16.7 17.86   4.55        13.59
+532   4 231.5  4177   16.7 17.86   4.56         13.6
+538   4 233.3  4173   16.7 17.86   4.55        13.58
+544   4 233.5  4174   16.7 17.87   4.54        13.58
+550   4 235.7  4172  16.71 17.87   4.56        13.58
+556   4 231.1  4170  16.71 17.87   4.54        13.57
+562   4 241.1  4154  16.73 17.89   4.39        13.32
+568   4 232.1  4138  16.74  17.9   4.39        13.32
+574   4 231.1  4144   16.7 17.87   4.42        13.35
+580   4 232.4  4148   16.7 17.87    4.4        13.33
+586   4 234.8  4146  16.69 17.85   4.48        13.43
+592   4   237  4154   16.7 17.87   4.42        13.34
+598   4 234.1  4147  16.69 17.85   4.42        13.34
+604   4 230.1  4141   16.7 17.86    4.4        13.34
+610   4 239.2  4138  16.72  17.9   4.41        13.33
+616   4 233.9  4147  16.71  17.9   4.41        13.35
+622   4   235  4153   16.7 17.87   4.43        13.36
+628   4 236.8  4149   16.7 17.88   4.43        13.36
+634   4 232.7  4151   16.7 17.88   4.42        13.36
+640   4 232.6  4146   16.7 17.89   4.42        13.36
+646   4 232.4  4136  16.71 17.89   4.42        13.36
+652   4 236.7  4143  16.72  17.9   4.41        13.35
+658   4 240.7  4134  16.71  17.9   4.33        13.28
+664   4 235.9  4138  16.71  17.9   4.38        13.34
+670   4 238.9  4147  16.71  17.9   4.27        13.32
+
+
+
+window = world+600 s (from t=68 s) ；采样 111 条，窗内 101 条
+median_ms_world = 232.5 （filter v2，101 条世界样本，中位 draws=4193）；max_priv_gb = 18.19 ；min_free_gb = 3.24 ；min_commit_free_gb = 12.05 ；leftover_procs = 0
+详情写入 bench-v3.csv
+bench_EXIT=0
+v3_lines_before=20 after=21
+row=2026-11-27 12:13:44,z2-memtight-1,600,800,111,68,101,ms>40&draws>=200,232.5,4193,18.19,3.24,12.05,0,run-z2-memtight-1-1127-120230.log
+world_samples=101 median_ms_world=[232.5] median_draws=[4193] leftover_procs=[0]
+post_run_leftover=0
+=== smoke end 2026-11-27 12:13:48
+SMOKE=PASS
+z2-memtight-1 EXIT=0
+leftover=0
+---- z2-memtight-2 at 12:13:56
+=== smoke label=z2-memtight-2 start 2026-11-27 12:13:56
+exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
+commit_limit_gb=49.84 commit_free_gb=34.76
+label=z2-memtight-2-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+start=2026-11-27 12:13:59
+pid=3840
+stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-memtight-2-preflight-1127-121359.log
+stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-memtight-2-preflight-1127-121359.err.log
+t=  5s draws=1 ms=33.6 title=Americas | VIctory 30 fps 33.6 ms/frame 1 draws/frame
+t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 20s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 25s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 30s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 35s draws=4 ms=33.4 title=Americas | VIctory 30 fps 33.4 ms/frame 4 draws/frame
+t= 40s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 45s draws=9 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 9 draws/frame
+t= 50s draws=10 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 10 draws/frame
+t= 55s draws=8 ms=40 title=Americas | VIctory 25 fps 40.0 ms/frame 8 draws/frame
+t= 60s draws=12 ms=37.9 title=Americas | VIctory 26 fps 37.9 ms/frame 12 draws/frame
+t= 65s draws=294 ms=175.2 title=Americas | VIctory 6 fps 175.2 ms/frame 294 draws/frame
+t= 70s draws=1687 ms=355 title=Americas | VIctory 3 fps 355.0 ms/frame 1687 draws/frame
+>> ENTERED at t=70 s draws=1687
+t= 75s draws=3103 ms=279.7 title=Americas | VIctory 4 fps 279.7 ms/frame 3103 draws/frame
+t= 80s draws=3631 ms=429.6 title=Americas | VIctory 2 fps 429.6 ms/frame 3631 draws/frame
+loop_s=16 samples=16
+entered=True
+entered_at_s=70
+entered_draws=1687
+samples=16
+leftover=0
+end=2026-11-27 12:15:27
+preflight_EXIT=0
+extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space;VICTORY_MEMORY_CARD_MB=1536;VICTORY_KEEP_SNAPSHOTS_MB=64;VICTORY_INPLACE_MB=512;VICTORY_TEXTURE_BUDGET_MB=768
+label=z2-memtight-2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+  t=   9s fps=    24 ms=    42.1 draws=     1 priv=  6.17 commitfree= 18.79
+  t=  15s fps=    30 ms=    33.3 draws=     8 priv=  6.99 commitfree= 23.11
+  t=  21s fps=    30 ms=    33.4 draws=     8 priv=  6.96 commitfree= 23.14
+  t=  27s fps=    30 ms=    33.3 draws=     8 priv=  6.96 commitfree= 22.81
+  t=  33s fps=    30 ms=    33.3 draws=     4 priv=  7.26 commitfree= 22.45
+  t=  39s fps=    30 ms=    33.3 draws=     4 priv=  7.26 commitfree= 22.85
+  t=  45s fps=    30 ms=    33.3 draws=     9 priv=  7.33 commitfree= 22.85
+  t=  51s fps=    30 ms=    33.3 draws=     9 priv=  7.73 commitfree= 22.32
+  t=  57s fps=    30 ms=    33.8 draws=     9 priv=  8.85 commitfree= 21.17
+  t=  63s fps=    27 ms=    36.8 draws=    11 priv= 11.55 commitfree= 15.57
+  t=  69s fps=     3 ms=   360.7 draws=  2267 priv= 15.92 commitfree=  13.9
+  >> 进世界：draws=2267，世界窗自 t=69 s 起，采 600 s
+  t=  75s fps=     4 ms=   270.1 draws=  4480 priv= 16.78 commitfree= 13.12
+  t=  81s fps=     4 ms=   250.7 draws=  2681 priv= 16.99 commitfree= 13.07
+  t=  87s fps=     4 ms=   279.5 draws=  1419 priv= 17.46 commitfree= 12.35
+  t=  93s fps=     4 ms=   279.5 draws=  3564 priv= 17.83 commitfree= 12.34
+  t=  99s fps=     3 ms=   316.8 draws=  3614 priv= 18.06 commitfree= 11.92
+  t= 105s fps=     3 ms=   333.7 draws=  4165 priv= 18.25 commitfree= 11.74
+  t= 111s fps=     3 ms=   343.8 draws=  1605 priv= 18.28 commitfree= 11.73
+  t= 117s fps=     3 ms=   303.8 draws=  3439 priv= 17.53 commitfree= 12.55
+  t= 123s fps=     4 ms=   270.5 draws=  1252 priv= 17.44 commitfree= 12.74
+  t= 129s fps=     4 ms=   285.4 draws=  6104 priv= 17.43 commitfree= 12.67
+  t= 135s fps=     4 ms=   255.2 draws=  5663 priv= 17.34 commitfree= 12.78
+  t= 141s fps=     4 ms=     249 draws=  4810 priv= 17.11 commitfree= 13.09
+  t= 148s fps=     4 ms=   238.8 draws=  4435 priv=  16.9 commitfree= 13.24
+  t= 154s fps=     4 ms=   236.3 draws=  4347 priv= 16.78 commitfree= 13.34
+  t= 160s fps=     4 ms=   275.7 draws=  4331 priv= 16.77 commitfree= 13.38
+  t= 166s fps=     4 ms=   235.7 draws=  4329 priv= 16.71 commitfree= 13.44
+  t= 172s fps=     4 ms=   234.4 draws=  4338 priv=  16.7 commitfree= 13.43
+  t= 178s fps=     1 ms=  1505.5 draws=  4326 priv= 16.72 commitfree= 13.41
+  t= 184s fps=     1 ms=  1506.4 draws=  4328 priv= 16.71 commitfree= 13.42
+  t= 190s fps=     4 ms=   237.6 draws=  4355 priv= 16.76 commitfree= 13.36
+  t= 196s fps=     4 ms=   234.8 draws=  4351 priv= 16.76 commitfree= 13.38
+  t= 202s fps=     4 ms=   236.1 draws=  4340 priv= 16.75 commitfree= 13.38
+  t= 208s fps=     4 ms=   240.2 draws=  4332 priv= 16.75 commitfree= 13.38
+  t= 214s fps=     4 ms=   240.8 draws=  4336 priv= 16.75 commitfree= 13.38
+  t= 220s fps=     4 ms=   238.9 draws=  4312 priv= 16.76 commitfree= 13.37
+  t= 226s fps=     4 ms=   235.3 draws=  4289 priv= 16.76 commitfree= 13.44
+  t= 232s fps=     4 ms=   236.5 draws=  4263 priv= 16.76 commitfree= 13.45
+  t= 238s fps=     4 ms=   234.4 draws=  4254 priv= 16.76 commitfree= 13.44
+  t= 244s fps=     4 ms=   235.5 draws=  4257 priv= 16.76 commitfree= 13.44
+  t= 250s fps=     4 ms=   236.1 draws=  4293 priv= 16.76 commitfree= 13.43
+  t= 256s fps=     4 ms=   235.3 draws=  4299 priv= 16.77 commitfree= 13.44
+  t= 262s fps=     4 ms=   235.3 draws=  4269 priv= 16.77 commitfree= 13.44
+  t= 268s fps=     4 ms=   235.3 draws=  4228 priv= 16.77 commitfree= 13.44
+  t= 274s fps=     4 ms=   233.5 draws=  4170 priv= 16.78 commitfree= 13.42
+  t= 280s fps=     4 ms=   235.7 draws=  4174 priv= 16.79 commitfree= 13.41
+  t= 286s fps=     4 ms=   235.6 draws=  4177 priv= 16.79 commitfree= 13.42
+  t= 292s fps=     4 ms=   235.6 draws=  4170 priv= 16.78 commitfree= 13.42
+  t= 298s fps=     4 ms=   233.5 draws=  4164 priv= 16.78 commitfree= 13.42
+  t= 304s fps=     4 ms=   236.3 draws=  4160 priv= 16.79 commitfree= 13.41
+  t= 310s fps=     4 ms=   235.8 draws=  4163 priv=  16.8 commitfree= 13.41
+  t= 316s fps=     4 ms=   234.7 draws=  4171 priv=  16.8 commitfree= 13.39
+  t= 322s fps=     4 ms=   234.2 draws=  4166 priv= 16.79 commitfree=  13.4
+  t= 328s fps=     4 ms=   235.1 draws=  4165 priv= 16.79 commitfree=  13.4
+  t= 334s fps=     4 ms=   233.4 draws=  4155 priv= 16.78 commitfree= 13.42
+  t= 340s fps=     4 ms=   233.4 draws=  4161 priv= 16.78 commitfree= 13.42
+  t= 346s fps=     4 ms=   234.2 draws=  4166 priv= 16.78 commitfree= 13.41
+  t= 352s fps=     4 ms=   234.9 draws=  4174 priv= 16.78 commitfree= 13.41
+  t= 358s fps=     4 ms=   234.2 draws=  4173 priv= 16.78 commitfree= 13.41
+  t= 364s fps=     4 ms=   232.8 draws=  4173 priv= 16.78 commitfree= 13.41
+  t= 370s fps=     4 ms=   234.4 draws=  4187 priv= 16.78 commitfree= 13.41
+  t= 377s fps=     4 ms=   234.3 draws=  4179 priv= 16.78 commitfree= 13.42
+  t= 383s fps=     4 ms=     230 draws=  4184 priv= 16.78 commitfree= 13.48
+  t= 389s fps=     4 ms=   235.6 draws=  4176 priv= 16.78 commitfree= 13.38
+  t= 395s fps=     4 ms=     240 draws=  4212 priv= 16.78 commitfree= 13.38
+  t= 401s fps=     4 ms=   237.1 draws=  4217 priv= 16.79 commitfree= 13.39
+  t= 407s fps=     4 ms=     235 draws=  4217 priv= 16.78 commitfree= 13.41
+  t= 413s fps=     4 ms=   236.7 draws=  4216 priv=  16.8 commitfree= 13.39
+  t= 419s fps=     4 ms=   236.3 draws=  4209 priv=  16.8 commitfree= 13.39
+  t= 425s fps=     4 ms=   237.1 draws=  4214 priv=  16.8 commitfree= 13.39
+  t= 431s fps=     4 ms=     236 draws=  4209 priv=  16.8 commitfree=  13.4
+  t= 437s fps=     4 ms=   235.9 draws=  4202 priv=  16.8 commitfree=  13.4
+  t= 443s fps=     4 ms=   237.7 draws=  4211 priv= 16.81 commitfree=  13.4
+  t= 449s fps=     4 ms=   242.3 draws=  4205 priv= 16.81 commitfree=  13.4
+  t= 455s fps=     4 ms=   236.9 draws=  4235 priv=  16.8 commitfree= 13.41
+  t= 461s fps=     4 ms=   237.4 draws=  4240 priv=  16.8 commitfree= 13.42
+  t= 467s fps=     4 ms=     236 draws=  4178 priv= 16.79 commitfree= 13.42
+  t= 473s fps=     4 ms=   236.1 draws=  4199 priv=  16.8 commitfree= 13.42
+  t= 479s fps=     4 ms=   236.6 draws=  4162 priv= 16.81 commitfree=  13.4
+  t= 485s fps=     4 ms=   237.2 draws=  4170 priv= 16.82 commitfree=  13.4
+  t= 491s fps=     4 ms=   236.4 draws=  4142 priv= 16.81 commitfree= 13.41
+  t= 497s fps=     4 ms=     236 draws=  4135 priv= 16.81 commitfree=  13.4
+  t= 503s fps=     4 ms=   239.7 draws=  4138 priv= 16.82 commitfree= 13.54
+  t= 509s fps=     4 ms=   237.6 draws=  4133 priv= 16.82 commitfree= 13.54
+  t= 515s fps=     4 ms=   235.8 draws=  4159 priv= 16.82 commitfree= 13.53
+  t= 521s fps=     4 ms=   237.6 draws=  4143 priv= 16.82 commitfree= 13.54
+  t= 527s fps=     4 ms=     240 draws=  4139 priv= 16.82 commitfree= 13.55
+  t= 533s fps=     4 ms=   237.7 draws=  4156 priv= 16.83 commitfree= 13.55
+  t= 539s fps=     4 ms=   237.5 draws=  4160 priv= 16.82 commitfree= 13.55
+  t= 545s fps=     4 ms=   237.9 draws=  4149 priv= 16.82 commitfree= 13.55
+  t= 551s fps=     4 ms=   242.2 draws=  4140 priv= 16.83 commitfree= 13.55
+  t= 557s fps=     4 ms=   238.7 draws=  4142 priv= 16.82 commitfree= 13.54
+  t= 563s fps=     4 ms=   238.2 draws=  4149 priv= 16.82 commitfree= 13.54
+  t= 569s fps=     4 ms=   237.3 draws=  4158 priv= 16.82 commitfree= 13.54
+  t= 575s fps=     4 ms=   238.1 draws=  4156 priv= 16.82 commitfree= 13.55
+  t= 581s fps=     4 ms=   236.1 draws=  4149 priv= 16.82 commitfree= 13.52
+  t= 587s fps=     4 ms=   239.9 draws=  4122 priv= 16.82 commitfree= 13.52
+  t= 593s fps=     4 ms=   236.1 draws=  4117 priv= 16.82 commitfree= 13.52
+  t= 600s fps=     4 ms=   237.9 draws=  4118 priv= 16.82 commitfree= 13.52
+  t= 606s fps=     4 ms=   236.2 draws=  4108 priv= 16.83 commitfree= 13.51
+  t= 612s fps=     4 ms=   238.8 draws=  4106 priv= 16.83 commitfree= 13.52
+  t= 618s fps=     4 ms=     239 draws=  4105 priv= 16.83 commitfree= 13.53
+  t= 624s fps=     4 ms=   236.5 draws=  4102 priv= 16.83 commitfree= 13.53
+  t= 630s fps=     4 ms=   238.5 draws=  4106 priv= 16.82 commitfree= 13.52
+  t= 636s fps=     4 ms=     241 draws=  4112 priv= 16.84 commitfree=  13.5
+  t= 642s fps=     4 ms=   238.5 draws=  4103 priv= 16.84 commitfree= 13.51
+  t= 648s fps=     4 ms=   241.5 draws=  4107 priv= 16.83 commitfree= 13.52
+  t= 654s fps=     4 ms=   237.2 draws=  4111 priv= 16.83 commitfree= 13.52
+  t= 660s fps=     4 ms=   239.7 draws=  4108 priv= 16.83 commitfree= 13.51
+  t= 666s fps=     4 ms=   240.1 draws=  4110 priv= 16.83 commitfree= 13.51
+  t= 672s fps=     4 ms=   242.5 draws=  4113 priv= 16.84 commitfree= 13.58
+
+  T Fps     Ms Draws PrivGB RssGB FreeGB CommitFreeGB
+  - ---     -- ----- ------ ----- ------ ------------
+  9  24   42.1     1   6.17  3.86  12.89        18.79
+ 15  30   33.3     8   6.99  4.57  17.13        23.11
+ 21  30   33.4     8   6.96  4.41  17.28        23.14
+ 27  30   33.3     8   6.96  4.41  17.01        22.81
+ 33  30   33.3     4   7.26     5  16.21        22.45
+ 39  30   33.3     4   7.26     5  16.58        22.85
+ 45  30   33.3     9   7.33  5.24  16.18        22.85
+ 51  30   33.3     9   7.73   5.7  15.68        22.32
+ 57  30   33.8     9   8.85  7.02  12.33        21.17
+ 63  27   36.8    11  11.55 11.04   7.48        15.57
+ 69   3  360.7  2267  15.92 16.24   5.42         13.9
+ 75   4  270.1  4480  16.78 17.39   4.83        13.12
+ 81   4  250.7  2681  16.99 18.06   4.58        13.07
+ 87   4  279.5  1419  17.46 18.86   3.82        12.35
+ 93   4  279.5  3564  17.83 19.34   3.68        12.34
+ 99   3  316.8  3614  18.06 19.71   3.31        11.92
+105   3  333.7  4165  18.25 20.13    3.1        11.74
+111   3  343.8  1605  18.28 20.04   3.06        11.73
+117   3  303.8  3439  17.53  20.1   3.24        12.55
+123   4  270.5  1252  17.44 19.84   3.46        12.74
+129   4  285.4  6104  17.43 19.59   3.48        12.67
+135   4  255.2  5663  17.34 18.94   3.65        12.78
+141   4    249  4810  17.11 18.64   3.95        13.09
+148   4  238.8  4435   16.9 18.35   4.15        13.24
+154   4  236.3  4347  16.78 18.18   4.25        13.34
+160   4  275.7  4331  16.77 18.17   4.29        13.38
+166   4  235.7  4329  16.71  18.1   4.35        13.44
+172   4  234.4  4338   16.7 18.07   4.37        13.43
+178   1 1505.5  4326  16.72  18.1   4.34        13.41
+184   1 1506.4  4328  16.71 18.09   4.35        13.42
+190   4  237.6  4355  16.76 18.13    4.3        13.36
+196   4  234.8  4351  16.76 18.13   4.33        13.38
+202   4  236.1  4340  16.75 18.11   4.31        13.38
+208   4  240.2  4332  16.75  17.9   4.66        13.38
+214   4  240.8  4336  16.75  17.9   4.67        13.38
+220   4  238.9  4312  16.76  17.9   4.67        13.37
+226   4  235.3  4289  16.76  17.9   4.68        13.44
+232   4  236.5  4263  16.76 17.89   4.68        13.45
+238   4  234.4  4254  16.76 17.89   4.67        13.44
+244   4  235.5  4257  16.76  17.9   4.67        13.44
+250   4  236.1  4293  16.76  17.9   4.66        13.43
+256   4  235.3  4299  16.77 17.89   4.66        13.44
+262   4  235.3  4269  16.77 17.89   4.67        13.44
+268   4  235.3  4228  16.77 17.88   4.66        13.44
+274   4  233.5  4170  16.78  17.9   4.65        13.42
+280   4  235.7  4174  16.79 17.91   4.64        13.41
+286   4  235.6  4177  16.79 17.91   4.64        13.42
+292   4  235.6  4170  16.78 17.91   4.64        13.42
+298   4  233.5  4164  16.78 17.91   4.64        13.42
+304   4  236.3  4160  16.79 17.92   4.64        13.41
+310   4  235.8  4163   16.8 17.92   4.63        13.41
+316   4  234.7  4171   16.8 17.92   4.62        13.39
+322   4  234.2  4166  16.79 17.91   4.63         13.4
+328   4  235.1  4165  16.79  17.9   4.63         13.4
+334   4  233.4  4155  16.78  17.9   4.63        13.42
+340   4  233.4  4161  16.78  17.9   4.64        13.42
+346   4  234.2  4166  16.78  17.9   4.63        13.41
+352   4  234.9  4174  16.78  17.9   4.62        13.41
+358   4  234.2  4173  16.78  17.9   4.62        13.41
+364   4  232.8  4173  16.78  17.9   4.62        13.41
+370   4  234.4  4187  16.78  17.9   4.62        13.41
+377   4  234.3  4179  16.78  17.9   4.62        13.42
+383   4    230  4184  16.78  17.9   4.67        13.48
+389   4  235.6  4176  16.78 17.89   4.59        13.38
+395   4    240  4212  16.78  17.9   4.58        13.38
+401   4  237.1  4217  16.79  17.9    4.6        13.39
+407   4    235  4217  16.78  17.9   4.61        13.41
+413   4  236.7  4216   16.8  17.9   4.61        13.39
+419   4  236.3  4209   16.8  17.9   4.61        13.39
+425   4  237.1  4214   16.8 17.89    4.6        13.39
+431   4    236  4209   16.8  17.9   4.61         13.4
+437   4  235.9  4202   16.8  17.9    4.6         13.4
+443   4  237.7  4211  16.81 17.91   4.61         13.4
+449   4  242.3  4205  16.81 17.91   4.61         13.4
+455   4  236.9  4235   16.8 17.91   4.62        13.41
+461   4  237.4  4240   16.8  17.9   4.62        13.42
+467   4    236  4178  16.79  17.9   4.63        13.42
+473   4  236.1  4199   16.8 17.91   4.62        13.42
+479   4  236.6  4162  16.81 17.92   4.61         13.4
+485   4  237.2  4170  16.82 17.92   4.61         13.4
+491   4  236.4  4142  16.81 17.92   4.62        13.41
+497   4    236  4135  16.81 17.91   4.62         13.4
+503   4  239.7  4138  16.82 17.91   4.67        13.54
+509   4  237.6  4133  16.82  17.9   4.74        13.54
+515   4  235.8  4159  16.82  17.9   4.73        13.53
+521   4  237.6  4143  16.82  17.9   4.73        13.54
+527   4    240  4139  16.82 17.91   4.74        13.55
+533   4  237.7  4156  16.83 17.91   4.73        13.55
+539   4  237.5  4160  16.82  17.9   4.74        13.55
+545   4  237.9  4149  16.82  17.9   4.74        13.55
+551   4  242.2  4140  16.83 17.91   4.74        13.55
+557   4  238.7  4142  16.82  17.9   4.72        13.54
+563   4  238.2  4149  16.82  17.9   4.73        13.54
+569   4  237.3  4158  16.82  17.9   4.73        13.54
+575   4  238.1  4156  16.82  17.9   4.73        13.55
+581   4  236.1  4149  16.82  17.9   4.65        13.52
+587   4  239.9  4122  16.82 17.91   4.65        13.52
+593   4  236.1  4117  16.82  17.9   4.66        13.52
+600   4  237.9  4118  16.82 17.91   4.65        13.52
+606   4  236.2  4108  16.83 17.92   4.64        13.51
+612   4  238.8  4106  16.83 17.91   4.64        13.52
+618   4    239  4105  16.83 17.91   4.66        13.53
+624   4  236.5  4102  16.83 17.91   4.66        13.53
+630   4  238.5  4106  16.82  17.9   4.61        13.52
+636   4    241  4112  16.84 17.92    4.6         13.5
+642   4  238.5  4103  16.84 17.92   4.61        13.51
+648   4  241.5  4107  16.83 17.92   4.63        13.52
+654   4  237.2  4111  16.83 17.93   4.62        13.52
+660   4  239.7  4108  16.83 17.93   4.61        13.51
+666   4  240.1  4110  16.83 17.93   4.62        13.51
+672   4  242.5  4113  16.84 17.93   4.66        13.58
+
+
+
+window = world+600 s (from t=69 s) ；采样 111 条，窗内 101 条
+median_ms_world = 237.1 （filter v2，101 条世界样本，中位 draws=4170）；max_priv_gb = 18.28 ；min_free_gb = 3.06 ；min_commit_free_gb = 11.73 ；leftover_procs = 0
+详情写入 bench-v3.csv
+bench_EXIT=0
+v3_lines_before=21 after=22
+row=2026-11-27 12:26:49,z2-memtight-2,600,800,111,69,101,ms>40&draws>=200,237.1,4170,18.28,3.06,11.73,0,run-z2-memtight-2-1127-121528.log
+world_samples=101 median_ms_world=[237.1] median_draws=[4170] leftover_procs=[0]
+post_run_leftover=0
+=== smoke end 2026-11-27 12:26:52
+SMOKE=PASS
+z2-memtight-2 EXIT=0
+leftover=0
+=== r02-z2 run done 2026-11-27 12:27:00

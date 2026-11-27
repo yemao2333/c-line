@@ -1,0 +1,135 @@
+=== smoke label=sr-off-2 start 2026-11-27 08:25:00
+exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
+commit_limit_gb=49.84 commit_free_gb=36.05
+label=sr-off-2-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+start=2026-11-27 08:25:03
+pid=2724
+stdout=G:\GTA\cool_fox-优化方案\data\auto-sr-off-2-preflight-1127-082503.log
+stderr=G:\GTA\cool_fox-优化方案\data\auto-sr-off-2-preflight-1127-082503.err.log
+t=  5s draws=1 ms=38.5 title=Americas | VIctory 26 fps 38.5 ms/frame 1 draws/frame
+t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 20s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 25s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 30s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 35s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 40s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 45s draws=9 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 9 draws/frame
+t= 50s draws=9 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 9 draws/frame
+t= 55s draws=10 ms=33.5 title=Americas | VIctory 30 fps 33.5 ms/frame 10 draws/frame
+t= 60s draws=11 ms=43.7 title=Americas | VIctory 23 fps 43.7 ms/frame 11 draws/frame
+t= 65s draws=2177 ms=275.8 title=Americas | VIctory 4 fps 275.8 ms/frame 2177 draws/frame
+>> ENTERED at t=65 s draws=2177
+t= 70s draws=1675 ms=257.1 title=Americas | VIctory 4 fps 257.1 ms/frame 1675 draws/frame
+t= 75s draws=3018 ms=241.1 title=Americas | VIctory 4 fps 241.1 ms/frame 3018 draws/frame
+loop_s=15 samples=15
+entered=True
+entered_at_s=65
+entered_draws=2177
+samples=15
+leftover=0
+end=2026-11-27 08:26:34
+preflight_EXIT=0
+extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=sr-off-2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+  t=   8s fps=    30 ms=    33.3 draws=     1 priv=  6.47 commitfree= 24.45
+  t=  14s fps=    30 ms=    33.3 draws=     4 priv=  7.15 commitfree= 24.26
+  t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.22 commitfree= 24.26
+  t=  26s fps=    30 ms=    33.3 draws=     4 priv=  7.22 commitfree= 24.26
+  t=  32s fps=    30 ms=    33.3 draws=     9 priv=  7.65 commitfree= 23.81
+  t=  38s fps=    30 ms=    33.3 draws=     9 priv=  7.88 commitfree= 22.75
+  t=  44s fps=    31 ms=    32.1 draws=     9 priv= 13.29 commitfree= 18.55
+  t=  50s fps=    28 ms=    35.8 draws=    11 priv= 17.19 commitfree= 13.84
+  t=  56s fps=     3 ms=   362.2 draws=  1717 priv= 18.06 commitfree= 12.58
+  >> 进世界：draws=1717，世界窗自 t=56 s 起，采 200 s
+  t=  62s fps=     3 ms=   306.2 draws=  4200 priv= 18.91 commitfree= 11.85
+  t=  68s fps=     2 ms=   624.3 draws=  2914 priv= 19.35 commitfree= 11.45
+  t=  74s fps=     3 ms=   296.8 draws=  2195 priv= 19.57 commitfree= 11.08
+  t=  80s fps=     3 ms=   354.5 draws=  3655 priv= 20.03 commitfree= 10.85
+  t=  86s fps=     3 ms=   324.1 draws=  3932 priv= 20.17 commitfree= 10.57
+  t=  92s fps=     3 ms=   318.6 draws=  4041 priv=    20 commitfree= 10.78
+  t=  98s fps=     3 ms=   302.5 draws=  1551 priv= 19.83 commitfree= 10.97
+  t= 104s fps=     3 ms=   305.6 draws=  3396 priv= 20.01 commitfree= 10.83
+  t= 110s fps=     4 ms=   254.1 draws=  1078 priv= 20.22 commitfree= 10.61
+  t= 117s fps=     3 ms=   304.6 draws=  5331 priv= 20.34 commitfree= 10.52
+  t= 123s fps=     4 ms=   261.3 draws=  5016 priv= 20.24 commitfree= 10.88
+  t= 129s fps=     3 ms=   291.1 draws=  4834 priv= 19.75 commitfree= 10.85
+  t= 135s fps=     3 ms=   307.7 draws=  4488 priv= 19.66 commitfree= 11.07
+  t= 141s fps=     4 ms=   257.5 draws=  4396 priv= 19.56 commitfree= 11.22
+  t= 147s fps=     3 ms=   294.5 draws=  4406 priv= 19.52 commitfree= 11.24
+  t= 153s fps=     3 ms=   298.1 draws=  4398 priv= 19.48 commitfree= 11.27
+  t= 159s fps=     3 ms=   291.5 draws=  4396 priv= 19.47 commitfree= 11.27
+  t= 165s fps=     3 ms=     292 draws=  4402 priv= 19.47 commitfree=  11.3
+  t= 171s fps=     3 ms=   299.5 draws=  4396 priv= 19.48 commitfree= 11.29
+  t= 177s fps=     3 ms=   296.7 draws=  4404 priv= 19.51 commitfree= 11.27
+  t= 183s fps=     3 ms=     295 draws=  4403 priv= 19.51 commitfree= 11.26
+  t= 189s fps=     3 ms=   311.2 draws=  4393 priv= 19.51 commitfree= 10.95
+  t= 195s fps=     3 ms=   304.1 draws=  4394 priv= 19.51 commitfree= 11.05
+  t= 202s fps=     3 ms=     308 draws=  4400 priv= 19.52 commitfree= 11.07
+  t= 208s fps=     3 ms=   300.1 draws=  4397 priv= 19.52 commitfree= 11.08
+  t= 214s fps=     3 ms=   345.5 draws=  4375 priv= 19.53 commitfree= 10.97
+  t= 220s fps=     3 ms=   296.7 draws=  4312 priv= 19.51 commitfree= 10.99
+  t= 226s fps=     3 ms=   292.9 draws=  4297 priv=  19.5 commitfree= 10.98
+  t= 232s fps=     3 ms=   287.7 draws=  4292 priv= 19.51 commitfree= 11.03
+  t= 238s fps=     3 ms=   287.4 draws=  4312 priv=  19.5 commitfree= 11.13
+  t= 244s fps=     3 ms=   299.8 draws=  4313 priv= 19.52 commitfree= 11.15
+  t= 250s fps=     3 ms=   302.6 draws=  4340 priv= 19.52 commitfree= 10.96
+  t= 256s fps=     3 ms=     293 draws=  4309 priv= 19.52 commitfree= 11.08
+
+  T Fps    Ms Draws PrivGB RssGB FreeGB CommitFreeGB
+  - ---    -- ----- ------ ----- ------ ------------
+  8  30  33.3     1   6.47  3.98  17.53        24.45
+ 14  30  33.3     4   7.15  5.02  16.88        24.26
+ 20  30  33.3     4   7.22  4.93  17.01        24.26
+ 26  30  33.3     4   7.22  4.93     17        24.26
+ 32  30  33.3     9   7.65  5.56  16.27        23.81
+ 38  30  33.3     9   7.88  5.87  15.43        22.75
+ 44  31  32.1     9  13.29 10.02  11.32        18.55
+ 50  28  35.8    11  17.19 14.41   6.45        13.84
+ 56   3 362.2  1717  18.06  17.2   4.77        12.58
+ 62   3 306.2  4200  18.91  18.5   4.09        11.85
+ 68   2 624.3  2914  19.35  19.2   3.79        11.45
+ 74   3 296.8  2195  19.57 19.35   3.39        11.08
+ 80   3 354.5  3655  20.03 19.68   3.18        10.85
+ 86   3 324.1  3932  20.17  19.9   2.92        10.57
+ 92   3 318.6  4041     20 19.85   3.16        10.78
+ 98   3 302.5  1551  19.83 19.59   3.33        10.97
+104   3 305.6  3396  20.01 19.94   3.16        10.83
+110   4 254.1  1078  20.22 19.84   3.21        10.61
+117   3 304.6  5331  20.34 19.58   3.24        10.52
+123   4 261.3  5016  20.24 19.13    3.6        10.88
+129   3 291.1  4834  19.75 18.57   3.75        10.85
+135   3 307.7  4488  19.66 18.39   3.88        11.07
+141   4 257.5  4396  19.56 18.23      4        11.22
+147   3 294.5  4406  19.52 18.19   4.04        11.24
+153   3 298.1  4398  19.48 18.15   4.07        11.27
+159   3 291.5  4396  19.47 18.13   4.08        11.27
+165   3   292  4402  19.47 18.13   4.08         11.3
+171   3 299.5  4396  19.48 18.14   4.07        11.29
+177   3 296.7  4404  19.51 18.15   4.05        11.27
+183   3   295  4403  19.51 18.15   4.05        11.26
+189   3 311.2  4393  19.51 18.15   3.88        10.95
+195   3 304.1  4394  19.51 18.15   3.92        11.05
+202   3   308  4400  19.52 18.16   3.95        11.07
+208   3 300.1  4397  19.52 18.17   3.91        11.08
+214   3 345.5  4375  19.53 18.17   3.89        10.97
+220   3 296.7  4312  19.51 18.15   3.91        10.99
+226   3 292.9  4297   19.5 18.13   3.89        10.98
+232   3 287.7  4292  19.51 18.14    3.9        11.03
+238   3 287.4  4312   19.5 18.13   3.94        11.13
+244   3 299.8  4313  19.52 18.13   3.96        11.15
+250   3 302.6  4340  19.52 18.14    3.9        10.96
+256   3   293  4309  19.52  18.1   3.97        11.08
+
+
+
+window = world+200 s (from t=56 s) ；采样 42 条，窗内 34 条
+median_ms_world = 299.8 （filter v2，34 条世界样本，中位 draws=4375）；max_priv_gb = 20.34 ；min_free_gb = 2.92 ；min_commit_free_gb = 10.52 ；leftover_procs = 0
+详情写入 bench-v3.csv
+bench_EXIT=0
+v3_lines_before=9 after=10
+row=2026-11-27 08:30:57,sr-off-2,200,420,42,56,34,ms>40&draws>=200,299.8,4375,20.34,2.92,10.52,0,run-sr-off-2-1127-082634.log
+world_samples=34 median_ms_world=[299.8] median_draws=[4375] leftover_procs=[0]
+post_run_leftover=0
+=== smoke end 2026-11-27 08:31:00
+SMOKE=PASS

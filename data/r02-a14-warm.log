@@ -1,0 +1,6 @@
+2026-11-26T17:51:33.925232Z  INFO victory_gpu::tdr: GPU timeout detection (TdrLevel, TdrDelay, TdrDdiDelay) level=default delay=default ddi_delay=default
+2026-11-26T17:51:33.925277Z  INFO victory_gpu::host: host wave lanes min=32 max=32
+2026-11-26T17:51:33.961295Z  INFO victory_gpu::host: host D3D12 device ready
+2026-11-26T17:51:33.961455Z  INFO victory_gpu::descriptor::host: host view heaps hold 1000000 views; view indices are clamped to the null slot at the end from the first shader on views=1000000 raw_twins=false
+0 pipelines known, 0 made before (efb900b470e1ead1), 0 bad; 0 to make, 4 processes
+Error: 缁崵绮洪幍鍙ョ瑝閸掔増瀵氱€规氨娈戠捄顖氱窞閵?(os error 3)

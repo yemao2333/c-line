@@ -1,0 +1,1 @@
+[2m2026-11-27T17:14:33.505200Z[0m [33m WARN[0m [2mvictory_hle::modules::kernel[0m[2m:[0m a host DLL outside the host policy: refused [3mdll[0m[2m=[0m"rpcrt4.dll"

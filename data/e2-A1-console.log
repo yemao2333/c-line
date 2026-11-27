@@ -1,0 +1,61 @@
+label=A1-keys exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=240 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+start=2026-11-27 04:43:53
+pid=3760
+stdout=G:\GTA\cool_fox-优化方案\data\auto-A1-keys-1127-044352.log
+stderr=G:\GTA\cool_fox-优化方案\data\auto-A1-keys-1127-044352.err.log
+t=  5s draws=1 ms=40 title=Americas | VIctory 25 fps 40.0 ms/frame 1 draws/frame
+t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 20s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 25s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
+t= 30s draws=4 ms=33.4 title=Americas | VIctory 30 fps 33.4 ms/frame 4 draws/frame
+t= 35s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 41s draws=4 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 4 draws/frame
+t= 48s draws=9 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 9 draws/frame
+t= 53s draws=9 ms=33.4 title=Americas | VIctory 30 fps 33.4 ms/frame 9 draws/frame
+t= 58s draws=8 ms=56.6 title=Americas | VIctory 18 fps 56.6 ms/frame 8 draws/frame
+t= 63s draws=12 ms=33.6 title=Americas | VIctory 30 fps 33.6 ms/frame 12 draws/frame
+t= 68s draws=1756 ms=295.5 title=Americas | VIctory 3 fps 295.5 ms/frame 1756 draws/frame
+>> ENTERED at t=68 s draws=1756
+t= 73s draws=1685 ms=315.6 title=Americas | VIctory 3 fps 315.6 ms/frame 1685 draws/frame
+t= 78s draws=3248 ms=265.3 title=Americas | VIctory 4 fps 265.3 ms/frame 3248 draws/frame
+t= 83s draws=1929 ms=296.4 title=Americas | VIctory 3 fps 296.4 ms/frame 1929 draws/frame
+t= 88s draws=1680 ms=307 title=Americas | VIctory 3 fps 307.0 ms/frame 1680 draws/frame
+t= 93s draws=3684 ms=390.6 title=Americas | VIctory 3 fps 390.6 ms/frame 3684 draws/frame
+t= 98s draws=2156 ms=375.4 title=Americas | VIctory 3 fps 375.4 ms/frame 2156 draws/frame
+t=103s draws=2328 ms=326.9 title=Americas | VIctory 3 fps 326.9 ms/frame 2328 draws/frame
+t=108s draws=3708 ms=312.5 title=Americas | VIctory 3 fps 312.5 ms/frame 3708 draws/frame
+t=113s draws=1121 ms=255.6 title=Americas | VIctory 4 fps 255.6 ms/frame 1121 draws/frame
+t=118s draws=3412 ms=309 title=Americas | VIctory 3 fps 309.0 ms/frame 3412 draws/frame
+t=123s draws=1663 ms=268.9 title=Americas | VIctory 4 fps 268.9 ms/frame 1663 draws/frame
+t=128s draws=1096 ms=260.3 title=Americas | VIctory 4 fps 260.3 ms/frame 1096 draws/frame
+t=133s draws=4521 ms=356.5 title=Americas | VIctory 3 fps 356.5 ms/frame 4521 draws/frame
+t=138s draws=4458 ms=277.6 title=Americas | VIctory 4 fps 277.6 ms/frame 4458 draws/frame
+t=143s draws=3986 ms=251.3 title=Americas | VIctory 4 fps 251.3 ms/frame 3986 draws/frame
+t=148s draws=3714 ms=264.5 title=Americas | VIctory 4 fps 264.5 ms/frame 3714 draws/frame
+t=153s draws=4206 ms=395.7 title=Americas | VIctory 3 fps 395.7 ms/frame 4206 draws/frame
+t=158s draws=4438 ms=263.6 title=Americas | VIctory 4 fps 263.6 ms/frame 4438 draws/frame
+t=163s draws=4554 ms=250.7 title=Americas | VIctory 4 fps 250.7 ms/frame 4554 draws/frame
+t=168s draws=4536 ms=253.6 title=Americas | VIctory 4 fps 253.6 ms/frame 4536 draws/frame
+t=173s draws=4538 ms=243.7 title=Americas | VIctory 4 fps 243.7 ms/frame 4538 draws/frame
+t=178s draws=4538 ms=241.7 title=Americas | VIctory 4 fps 241.7 ms/frame 4538 draws/frame
+t=183s draws=4533 ms=242.8 title=Americas | VIctory 4 fps 242.8 ms/frame 4533 draws/frame
+t=188s draws=4550 ms=241.6 title=Americas | VIctory 4 fps 241.6 ms/frame 4550 draws/frame
+t=193s draws=4560 ms=243 title=Americas | VIctory 4 fps 243.0 ms/frame 4560 draws/frame
+t=198s draws=4556 ms=246.3 title=Americas | VIctory 4 fps 246.3 ms/frame 4556 draws/frame
+t=203s draws=4554 ms=248.5 title=Americas | VIctory 4 fps 248.5 ms/frame 4554 draws/frame
+t=208s draws=4550 ms=242.7 title=Americas | VIctory 4 fps 242.7 ms/frame 4550 draws/frame
+t=213s draws=4544 ms=244.6 title=Americas | VIctory 4 fps 244.6 ms/frame 4544 draws/frame
+t=218s draws=4516 ms=249.1 title=Americas | VIctory 4 fps 249.1 ms/frame 4516 draws/frame
+t=223s draws=4490 ms=238.7 title=Americas | VIctory 4 fps 238.7 ms/frame 4490 draws/frame
+t=228s draws=4488 ms=241.5 title=Americas | VIctory 4 fps 241.5 ms/frame 4488 draws/frame
+t=233s draws=4437 ms=236.9 title=Americas | VIctory 4 fps 236.9 ms/frame 4437 draws/frame
+t=238s draws=4437 ms=239.8 title=Americas | VIctory 4 fps 239.8 ms/frame 4437 draws/frame
+t=244s draws=4440 ms=240 title=Americas | VIctory 4 fps 240.0 ms/frame 4440 draws/frame
+loop_s=48 samples=48
+entered=True
+entered_at_s=68
+entered_draws=1756
+samples=48
+leftover=0
+end=2026-11-27 04:48:09
