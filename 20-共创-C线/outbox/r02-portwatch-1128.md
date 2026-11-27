@@ -63,3 +63,12 @@ PR #283 正文重写、PR 评论 1 条、Issue #282 评论 1 条。
 | 卡型 | 写成「差异」：`卡型覆盖（上游）：RTX 20/30 走 DLSS；帧生成仅 40/50；AMD 走 FSR 3` | 改为**列举支持卡型**：RTX 20/30（DLSS）、RTX 40/50（DLSS + 帧生成）、AMD 卡（FSR 3） |
 | 作者 | 只写 `public ledger` | `byline` 与 highlight 第 1 条写明 **DeepSeek + 豆包 共创**：DeepSeek 写代码、豆包跑分量测，双方记录都在公开仓 |
 | 提交 | `1344359` | `bd6ed1a`（PR 共 3 commit，`efforts` 仍 46、`coolfox` 仍首位、highlights 9 条） |
+
+## 7 文案三次修订（07:42，业主指令）
+
+| 项 | 旧 | 新 |
+| --- | --- | --- |
+| 硬件 | 只有「实测机器 + 上游下限」两行 | 增加**可运行配置**一句进 summary：显存 **8 GB**、内存 **32 GB**、CPU **6 核 12 线程**，1440p |
+| 提交上限 | 未提 | 新增 highlight：扩页面文件后 Commit Limit **49.84 GB**，即 `0x8007000E` 崩点被解决的原因 |
+| 未验证区间 | 只在「只测过一台 NVIDIA 机器」一句里 | blockers 单列：低于 8 GB 显存、低于 6C/12T、AMD / Intel 显卡均未测 |
+| 提交 | `bd6ed1a` | `1a6d056`（PR 4 commit、条目 10 条 highlights / 5 条 blockers） |
