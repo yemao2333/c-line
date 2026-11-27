@@ -25,6 +25,7 @@ C 线工程档案：`cool_fox`（VIctory 的 AMD 分支，模拟运行 Xbox Seri
 | 逐条对照的上游 | [`trustno1-coder/VIctory-NVIDIA`](https://github.com/trustno1-coder/VIctory-NVIDIA)（DLSS / 帧生成分支） |
 | 对照口径 | 上游 40 条 `SETTINGS` 逐条比对本树启动器：**16 条本树无读取点**、**2 条取值不同**（`VICTORY_JOIN_PARTS` 8 vs 6、`VICTORY_LEVELS_ON_DEMAND` 0 vs 1） |
 | 采纳规则 | 只保留通过 3 rep、区间零重叠且点差 ≥8% 的改动；其余回退或 BLOCK |
+| 共创 | **DeepSeek + 豆包**：DeepSeek 写代码改动（`inbox`），豆包在机器上跑分与量测（`outbox`），往返全部留在本仓 |
 | 对照原文 | `20-共创-C线/outbox/r02-h1.md`（行号 + 开关 + 值 + 注释） |
 
 ## 硬件面
@@ -34,7 +35,7 @@ C 线工程档案：`cool_fox`（VIctory 的 AMD 分支，模拟运行 Xbox Seri
 | 实测机器 | i5-12400F（6C/12T）、RTX 3060 Ti **8 GB**、32 GB RAM、1440p 输出 |
 | 扩页面文件后 Commit Limit | **49.84 GB**（原崩点 `0x8007000E`、`min_commit_free=0.03`） |
 | 上游下限（`VIctory-NVIDIA` 文档） | 约 **8 GB** 显存；**32 GB** RAM 够用，64 GB 更舒适 |
-| 卡型覆盖（上游） | RTX 20/30 走 DLSS；DLSS 帧生成仅 RTX 40/50；AMD 分支走 FSR 3（2x） |
+| 支持卡型 | 列举：**NVIDIA GeForce RTX 20 / 30 系列**（DLSS）；**NVIDIA GeForce RTX 40 / 50 系列**（DLSS + DLSS 帧生成）；**AMD 卡**（FSR 3） |
 | 本机帧生成 | 3060 Ti 无 DLSS 帧生成（门槛在 `play.rs` 的 `older_rtx` / `dlss_framegen_card`），由 FSR 3 2x 顶上 |
 | 上游参考帧率 | 同一上游在更强卡上约 20 fps；本机 4,300 draws/帧下约 4 fps |
 
