@@ -32,9 +32,9 @@ C 线工程档案：`cool_fox`（VIctory 的 AMD 分支，模拟运行 Xbox Seri
 
 | 项 | 值 |
 | --- | --- |
-| 可运行配置（写进上架条目） | 显存 **8 GB**、内存 **32 GB**、CPU **6 核 12 线程**；输出 1440p |
+| 参考配置（条目口径） | 显存 **8 GB** + 系统内存 **32 GB** + **6 核 12 线程** CPU，1440p 输出；条目中所有数字均取自此配置，低于该配置未做量测 |
 | 实测机器 | i5-12400F（6C/12T）、RTX 3060 Ti **8 GB**、32 GB RAM、1440p 输出 |
-| 未验证区间 | 低于 8 GB 显存、低于 6 核 12 线程、AMD / Intel 显卡：均未测 |
+| 未覆盖 | 低于 8 GB 显存、少于 6 核 12 线程、AMD 与 Intel 显卡：均无量测数据 |
 | 扩页面文件后 Commit Limit | **49.84 GB**（原崩点 `0x8007000E`、`min_commit_free=0.03`） |
 | 上游下限（`VIctory-NVIDIA` 文档） | 约 **8 GB** 显存；**32 GB** RAM 够用，64 GB 更舒适 |
 | 支持卡型 | 列举：**NVIDIA GeForce RTX 20 / 30 系列**（DLSS）；**NVIDIA GeForce RTX 40 / 50 系列**（DLSS + DLSS 帧生成）；**AMD 卡**（FSR 3） |

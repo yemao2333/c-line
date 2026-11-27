@@ -72,3 +72,12 @@ PR #283 正文重写、PR 评论 1 条、Issue #282 评论 1 条。
 | 提交上限 | 未提 | 新增 highlight：扩页面文件后 Commit Limit **49.84 GB**，即 `0x8007000E` 崩点被解决的原因 |
 | 未验证区间 | 只在「只测过一台 NVIDIA 机器」一句里 | blockers 单列：低于 8 GB 显存、低于 6C/12T、AMD / Intel 显卡均未测 |
 | 提交 | `bd6ed1a` | `1a6d056`（PR 4 commit、条目 10 条 highlights / 5 条 blockers） |
+
+## 8 文案四次修订（08:20，业主指令：按执行端口径重写，不照抄原话，语气专业）
+
+| 项 | 旧 | 新 |
+| --- | --- | --- |
+| 硬件表述 | `What it runs on: 8 GB of VRAM, 32 GB of RAM, a 6-core/12-thread CPU` | `Its reference configuration is 8 GB of VRAM and 32 GB of system memory on a 6-core/12-thread CPU at 1440p` |
+| highlight 第 2 条 | `Runs on 8 GB of VRAM, 32 GB of RAM and a 6-core/12-thread CPU` | `Reference configuration, every figure below taken on it: …` |
+| 未测表述 | `Nothing measured below 8 GB of VRAM or below 6 cores/12 threads…` | `Nothing below the reference configuration has been measured…` |
+| 提交 | `1a6d056` | `f1ef2b9` |
