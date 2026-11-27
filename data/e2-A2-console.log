@@ -1,8 +1,8 @@
-label=A2-keys exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=240 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=A2-keys exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe seconds=240 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
 start=2026-11-27 04:49:01
 pid=11076
-stdout=G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\auto-A2-keys-1127-044901.log
-stderr=G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\auto-A2-keys-1127-044901.err.log
+stdout=<ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\auto-A2-keys-1127-044901.log
+stderr=<ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\auto-A2-keys-1127-044901.err.log
 t=  5s draws=1 ms=33.4 title=Americas | VIctory 30 fps 33.4 ms/frame 1 draws/frame
 t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
 t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame

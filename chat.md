@@ -20,7 +20,7 @@
 | --- | --- |
 | `inbox\` 根目录 | 只有 `_superseded\` 一个目录，**没有任何待执行任务单** |
 | `inbox\_superseded\` | `task-20261126-2157-01.md`（1,951 B）、`-02.md`（3,235 B）、`-03.md`（2,139 B），时间戳 21:57:30–21:57:34 |
-| 全盘搜 `*2216*` | `G:\GTA\cool_fox-优化方案` 下 **0 个命中** |
+| 全盘搜 `*2216*` | `<ROOT>\cool_fox-优化方案` 下 **0 个命中** |
 | 三单的 `task_id` | `r02-a1` / `r02-a2` / `r02-a3`，与 `route.md` §3 第 1–3 行**完全一致** |
 | 三单的内容 | 命令、前置守卫、验收线、回填格式齐全（已逐行读过，与 §3 门禁对得上） |
 
@@ -62,7 +62,7 @@
 | 步 | task_id | 动作 | 前置门禁（不满足即停在该步） | 回填/证据 |
 | --- | --- | --- | --- | --- |
 | S0 | — | 清残留进程（按映像名，不按 pid） | `Get-Process victory*` 为空 | 结果写回填首行 |
-| S1 | `r02-a1` | `cargo build --release --locked -p victory`（`RUSTFLAGS=-C target-cpu=native`，PATH 含 `G:\rust\cargo\bin` 与 `D:\YunX-toolchain\w64devkit\w64devkit\bin`） | EXIT=0；`exe_bytes` 45,000,000–55,000,000；`written` 晚于 22:00；`errors` 0 行 | `outbox\r02-a1-result.md`；`data\build-r02-a1.log` |
+| S1 | `r02-a1` | `cargo build --release --locked -p victory`（`RUSTFLAGS=-C target-cpu=native`，PATH 含 `<RUST>\cargo\bin` 与 `<TOOLCHAIN>\w64devkit\w64devkit\bin`） | EXIT=0；`exe_bytes` 45,000,000–55,000,000；`written` 晚于 22:00；`errors` 0 行 | `outbox\r02-a1-result.md`；`data\build-r02-a1.log` |
 | S2 | `r02-a2` | 先读 `commit_limit_gb / commit_free_gb` 守卫，再跑 `R2-A2-baseline` 与 `R2-B-reverted` 各 200 s（`-Profile fork`，串行，不并发） | a1 EXIT=0；`commit_free ≥ 6 GB`；否则写 `SKIP_BENCH` 并停 | `outbox\r02-a2-result.md`；`data\bench.csv` 追加两行 + 逐样本表原文 |
 | S3 | `r02-a3` | `16-ledger-probe.ps1 -Attempts 3 -Seconds 150`（脚本自带 OOM 重试与按映像名收尾） | 必须命中 `most_mb=3072` 与 `most_mb=4096` 两条版本指纹；3 次全挂则写「墙下采样」转 P0 | `outbox\r02-a3-result.md`；`data\ledger-a*-*.err.log` |
 | S4 | `r02-a4` | 按 `route.md` §4 的 E01–E08 编 `round-02\C-证据台账.md`（只抄不改，每格给 `文件:行`） | a1–a3 全部回填；E01–E08 无缺项 | `round-02\C-证据台账.md`；`outbox\r02-a4-result.md` |

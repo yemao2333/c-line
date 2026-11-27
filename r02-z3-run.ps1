@@ -2,9 +2,9 @@ $ErrorActionPreference = 'Continue'
 # r02-z3-run.ps1 — 按任务单固定顺序六跑（交替抵消漂移），600 s 世界窗
 # tight 的四个键取 z2-memtight 运行日志里的 -Extra 原文：
 #   VICTORY_MEMORY_CARD_MB=1536;VICTORY_KEEP_SNAPSHOTS_MB=64;VICTORY_INPLACE_MB=512;VICTORY_TEXTURE_BUDGET_MB=768
-$root = 'G:\GTA\cool_fox-优化方案'
+$root = '<ROOT>\cool_fox-优化方案'
 $scripts = Join-Path $root '10-实验脚本'
-$exe = 'G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe'
+$exe = '<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe'
 $sec = 800
 $world = 600
 $tight = 'VICTORY_MEMORY_CARD_MB=1536;VICTORY_KEEP_SNAPSHOTS_MB=64;VICTORY_INPLACE_MB=512;VICTORY_TEXTURE_BUDGET_MB=768'

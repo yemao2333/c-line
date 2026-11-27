@@ -33,7 +33,7 @@
 
 | 序 | task_id | 做什么 | 需要用户 | 回填 |
 | --- | --- | --- | --- | --- |
-| 1 | `r02-e1` | clone + 差异四表 + 隔离构建 | **否** | `outbox\r02-e1-result.md` + `G:\GTA\fork-eval\report-e1.md` |
+| 1 | `r02-e1` | clone + 差异四表 + 隔离构建 | **否** | `outbox\r02-e1-result.md` + `<ROOT>\fork-eval\report-e1.md` |
 
 ## 4 停止条件
 
@@ -47,9 +47,9 @@
 
 ## 5 安全边界（写死，执行侧必须遵守）
 
-1. 取源只到 `G:\GTA\fork-eval\victory-fork`；构建只到 `G:\GTA\fork-eval\target`；
-2. **不写** `G:\GTA\cool_fox\cool_fox-main\` 下任何文件（含 `target\`）；
-3. **不写** `G:\GTA\victory-data\` 下任何缓存；
+1. 取源只到 `<ROOT>\fork-eval\victory-fork`；构建只到 `<ROOT>\fork-eval\target`；
+2. **不写** `<ROOT>\cool_fox\cool_fox-main\` 下任何文件（含 `target\`）；
+3. **不写** `<ROOT>\victory-data\` 下任何缓存；
 4. **不运行** `victory.exe run`；
 5. 不改对方源码（编译失败就照实报，不修）；
 6. 不 push、不提交、不改对方工作区。

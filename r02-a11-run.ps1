@@ -1,7 +1,7 @@
-﻿$ErrorActionPreference = 'Stop'
-$root = 'G:\GTA\cool_fox-优化方案'
+$ErrorActionPreference = 'Stop'
+$root = '<ROOT>\cool_fox-优化方案'
 $data = Join-Path $root 'data'
-$diag = 'G:\GTA\cool_fox\cool_fox-main\target\diag\victory.exe'
+$diag = '<ROOT>\cool_fox\cool_fox-main\target\diag\victory.exe'
 $expect = '710857B58C00BA3E1AB71141DE1C23ED039A156AFEB78B7AC3CFB0115DA7C7D5'
 "=== r02-a11 start " + (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')
 $sha = (Get-FileHash $diag -Algorithm SHA256).Hash
@@ -11,7 +11,7 @@ if ($sha -ne $expect) { "SHA_MISMATCH expected=$expect"; exit 2 }
 Get-Process | Where-Object { $_.ProcessName -match '^victory' } | Stop-Process -Force -ErrorAction SilentlyContinue
 Start-Sleep 3
 
-$env:VICTORY_AMBIENT_AIR='1.5'; $env:VICTORY_CACHE_DIR='G:\GTA\victory-data\coolfox-cache'; $env:VICTORY_DATA_DIR='G:\GTA\victory-data\coolfox-data'
+$env:VICTORY_AMBIENT_AIR='1.5'; $env:VICTORY_CACHE_DIR='<ROOT>\victory-data\coolfox-cache'; $env:VICTORY_DATA_DIR='<ROOT>\victory-data\coolfox-data'
 $env:VICTORY_TEXTURE_NO_WAIT='1'; $env:VICTORY_RELAY='2'; $env:VICTORY_WIDE_BACK='1'; $env:VICTORY_CARD_REHASH_RUNS='1'
 $env:VICTORY_JOIN_COPIES='1'; $env:VICTORY_INDIRECT_WINDOW='1'; $env:VICTORY_RELAY_COPY='1'; $env:VICTORY_CARD_STEPS='2'
 $env:VICTORY_INDIRECT_BATCH='2'; $env:VICTORY_MAP_THREADS='1'; $env:VICTORY_CARD_AWAKE='1'; $env:VICTORY_SHOW_AFTER='1'
@@ -26,7 +26,7 @@ Remove-Item Env:\VICTORY_RECORD_FRAMES -ErrorAction SilentlyContinue
 $err = Join-Path $data 'r02-a11-gputiming-info.err.log'
 $out = Join-Path $data 'r02-a11-gputiming-info.log'
 $tfile = Join-Path $data 'r02-a11-titles.txt'
-$p = Start-Process -FilePath $diag -ArgumentList @('run','G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK\game_scarlett_master.exe','--console','series-s','--execute') -WorkingDirectory 'G:\GTA\cool_fox\cool_fox-main' -RedirectStandardOutput $out -RedirectStandardError $err -PassThru -WindowStyle Normal
+$p = Start-Process -FilePath $diag -ArgumentList @('run','<ROOT>\<DUMP>\game_scarlett_master.exe','--console','series-s','--execute') -WorkingDirectory '<ROOT>\cool_fox\cool_fox-main' -RedirectStandardOutput $out -RedirectStandardError $err -PassThru -WindowStyle Normal
 "pid=$($p.Id)"
 
 $titles = @()

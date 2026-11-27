@@ -4,7 +4,7 @@
 
 ## ① 巡检数字（只读）
 
-### 1.1 三个 exe（`G:\GTA\cool_fox\cool_fox-main\target\release`）
+### 1.1 三个 exe（`<ROOT>\cool_fox\cool_fox-main\target\release`）
 
 | 文件名 | 字节 | 最后写入 | SHA256 |
 | --- | --- | --- | --- |
@@ -30,7 +30,7 @@
 victory_procs=0
 ```
 
-### 1.4 `G:\GTA\victory-data`
+### 1.4 `<ROOT>\victory-data`
 
 总量与最新写入时间：
 
@@ -71,7 +71,7 @@ files=26756 bytes=1614149512 max_mtime=2026-11-27 09:39:21
 
 | 项 | 值 |
 | --- | --- |
-| 文件 | `G:\GTA\cool_fox-优化方案\80-最终交付.md` |
+| 文件 | `<ROOT>\cool_fox-优化方案\80-最终交付.md` |
 | 字节 | 14,914 → **21,560** |
 | 行数 | 256 → **395** |
 | 新增节 | `## 7 外部项目评估（f1–f5 数字表抄录）`，起于 L260 |

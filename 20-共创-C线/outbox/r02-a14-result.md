@@ -1,4 +1,4 @@
-﻿# r02-a14 回填 · 管线册 + 预热（S1 BOOK 跑 → S2 warm → S3 再跑）
+# r02-a14 回填 · 管线册 + 预热（S1 BOOK 跑 → S2 warm → S3 再跑）
 
 > 执行端：本机 Windows。任务单 `inbox\task-20261127-0135-14.md`。只报数，不判读预热效果。
 
@@ -68,7 +68,7 @@ R8-after-warm: world_n=32 gt200=32 gt400=0
 
 1. `data\r02-a14-console.log`（UTF-8）：80 条采样行（两组各 40）与两段 median 行已按行混合解码复原；未转码原件 `data\r02-a14-console.raw.log`。
 2. `data\r02-a14-warm.log`（UTF-8）：未转码原件 `data\r02-a14-warm.raw.log`。
-3. 缓存目录 `G:\GTA\victory-data\coolfox-cache` 既有内容未删改；仅 `VICTORY_PIPELINE_BOOK=1` 与 `warm` 自身写入使 pipelines 计数 3 → 5。
+3. 缓存目录 `<ROOT>\victory-data\coolfox-cache` 既有内容未删改；仅 `VICTORY_PIPELINE_BOOK=1` 与 `warm` 自身写入使 pipelines 计数 3 → 5。
 
 ## G 未改动项
 

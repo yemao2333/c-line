@@ -1,6 +1,6 @@
 # cool_fox 优化工作包（交接给下一个 AI）
 
-本目录是针对本机已部署的 `G:\GTA\cool_fox\cool_fox-main` 做的一份分析 + 优化方案，供另一个 AI 直接接手。所有结论都带可复核的出处：要么是源码 `文件:行`，要么是 `data\` 里的实测日志。
+本目录是针对本机已部署的 `<ROOT>\cool_fox\cool_fox-main` 做的一份分析 + 优化方案，供另一个 AI 直接接手。所有结论都带可复核的出处：要么是源码 `文件:行`，要么是 `data\` 里的实测日志。
 
 ## 阅读顺序
 
@@ -54,7 +54,7 @@
 ## 硬性约束（改代码时不要碰）
 
 - 不要动 `crates/victory-core/src/policy.rs` 的 `ensure_outside_repo`：缓存/存档必须留在仓库外，这是仓库自身的安全边界。
-- 不要把 `G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK` 里的任何文件复制进仓库（`assets` 政策，见 `.victory-root`）。
+- 不要把 `<ROOT>\<DUMP>` 里的任何文件复制进仓库（`assets` 政策，见 `.victory-root`）。
 - 不要把 `panic` 设成 `abort`：`crates/victory-gpu/src/list/thin.rs:318` 用 `catch_unwind` 兜列表翻译线程的 panic。
 - 改 `crates/victory-shader` 任何源码都会让 `victory-gpu/build.rs` 算出的 `VICTORY_TRANSLATOR` 指纹变化，25,756 个已缓存程序全部失效，必须重跑 `victory shaders`（约 6 分钟）。
 - 不要为了跑分关掉 `VICTORY_LOG` 的 `info` 级：卡内账本、帧统计都在这一级。

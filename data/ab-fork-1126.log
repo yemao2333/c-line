@@ -1,5 +1,5 @@
 === 2026-11-26T21:38:28.5555280+08:00 start A-baseline
-label=F-A-baseline exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory-baseline.exe profile=fork seconds=200
+label=F-A-baseline exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory-baseline.exe profile=fork seconds=200
 
   T   Fps     Ms Draws PrivGB RssGB FreeGB CommitFreeGB
   -   ---     -- ----- ------ ----- ------ ------------
@@ -46,9 +46,9 @@ label=F-A-baseline exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory-base
 
 
 median_ms_world = 341.5 ；max_priv_gb = 17.3 ；min_free_gb = 7.05 ；min_commit_free_gb = 0.44
-详情写入 G:\GTA\cool_fox-优化方案\data\bench.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench.csv
 === 2026-11-26T21:42:33.3776661+08:00 start F-B-final
-label=F-B-final exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=F-B-final exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
 
   T   Fps     Ms Draws PrivGB RssGB FreeGB CommitFreeGB
   -   ---     -- ----- ------ ----- ------ ------------
@@ -95,9 +95,9 @@ label=F-B-final exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe pro
 
 
 median_ms_world = 301.1 ；max_priv_gb = 20.53 ；min_free_gb = 2.44 ；min_commit_free_gb = 0.03
-详情写入 G:\GTA\cool_fox-优化方案\data\bench.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench.csv
 === 2026-11-26T21:46:43.2834834+08:00 done
-label=F-A2-baseline exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory-baseline.exe profile=fork seconds=200
+label=F-A2-baseline exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory-baseline.exe profile=fork seconds=200
 
   T   Fps     Ms Draws PrivGB RssGB FreeGB CommitFreeGB
   -   ---     -- ----- ------ ----- ------ ------------
@@ -144,4 +144,4 @@ label=F-A2-baseline exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory-bas
 
 
 median_ms_world = 263.2 ；max_priv_gb = 18.43 ；min_free_gb = 6.18 ；min_commit_free_gb = 0.6
-详情写入 G:\GTA\cool_fox-优化方案\data\bench.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench.csv

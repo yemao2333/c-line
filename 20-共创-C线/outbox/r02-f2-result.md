@@ -2,7 +2,7 @@
 
 > 执行端：本机 Windows。任务单 `inbox\task-20261127-0845-22.md`。只列表，不改任何东西、不写结论。
 
-产物：`G:\GTA\kelvaroq-eval\shortlist.md`，13,277 B / 186 行，UTF-8（无 BOM）。
+产物：`<ROOT>\kelvaroq-eval\shortlist.md`，13,277 B / 186 行，UTF-8（无 BOM）。
 
 ## 过滤落地（三条全满足才入表）
 
@@ -72,7 +72,7 @@
 | 项 | 结果 |
 | --- | --- |
 | 应用补丁 / 编译 / 运行游戏 | 三者均未；全流程只有 `Get-ChildItem` / `Get-Content` / `Select-String` / `Test-Path` / 字符串匹配 |
-| 改任何树 | 未改；本轮新增仅 `G:\GTA\kelvaroq-eval\shortlist.md` 与 `build-shortlist.ps1` |
+| 改任何树 | 未改；本轮新增仅 `<ROOT>\kelvaroq-eval\shortlist.md` 与 `build-shortlist.ps1` |
 | 结论/建议 | 未写；`shortlist.md` 只有过滤口径、表、两条统计、原文 diff |
 | 行数与文件名 | 未改写、未换算；补丁名逐字来自目录 |
 
@@ -80,5 +80,5 @@
 
 | 文件 | 大小（B） | 说明 |
 | --- | --- | --- |
-| `G:\GTA\kelvaroq-eval\shortlist.md` | 13,277 | 正式产物（过滤口径 + 23 行短名单 + 两条统计 + 三个完整 diff） |
-| `G:\GTA\kelvaroq-eval\build-shortlist.ps1` | 4,802 | 生成脚本（只读输入，可复跑） |
+| `<ROOT>\kelvaroq-eval\shortlist.md` | 13,277 | 正式产物（过滤口径 + 23 行短名单 + 两条统计 + 三个完整 diff） |
+| `<ROOT>\kelvaroq-eval\build-shortlist.ps1` | 4,802 | 生成脚本（只读输入，可复跑） |

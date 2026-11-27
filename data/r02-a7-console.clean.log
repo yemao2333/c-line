@@ -1,10 +1,10 @@
-﻿﻿=== r02-a7 start 2026-11-26 23:07:47
-root=G:\GTA\cool_fox-优化方案
+﻿=== r02-a7 start 2026-11-26 23:07:47
+root=<ROOT>\cool_fox-优化方案
 SHA256_victory=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
 SHA256_baseline=9627DF10A7E7B498B86F7A6B8B3F52DD32958F735072F1A0161DE1BDD0CAEC73
 commit_limit_gb=49.84 commit_used_gb=17.41 commit_free_gb=32.43
 === group R4-A2-baseline start 23:07:53
-label=R4-A2-baseline exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory-baseline.exe profile=fork seconds=200
+label=R4-A2-baseline exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory-baseline.exe profile=fork seconds=200
   t=   8s fps=    25 ms=      40 draws=     1 priv=  6.01 commitfree=  21.1
   t=  14s fps=    32 ms=    31.5 draws=     4 priv=  7.38 commitfree= 20.47
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.46 commitfree=  20.5
@@ -92,11 +92,11 @@ label=R4-A2-baseline exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory-ba
 
 
 median_ms_world = 272.9 �filter v2�32 agNLu7h,g�-NMO draws=4889	��max_priv_gb = 19.83 �min_free_gb = 2.91 �min_commit_free_gb = 7.81 �leftover_procs = 0
-��`�QeQ G:\GTA\cool_fox-OS�eHh\data\bench-v2.csv
+��`�QeQ <ROOT>\cool_fox-OS�eHh\data\bench-v2.csv
 === group R4-A2-baseline end 23:12:04
 post-clean leftover_procs=0
 === group R4-B-reverted start 23:12:09
-label=R4-B-reverted exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R4-B-reverted exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   9s fps=    24 ms=    42.2 draws=     1 priv=  5.16 commitfree= 21.55
   t=  15s fps=    31 ms=    31.9 draws=     4 priv=  7.46 commitfree= 20.49
   t=  21s fps=    30 ms=    33.3 draws=     4 priv=  7.46 commitfree= 20.68
@@ -184,12 +184,12 @@ label=R4-B-reverted exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe
 
 
 median_ms_world = 270.1 �filter v2�30 agNLu7h,g�-NMO draws=4465	��max_priv_gb = 19.87 �min_free_gb = 2.97 �min_commit_free_gb = 7.97 �leftover_procs = 0
-��`�QeQ G:\GTA\cool_fox-OS�eHh\data\bench-v2.csv
+��`�QeQ <ROOT>\cool_fox-OS�eHh\data\bench-v2.csv
 === group R4-B-reverted end 23:16:24
 post-clean leftover_procs=0
 === group R4-B-threads-old start 23:16:29
 extra=VICTORY_THIN_THREADS=8;VICTORY_PIPELINE_WORKERS=8;VICTORY_VIEW_THREADS=6;VICTORY_UNDER_THREADS=6
-label=R4-B-threads-old exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R4-B-threads-old exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    25 ms=    40.5 draws=     1 priv=  6.27 commitfree= 20.74
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  7.21 commitfree= 20.74
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.17 commitfree= 20.76
@@ -277,12 +277,12 @@ label=R4-B-threads-old exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.
 
 
 median_ms_world = 286.9 �filter v2�28 agNLu7h,g�-NMO draws=4650	��max_priv_gb = 20.25 �min_free_gb = 2.93 �min_commit_free_gb = 7.6 �leftover_procs = 0
-��`�QeQ G:\GTA\cool_fox-OS�eHh\data\bench-v2.csv
+��`�QeQ <ROOT>\cool_fox-OS�eHh\data\bench-v2.csv
 === group R4-B-threads-old end 23:20:41
 post-clean leftover_procs=0
 === group R4-B-floor2g start 23:20:46
 extra=VICTORY_TEXTURE_BUDGET_MB=2048
-label=R4-B-floor2g exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R4-B-floor2g exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    31 ms=    31.8 draws=     1 priv=   6.2 commitfree= 20.92
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  7.15 commitfree= 20.87
   t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.98 commitfree=    21
@@ -370,7 +370,7 @@ label=R4-B-floor2g exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe 
 
 
 median_ms_world = 269.2 �filter v2�24 agNLu7h,g�-NMO draws=4687	��max_priv_gb = 19.58 �min_free_gb = 2.8 �min_commit_free_gb = 7.85 �leftover_procs = 0
-��`�QeQ G:\GTA\cool_fox-OS�eHh\data\bench-v2.csv
+��`�QeQ <ROOT>\cool_fox-OS�eHh\data\bench-v2.csv
 === group R4-B-floor2g end 23:24:54
 post-clean leftover_procs=0
 === bench-v2.csv ===

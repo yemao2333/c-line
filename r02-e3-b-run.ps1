@@ -1,7 +1,7 @@
 # r02-e3 B 段：SETTLE_ROOM 复验四连跑（off → on → on → off）
 # 顺序固定，机械抵消漂移；不改任何判据，全部交给 smoke.ps1。
 $ErrorActionPreference = 'Continue'
-$root = 'G:\GTA\cool_fox-优化方案'
+$root = '<ROOT>\cool_fox-优化方案'
 $smoke = Join-Path $root '10-实验脚本\smoke.ps1'
 $log = Join-Path $root 'data\e3-B-console.log'
 function Say($t) { $t | Out-File -FilePath $log -Append -Encoding utf8 }

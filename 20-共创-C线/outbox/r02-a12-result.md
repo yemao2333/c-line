@@ -1,4 +1,4 @@
-﻿# r02-a12 回填 · R6 四组（拷贝与流水线，release 产物，各 200 s）
+# r02-a12 回填 · R6 四组（拷贝与流水线，release 产物，各 200 s）
 
 > 执行端：本机 Windows。任务单 `inbox\task-20261127-0105-12.md`。只报数，不判读。
 
@@ -7,7 +7,7 @@
 | 项 | 值 | 出处 |
 | --- | --- | --- |
 | SHA256（release） | `58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45` | `data\r02-a12-console.log` L1–L2 |
-| 产物 | `G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe`（未用 diag 产物） | 同 L3 |
+| 产物 | `<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe`（未用 diag 产物） | 同 L3 |
 | commit_limit_gb | 49.84 | 同 L3（`commit_limit_gb=49.84 commit_free_gb=38.15`） |
 | 门禁 | ≥ 44，通过 | — |
 
@@ -67,7 +67,7 @@ L283: extra=VICTORY_LATE_WAIT=1
 SHA256=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
 commit_limit_gb=49.84 commit_free_gb=38.15
 === group R6-control extra= at 01:06:45
-label=R6-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R6-control exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    30 ms=    33.3 draws=     1 priv=  6.48 commitfree= 26.66
   t=  14s fps=    30 ms=    33.3 draws=     4 priv=  7.16 commitfree= 26.23
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.25 commitfree= 26.32
@@ -155,12 +155,12 @@ label=R6-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe pr
 
 
 median_ms_world = 268 （filter v2，30 条世界样本，中位 draws=4679）；max_priv_gb = 20.59 ；min_free_gb = 3.89 ；min_commit_free_gb = 12.73 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 group_exit=0
 leftover_after_group=0
 === group R6-sendown0 extra=VICTORY_SEND_OWN=0 at 01:11:00
 extra=VICTORY_SEND_OWN=0
-label=R6-sendown0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R6-sendown0 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    31 ms=    32.7 draws=     1 priv=  6.46 commitfree= 26.73
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  7.12 commitfree= 26.57
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.22 commitfree=  26.5
@@ -248,12 +248,12 @@ label=R6-sendown0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe p
 
 
 median_ms_world = 258.5 （filter v2，30 条世界样本，中位 draws=4550）；max_priv_gb = 20.43 ；min_free_gb = 4.81 ；min_commit_free_gb = 13.34 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 group_exit=0
 leftover_after_group=0
 === group R6-inplace0 extra=VICTORY_COPIES_IN_PLACE=0 at 01:15:16
 extra=VICTORY_COPIES_IN_PLACE=0
-label=R6-inplace0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R6-inplace0 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   7s fps=       ms=         draws=       priv=  0.11 commitfree= 30.53
   t=  13s fps=    30 ms=    33.3 draws=     1 priv=  6.65 commitfree= 26.95
   t=  19s fps=    30 ms=    33.3 draws=     4 priv=  7.26 commitfree= 26.61
@@ -341,12 +341,12 @@ label=R6-inplace0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe p
 
 
 median_ms_world = 309.3 （filter v2，32 条世界样本，中位 draws=4764）；max_priv_gb = 20.94 ；min_free_gb = 3.77 ；min_commit_free_gb = 12.89 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 group_exit=0
 leftover_after_group=0
 === group R6-latewait1 extra=VICTORY_LATE_WAIT=1 at 01:19:30
 extra=VICTORY_LATE_WAIT=1
-label=R6-latewait1 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R6-latewait1 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    30 ms=    33.2 draws=     1 priv=  6.22 commitfree= 26.97
   t=  14s fps=    30 ms=    33.3 draws=     7 priv=  7.04 commitfree= 26.84
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.16 commitfree= 26.77
@@ -434,7 +434,7 @@ label=R6-latewait1 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe 
 
 
 median_ms_world = 334 （filter v2，32 条世界样本，中位 draws=4352）；max_priv_gb = 19.66 ；min_free_gb = 4.66 ；min_commit_free_gb = 13.93 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 group_exit=0
 leftover_after_group=0
 === final_procs=0

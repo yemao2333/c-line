@@ -1,9 +1,9 @@
-﻿$ErrorActionPreference = 'Continue'
-$root = 'G:\GTA\cool_fox-优化方案'
-$exe  = 'G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe'
+$ErrorActionPreference = 'Continue'
+$root = '<ROOT>\cool_fox-优化方案'
+$exe  = '<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe'
 $expect = '58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45'
 $ps = Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\powershell.exe'
-$cache = 'G:\GTA\victory-data\coolfox-cache\pipelines'
+$cache = '<ROOT>\victory-data\coolfox-cache\pipelines'
 $bookbin = Join-Path $cache 'known-pipelines.bin'
 $data = Join-Path $root 'data'
 
@@ -21,9 +21,9 @@ if ($lim -lt 44) { "SKIP_R9: commit_limit_gb < 44"; exit 3 }
 
 Get-Process | Where-Object { $_.ProcessName -match '^victory' } | Stop-Process -Force -ErrorAction SilentlyContinue
 Start-Sleep 3
-Set-Location 'G:\GTA\cool_fox\cool_fox-main'
+Set-Location '<ROOT>\cool_fox\cool_fox-main'
 
-$env:VICTORY_AMBIENT_AIR='1.5'; $env:VICTORY_CACHE_DIR='G:\GTA\victory-data\coolfox-cache'; $env:VICTORY_DATA_DIR='G:\GTA\victory-data\coolfox-data'
+$env:VICTORY_AMBIENT_AIR='1.5'; $env:VICTORY_CACHE_DIR='<ROOT>\victory-data\coolfox-cache'; $env:VICTORY_DATA_DIR='<ROOT>\victory-data\coolfox-data'
 $env:VICTORY_TEXTURE_NO_WAIT='1'; $env:VICTORY_RELAY='2'; $env:VICTORY_WIDE_BACK='1'; $env:VICTORY_CARD_REHASH_RUNS='1'
 $env:VICTORY_JOIN_COPIES='1'; $env:VICTORY_INDIRECT_WINDOW='1'; $env:VICTORY_RELAY_COPY='1'; $env:VICTORY_CARD_STEPS='2'
 $env:VICTORY_INDIRECT_BATCH='2'; $env:VICTORY_MAP_THREADS='1'; $env:VICTORY_CARD_AWAKE='1'; $env:VICTORY_SHOW_AFTER='1'
@@ -35,8 +35,8 @@ $env:VICTORY_PIPELINE_BOOK = '1'
 "=== S1 book run at " + (Get-Date -Format 'HH:mm:ss')
 $out = Join-Path $data 'r02-a15-book.log'
 $err = Join-Path $data 'r02-a15-book.err.log'
-$p = Start-Process -FilePath $exe -ArgumentList @('run','G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK\game_scarlett_master.exe','--console','series-s','--execute') `
-  -WorkingDirectory 'G:\GTA\cool_fox\cool_fox-main' -RedirectStandardOutput $out -RedirectStandardError $err -PassThru -WindowStyle Normal
+$p = Start-Process -FilePath $exe -ArgumentList @('run','<ROOT>\<DUMP>\game_scarlett_master.exe','--console','series-s','--execute') `
+  -WorkingDirectory '<ROOT>\cool_fox\cool_fox-main' -RedirectStandardOutput $out -RedirectStandardError $err -PassThru -WindowStyle Normal
 "pid=$($p.Id)"
 Start-Sleep -Seconds 200
 $v = Get-Process -Id $p.Id -ErrorAction SilentlyContinue
@@ -58,7 +58,7 @@ Start-Sleep 2
 "after_close: leftover=" + @(Get-Process | Where-Object { $_.ProcessName -match '^victory' }).Count
 
 "=== S2 warm (no --used) at " + (Get-Date -Format 'HH:mm:ss')
-Set-Location 'G:\GTA\cool_fox\cool_fox-main'
+Set-Location '<ROOT>\cool_fox\cool_fox-main'
 $t0 = Get-Date
 & $exe warm --jobs 4 *> (Join-Path $data 'r02-a15-warm.log')
 $warmElapsed = [int]((Get-Date) - $t0).TotalSeconds

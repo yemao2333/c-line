@@ -4,9 +4,9 @@ param(
   # 项目 B（测量台升级）：>0 时改成「进世界（draws>=1000）后再采 N 秒」，
   # 全部指标只在这个窗里算；0 = 旧行为（从进程启动起采 $Seconds 秒）。
   [int]$WorldSeconds = 0,
-  [string]$Game = "G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK\game_scarlett_master.exe",
-  [string]$Exe = "G:\GTA\fork-eval\target\release\victory.exe",
-  [string]$Work = "G:\GTA\fork-eval\victory-fork"
+  [string]$Game = "<ROOT>\<DUMP>\game_scarlett_master.exe",
+  [string]$Exe = "<ROOT>\fork-eval\target\release\victory.exe",
+  [string]$Work = "<ROOT>\fork-eval\victory-fork"
 )
 
 # 用法：
@@ -14,7 +14,7 @@ param(
 #   .\bench.ps1 -Label r10 -Seconds 420 -WorldSeconds 200   # 项目 B 口径（进世界后 200 s）
 #   环境变量在启动前由调用方设置（$env:VICTORY_...），本脚本只负责采样与记账。
 
-$data = "G:\GTA\cool_fox-优化方案\data"
+$data = "<ROOT>\cool_fox-优化方案\data"
 if (-not (Test-Path -LiteralPath $data)) { New-Item -ItemType Directory -Path $data | Out-Null }
 $csv = Join-Path $data "bench-fork.csv"
 $log = Join-Path $data ("run-{0}-{1}.log" -f $Label, (Get-Date -Format "MMdd-HHmmss"))

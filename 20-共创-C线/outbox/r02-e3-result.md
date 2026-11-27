@@ -4,7 +4,7 @@
 
 ## A 段 —— `80-最终交付.md`（只抄不判）
 
-产物：`G:\GTA\cool_fox-优化方案\80-最终交付.md`，14,914 B / 256 行，纯 Markdown。
+产物：`<ROOT>\cool_fox-优化方案\80-最终交付.md`，14,914 B / 256 行，纯 Markdown。
 
 **通篇未写新判断**：六节内容全部为 `30-结项报告.md`、`data\bench-v2.csv`、`data\bench-v3.csv`、`60-项目D\route.md`、`70-项目E\route.md` 的原文引用或逐行转抄；表格无附加列，未做任何加减、对比、排名或因果措辞。
 
@@ -77,7 +77,7 @@
 | `bench.csv` | 12 行，未动 |
 | 源码 | 本轮未改任何源码文件，未重编；只改环境变量 |
 | `bench.ps1` / `13-bench-ab.ps1` / `smoke.ps1` 判据 | 未改（`smoke.ps1` 本轮仅被调用，参数为 `-Label/-Extra`） |
-| `G:\GTA\victory-data\` | 未删改（B 段仅运行游戏） |
+| `<ROOT>\victory-data\` | 未删改（B 段仅运行游戏） |
 | `victory-baseline.exe` / `victory-pre-e3.exe` | 未覆盖（本轮无构建） |
 | 联网 / push | 无 |
 

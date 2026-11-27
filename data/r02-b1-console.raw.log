@@ -7,24 +7,24 @@ v1_lines_before=12
 v1_sha_before=0FF0549288706F5B94EF3E221CD82236E9D8FD993EB20B9FB94BD4C9C10F2D00
 === R10-control start 02:51:11
 group_EXIT=0 waited_s=475
-world_line=>> ½øÊÀ½ç£ºdraws=2085£¬ÊÀ½ç´°×Ô t=259 s Æð£¬²É 200 s
-window_line=window = world+200 s (from t=259 s) £»²ÉÑù 74 Ìõ£¬´°ÄÚ 35 Ìõ
-group_console=G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\r10-r10-control-console.log
+world_line=>> ï¿½ï¿½ï¿½ï¿½ï¿½ç£ºdraws=2085ï¿½ï¿½ï¿½ï¿½ï¿½ç´°ï¿½ï¿½ t=259 s ï¿½ð£¬²ï¿½ 200 s
+window_line=window = world+200 s (from t=259 s) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 74 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 35 ï¿½ï¿½
+group_console=<ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\r10-r10-control-console.log
 leftover_after_R10-control =0
 === R10-sendown0 start 02:59:16
 group_EXIT=0 waited_s=265
-world_line=>> ½øÊÀ½ç£ºdraws=2300£¬ÊÀ½ç´°×Ô t=51 s Æð£¬²É 200 s
-window_line=window = world+200 s (from t=51 s) £»²ÉÑù 42 Ìõ£¬´°ÄÚ 35 Ìõ
-group_console=G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\r10-r10-sendown0-console.log
+world_line=>> ï¿½ï¿½ï¿½ï¿½ï¿½ç£ºdraws=2300ï¿½ï¿½ï¿½ï¿½ï¿½ç´°ï¿½ï¿½ t=51 s ï¿½ð£¬²ï¿½ 200 s
+window_line=window = world+200 s (from t=51 s) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 42 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 35 ï¿½ï¿½
+group_console=<ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\r10-r10-sendown0-console.log
 leftover_after_R10-sendown0 =0
-=== bench-v3.csv È«ÎÄ ===
+=== bench-v3.csv È«ï¿½ï¿½ ===
  1: time,label,world_seconds,cap_seconds,samples,world_from_s,world_samples,world_filter,median_ms_world,median_draws,max_priv_gb,min_free_gb,min_commit_free_gb,leftover_procs,log
  2: 2026-11-27 02:59:09,R10-control,200,420,74,259,35,ms>40&draws>=200,250.2,4030,20.98,2.99,11.74,0,run-R10-control-1127-025116.log
  3: 2026-11-27 03:03:37,R10-sendown0,200,420,42,51,35,ms>40&draws>=200,301.7,5976,20.33,3.51,12.37,0,run-R10-sendown0-1127-025917.log
-=== bench-v2.csv ÐÐÊý / sha ===
+=== bench-v2.csv ï¿½ï¿½ï¿½ï¿½ / sha ===
 22
 v2_sha_after=FC8189D8A70B72F1E9C7F2BAFCBE75CA2D4EA8C9607B158BBE913D417C52FD33
-=== bench.csv ÐÐÊý / sha ===
+=== bench.csv ï¿½ï¿½ï¿½ï¿½ / sha ===
 12
 v1_sha_after=0FF0549288706F5B94EF3E221CD82236E9D8FD993EB20B9FB94BD4C9C10F2D00
 === final_procs=0

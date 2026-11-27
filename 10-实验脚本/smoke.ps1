@@ -1,6 +1,6 @@
-﻿param(
+param(
   [Parameter(Mandatory = $true)][string]$Label,
-  [string]$Exe = 'G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe',
+  [string]$Exe = '<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe',
   [int]$Seconds = 420,
   [int]$WorldSeconds = 200,
   [int]$MinWorldSamples = 25,
@@ -15,7 +15,7 @@
 # 本脚本只做「启动 + 断言」，不复制任何中位数/过滤逻辑。
 # 退出码：全绿 0，任一断言失败 1。
 
-$root = 'G:\GTA\cool_fox-优化方案'
+$root = '<ROOT>\cool_fox-优化方案'
 $scripts = Join-Path $root '10-实验脚本'
 $data = Join-Path $root 'data'
 $csv3 = Join-Path $data 'bench-v3.csv'

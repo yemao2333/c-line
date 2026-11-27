@@ -1,9 +1,9 @@
 $ErrorActionPreference = 'Continue'
 # r02-z2-run.ps1 — 第 2/3/4 条的机器侧对照（warm 全量之后跑，600 s 世界窗，每组 2 次）
 # 判据一律复用 smoke.ps1 / bench.ps1，本脚本只串跑与记账。
-$root = 'G:\GTA\cool_fox-优化方案'
+$root = '<ROOT>\cool_fox-优化方案'
 $scripts = Join-Path $root '10-实验脚本'
-$exe = 'G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe'
+$exe = '<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe'
 $label0 = 'z2'
 $sec = 800
 $world = 600

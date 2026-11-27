@@ -2,15 +2,15 @@
 
 > 执行端：本机 Windows。任务单 `inbox\task-20261127-0855-23.md`。只读、不编译、不运行、不改任何东西、不写结论。
 
-产物：`G:\GTA\kelvaroq-eval\three-way.md`，26,386 B / 507 行，UTF-8（无 BOM）。
+产物：`<ROOT>\kelvaroq-eval\three-way.md`，26,386 B / 507 行，UTF-8（无 BOM）。
 
 ## 三棵树
 
 | 代号 | 树 | 本次读数 |
 | --- | --- | --- |
-| A | `G:\GTA\fork-eval\victory-fork` | `.rs` 160 个、全树文件 223 个、最新 mtime 2026-11-27 04:30:28 |
-| B | `G:\GTA\VIctory-Belobug-AMD-a-publier` | `.rs` 237 个、全树文件 271 个、最新 mtime 2026-11-27 08:53:33（早于本任务开始） |
-| O | `G:\GTA\cool_fox\cool_fox-main` | `.rs` 226 个（含 `target\` 下 12 个生成文件）、最新 mtime 05:10:50 |
+| A | `<ROOT>\fork-eval\victory-fork` | `.rs` 160 个、全树文件 223 个、最新 mtime 2026-11-27 04:30:28 |
+| B | `<ROOT>\VIctory-Belobug-AMD-a-publier` | `.rs` 237 个、全树文件 271 个、最新 mtime 2026-11-27 08:53:33（早于本任务开始） |
+| O | `<ROOT>\cool_fox\cool_fox-main` | `.rs` 226 个（含 `target\` 下 12 个生成文件）、最新 mtime 05:10:50 |
 
 ## §1 三方开关（`VICTORY_[A-Z0-9_]+`，`*.rs` 全树去重）
 
@@ -59,8 +59,8 @@ B 独有的 23 个（原文见 `three-way.md` §2.2）：含 `apps\victory\src\f
 
 | 树 | 事实 |
 | --- | --- |
-| `Zettrox/ztrx` | **未纳入**。本机 `G:\GTA` 下按 `ztrx` / `zettrox` / `scarlett` 匹配的目录只有 `OpenScarlett-main`，**没有** ztrx 相关目录 ⇒ 无法清点。 |
-| `californiaAlmonds/OpenScarlett` | **未纳入**。`G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK`（游戏 dump）内 `.rs` 数 = **0**，该目录是游戏数据，不含源码。另注事实：本机存在 `G:\GTA\OpenScarlett-main`（545 个文件、`.rs` **0** 个、`CMakeLists.txt` / `build.cmd` 等，非 Rust 工程，最新 mtime 2026-11-26 08:17:32）——它不在本任务单的三棵树范围内，故同样**未纳入**；若要清点需另开单。 |
+| `Zettrox/ztrx` | **未纳入**。本机 `<ROOT>` 下按 `ztrx` / `zettrox` / `scarlett` 匹配的目录只有 `OpenScarlett-main`，**没有** ztrx 相关目录 ⇒ 无法清点。 |
+| `californiaAlmonds/OpenScarlett` | **未纳入**。`<ROOT>\<DUMP>`（游戏 dump）内 `.rs` 数 = **0**，该目录是游戏数据，不含源码。另注事实：本机存在 `<ROOT>\OpenScarlett-main`（545 个文件、`.rs` **0** 个、`CMakeLists.txt` / `build.cmd` 等，非 Rust 工程，最新 mtime 2026-11-26 08:17:32）——它不在本任务单的三棵树范围内，故同样**未纳入**；若要清点需另开单。 |
 
 ## 红线核对
 
@@ -70,15 +70,15 @@ B 独有的 23 个（原文见 `three-way.md` §2.2）：含 `apps\victory\src\f
 | 改三棵树（含 `target\`、`Cargo.toml`） | 未改；全流程只有 `Get-ChildItem` / `Select-String` / `Compare-Object` / `Test-Path` |
 | 结论/建议 | 未写；`three-way.md` 只有清单、计数与原文 |
 | 数字与路径 | 未改写；路径逐字来自 `FullName.Replace(...)` 原文 |
-| 输出位置 | 仅 `G:\GTA\kelvaroq-eval\`（`three-way.md` + `f3-s1/s2/s3/s4.txt` + `build-threeway.ps1`） |
+| 输出位置 | 仅 `<ROOT>\kelvaroq-eval\`（`three-way.md` + `f3-s1/s2/s3/s4.txt` + `build-threeway.ps1`） |
 
 ## 交付文件
 
 | 文件 | 大小（B） | 说明 |
 | --- | --- | --- |
-| `G:\GTA\kelvaroq-eval\three-way.md` | 26,386 | 正式产物（§1–§4） |
-| `G:\GTA\kelvaroq-eval\f3-s1.txt` | 15,626 | S1 原始输出（含三张清单与并集） |
-| `G:\GTA\kelvaroq-eval\f3-s2.txt` | 1,572 | S2 原始输出 |
-| `G:\GTA\kelvaroq-eval\f3-s3.txt` | 9,628 | S3 原始输出（各 40 行） |
-| `G:\GTA\kelvaroq-eval\f3-s4.txt` | 8,960 | S4 原始输出（各 60 行） |
-| `G:\GTA\kelvaroq-eval\build-threeway.ps1` | 6,609 | 生成脚本（只读输入，可复跑） |
+| `<ROOT>\kelvaroq-eval\three-way.md` | 26,386 | 正式产物（§1–§4） |
+| `<ROOT>\kelvaroq-eval\f3-s1.txt` | 15,626 | S1 原始输出（含三张清单与并集） |
+| `<ROOT>\kelvaroq-eval\f3-s2.txt` | 1,572 | S2 原始输出 |
+| `<ROOT>\kelvaroq-eval\f3-s3.txt` | 9,628 | S3 原始输出（各 40 行） |
+| `<ROOT>\kelvaroq-eval\f3-s4.txt` | 8,960 | S4 原始输出（各 60 行） |
+| `<ROOT>\kelvaroq-eval\build-threeway.ps1` | 6,609 | 生成脚本（只读输入，可复跑） |

@@ -51,7 +51,7 @@ L6355: 2026-11-26T14:33:48.693597Z  WARN victory_gpu::residency: host memory pre
 
 ```
 commit_limit_gb=33.84 commit_used_gb=16.81 commit_free_gb=17.03
-exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe  bytes=49681038  written=2026-11-26 22:02:32
+exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe  bytes=49681038  written=2026-11-26 22:02:32
 SHA256=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
 ```
 

@@ -1,29 +1,29 @@
-﻿param(
+param(
   [int]$RunSeconds = 420,
   # 时间线抓帧时刻（秒，可多段，用 + 连接）；两段是为了避开「没进世界」的风险
   [string]$At = '200+320',
   [int]$Frames = 3,
-  [string]$Out = 'G:\GTA\cool_fox-优化方案\data\timeline.json'
+  [string]$Out = '<ROOT>\cool_fox-优化方案\data\timeline.json'
 )
 
 # 项目 C：抓 3 帧时间线（Chrome trace + 文本摘要），用来回答
 # 「准备 150 ms」与「等卡 227 ms」能不能重叠。
 #
 # 用法（要点：跑起来后 **90 秒内手动点进世界**，之后就别动鼠标）：
-#   powershell -NoProfile -ExecutionPolicy Bypass -File "G:\GTA\cool_fox-优化方案\50-项目C\run-timeline.ps1"
+#   powershell -NoProfile -ExecutionPolicy Bypass -File "<ROOT>\cool_fox-优化方案\50-项目C\run-timeline.ps1"
 #
 # 为什么需要 diag 产物：时间线在 `#[cfg(feature="diagnostics")]` 后面，
 # release 产物里没有这套 hooks。
 
 $ErrorActionPreference = 'Continue'
-$diag = 'G:\GTA\cool_fox\cool_fox-main\target\diag\victory.exe'
-$data = 'G:\GTA\cool_fox-优化方案\data'
+$diag = '<ROOT>\cool_fox\cool_fox-main\target\diag\victory.exe'
+$data = '<ROOT>\cool_fox-优化方案\data'
 
 if (-not (Test-Path $diag)) { throw "找不到 diag 产物：$diag（先用 cargo build --profile diag -p victory --features diagnostics 构建）" }
 "SHA256_diag=" + (Get-FileHash $diag -Algorithm SHA256).Hash
 
 # 与全部跑分同一套 fork 开关
-$env:VICTORY_AMBIENT_AIR='1.5'; $env:VICTORY_CACHE_DIR='G:\GTA\victory-data\coolfox-cache'; $env:VICTORY_DATA_DIR='G:\GTA\victory-data\coolfox-data'
+$env:VICTORY_AMBIENT_AIR='1.5'; $env:VICTORY_CACHE_DIR='<ROOT>\victory-data\coolfox-cache'; $env:VICTORY_DATA_DIR='<ROOT>\victory-data\coolfox-data'
 $env:VICTORY_TEXTURE_NO_WAIT='1'; $env:VICTORY_RELAY='2'; $env:VICTORY_WIDE_BACK='1'; $env:VICTORY_CARD_REHASH_RUNS='1'
 $env:VICTORY_JOIN_COPIES='1'; $env:VICTORY_INDIRECT_WINDOW='1'; $env:VICTORY_RELAY_COPY='1'; $env:VICTORY_CARD_STEPS='2'
 $env:VICTORY_INDIRECT_BATCH='2'; $env:VICTORY_MAP_THREADS='1'; $env:VICTORY_CARD_AWAKE='1'; $env:VICTORY_SHOW_AFTER='1'
@@ -42,8 +42,8 @@ Start-Sleep 3
 $log = Join-Path $data 'r11-timeline.log'
 $err = Join-Path $data 'r11-timeline.err.log'
 $p = Start-Process -FilePath $diag `
-  -ArgumentList @('run','G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK\game_scarlett_master.exe','--console','series-s','--execute') `
-  -WorkingDirectory 'G:\GTA\cool_fox\cool_fox-main' -RedirectStandardOutput $log -RedirectStandardError $err -PassThru -WindowStyle Normal
+  -ArgumentList @('run','<ROOT>\<DUMP>\game_scarlett_master.exe','--console','series-s','--execute') `
+  -WorkingDirectory '<ROOT>\cool_fox\cool_fox-main' -RedirectStandardOutput $log -RedirectStandardError $err -PassThru -WindowStyle Normal
 "pid=$($p.Id)  起跑时刻=$(Get-Date -Format HH:mm:ss)"
 
 $t0 = Get-Date

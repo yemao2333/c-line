@@ -1,9 +1,9 @@
-﻿=== r02-a9 start 2026-11-26 23:55:47
-root=G:\GTA\cool_fox-优化方案
+=== r02-a9 start 2026-11-26 23:55:47
+root=<ROOT>\cool_fox-优化方案
 SHA256_victory=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
 commit_limit_gb=49.84 commit_used_gb=10.53 commit_free_gb=39.31
 === group R5-control start 23:55:53
-label=R5-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R5-control exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   9s fps=       ms=         draws=       priv=  4.75 commitfree= 28.28
   t=  15s fps=    30 ms=    33.3 draws=     8 priv=  7.17 commitfree= 27.15
   t=  21s fps=    30 ms=    33.3 draws=     8 priv=  7.27 commitfree= 27.12
@@ -91,12 +91,12 @@ label=R5-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe pr
 
 
 median_ms_world = 248.6 （filter v2，30 条世界样本，中位 draws=5015）；max_priv_gb = 20.44 ；min_free_gb = 2.85 ；min_commit_free_gb = 13.86 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 === group R5-control end 00:00:02
 post-clean leftover_procs=0
 === group R5-wideback0 start 00:00:07
 extra=VICTORY_WIDE_BACK=0
-label=R5-wideback0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R5-wideback0 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    31 ms=    32.1 draws=     1 priv=  6.22 commitfree= 27.46
   t=  14s fps=    30 ms=    33.3 draws=     4 priv=  7.19 commitfree= 27.23
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=   7.2 commitfree= 27.24
@@ -184,12 +184,12 @@ label=R5-wideback0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe 
 
 
 median_ms_world = 268.1 （filter v2，33 条世界样本，中位 draws=4569）；max_priv_gb = 20.29 ；min_free_gb = 2.72 ；min_commit_free_gb = 13.49 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 === group R5-wideback0 end 00:04:15
 post-clean leftover_procs=0
 === group R5-cardsteps0 start 00:04:20
 extra=VICTORY_CARD_STEPS=0
-label=R5-cardsteps0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R5-cardsteps0 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=  10s fps=    30 ms=    33.3 draws=     1 priv=   6.1 commitfree= 27.97
   t=  16s fps=    30 ms=    33.3 draws=     4 priv=  7.33 commitfree= 27.72
   t=  22s fps=    30 ms=    33.3 draws=     4 priv=  7.33 commitfree= 27.73
@@ -277,12 +277,12 @@ label=R5-cardsteps0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe
 
 
 median_ms_world = 292.8 （filter v2，33 条世界样本，中位 draws=4832）；max_priv_gb = 20.53 ；min_free_gb = 3.46 ；min_commit_free_gb = 14.31 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 === group R5-cardsteps0 end 00:08:30
 post-clean leftover_procs=0
 === group R5-relaycopy0 start 00:08:35
 extra=VICTORY_RELAY_COPY=0
-label=R5-relaycopy0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R5-relaycopy0 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    30 ms=    33.4 draws=     1 priv=  6.53 commitfree= 28.03
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.95 commitfree= 28.05
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.22 commitfree=  27.8
@@ -370,7 +370,7 @@ label=R5-relaycopy0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe
 
 
 median_ms_world = 304.4 （filter v2，32 条世界样本，中位 draws=4703）；max_priv_gb = 21.12 ；min_free_gb = 4.55 ；min_commit_free_gb = 13.85 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 === group R5-relaycopy0 end 00:12:43
 post-clean leftover_procs=0
 === bench-v2.csv ===

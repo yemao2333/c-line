@@ -1,4 +1,4 @@
-﻿# r02-a15 回填 · 修正预热（BOOK 跑 → CloseMainWindow → warm 无 --used → 再跑）
+# r02-a15 回填 · 修正预热（BOOK 跑 → CloseMainWindow → warm 无 --used → 再跑）
 
 > 执行端：本机 Windows。任务单 `inbox\task-20261127-0205-15.md`。只报数，未判读预热效果。
 
@@ -109,6 +109,6 @@ R9-after-warm2: world_n=32 gt200=32 gt400=2 max_ms=521.8 max_draws=6557
 ## G 未改动项
 
 1. `data\bench-v2.csv` 仅追加 L22；L1–L21 未动；`data\bench.csv` 未动。
-2. 缓存目录 `G:\GTA\victory-data\coolfox-cache\pipelines` 既有文件未删改；`known-pipelines.bin` 三次读数均为 50326544。
+2. 缓存目录 `<ROOT>\victory-data\coolfox-cache\pipelines` 既有文件未删改；`known-pipelines.bin` 三次读数均为 50326544。
 3. 未改源码 / `Cargo.toml` / `.cargo\config.toml` / `rust-toolchain.toml`；未覆盖 release / baseline；未用 diag；未开 `VICTORY_CAPTURE_FRAMES` / `VICTORY_RECORD_FRAMES`；未并发两局。
 4. runner 脚本 `r02-a15-run.ps1`（UTF-8 带 BOM，`Parser::ParseFile` 0 错）。

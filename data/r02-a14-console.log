@@ -4,7 +4,7 @@ commit_limit_gb=49.84 commit_free_gb=38.08
 book_before=3
 === S1 R8-before-book at 01:47:22
 extra=VICTORY_PIPELINE_BOOK=1
-label=R8-before-book exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R8-before-book exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    31 ms=    31.8 draws=     1 priv=  6.28 commitfree=  26.7
   t=  14s fps=    30 ms=    33.3 draws=     4 priv=  7.15 commitfree= 26.23
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.23 commitfree=  26.3
@@ -92,7 +92,7 @@ label=R8-before-book exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.ex
 
 
 median_ms_world = 267.8 （filter v2，32 条世界样本，中位 draws=4948）；max_priv_gb = 20.89 ；min_free_gb = 3.8 ；min_commit_free_gb = 12.36 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 S1_exit=0
 book_after_run=5
 === S2 warm at 01:51:33
@@ -107,7 +107,7 @@ Error: 绯荤粺鎵句笉鍒版寚瀹氱殑璺緞銆?(os error 3)
 
 book_after_warm=5
 === S3 R8-after-warm at 01:51:34
-label=R8-after-warm exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R8-after-warm exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    24 ms=    41.7 draws=     1 priv=  6.15 commitfree= 26.53
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.96 commitfree= 26.31
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.23 commitfree= 26.21
@@ -195,7 +195,7 @@ label=R8-after-warm exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe
 
 
 median_ms_world = 256.1 （filter v2，32 条世界样本，中位 draws=4710）；max_priv_gb = 20.82 ；min_free_gb = 4.17 ；min_commit_free_gb = 12.69 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 S3_exit=0
 leftover_after_group=0
 === final_procs=0

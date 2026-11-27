@@ -23,8 +23,8 @@ test : test result: FAILED. 334 passed; 2 failed; 34 ignored; 0 measured; 0 filt
 环境补充（下一轮直接照这个前缀，省 30 秒）：
 
 ```powershell
-$env:CARGO_HOME="G:\rust\cargo"; $env:RUSTUP_HOME="G:\rust\rustup"
-$env:PATH="G:\rust\cargo\bin;D:\YunX-toolchain\w64devkit\w64devkit\bin;C:\Windows\System32;"+$env:PATH
+$env:CARGO_HOME="<RUST>\cargo"; $env:RUSTUP_HOME="<RUST>\rustup"
+$env:PATH="<RUST>\cargo\bin;<TOOLCHAIN>\w64devkit\w64devkit\bin;C:\Windows\System32;"+$env:PATH
 Remove-Item Env:\RUSTFLAGS -ErrorAction SilentlyContinue
 ```
 

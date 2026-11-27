@@ -1,4 +1,4 @@
-﻿param(
+param(
   # 这次运行的标签，只用于回显与文件名
   [string]$Tag = 'shot',
   # 单变量覆盖，分号分隔："VICTORY_AMBIENT=1.5;VICTORY_AMBIENT_AIR=3.0"
@@ -11,16 +11,16 @@
 # 用户在同一存档同一位置截图，然后按 Tag 把图存下来对比。
 #
 # 用法：
-#   powershell -NoProfile -ExecutionPolicy Bypass -File "G:\GTA\cool_fox-优化方案\60-项目D\run-shot.ps1" -Tag base
+#   powershell -NoProfile -ExecutionPolicy Bypass -File "<ROOT>\cool_fox-优化方案\60-项目D\run-shot.ps1" -Tag base
 #   ... -Tag amb15 -Extra "VICTORY_AMBIENT=1.5"
 #   ... -Tag amb15air3 -Extra "VICTORY_AMBIENT=1.5;VICTORY_AMBIENT_AIR=3.0;VICTORY_AMBIENT_SHADE=0"
 
 $ErrorActionPreference = 'Continue'
-$exe = 'G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe'
-$data = 'G:\GTA\cool_fox-优化方案\data'
+$exe = '<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe'
+$data = '<ROOT>\cool_fox-优化方案\data'
 
 # 与 Start-GTA6.cmd 同一套 fork 开关（基线）
-$env:VICTORY_AMBIENT_AIR='1.5'; $env:VICTORY_CACHE_DIR='G:\GTA\victory-data\coolfox-cache'; $env:VICTORY_DATA_DIR='G:\GTA\victory-data\coolfox-data'
+$env:VICTORY_AMBIENT_AIR='1.5'; $env:VICTORY_CACHE_DIR='<ROOT>\victory-data\coolfox-cache'; $env:VICTORY_DATA_DIR='<ROOT>\victory-data\coolfox-data'
 $env:VICTORY_TEXTURE_NO_WAIT='1'; $env:VICTORY_RELAY='2'; $env:VICTORY_WIDE_BACK='1'; $env:VICTORY_CARD_REHASH_RUNS='1'
 $env:VICTORY_JOIN_COPIES='1'; $env:VICTORY_INDIRECT_WINDOW='1'; $env:VICTORY_RELAY_COPY='1'; $env:VICTORY_CARD_STEPS='2'
 $env:VICTORY_INDIRECT_BATCH='2'; $env:VICTORY_MAP_THREADS='1'; $env:VICTORY_CARD_AWAKE='1'; $env:VICTORY_SHOW_AFTER='1'
@@ -50,8 +50,8 @@ Start-Sleep 3
 $log = Join-Path $data ("r12-" + $Tag + ".log")
 $err = Join-Path $data ("r12-" + $Tag + ".err.log")
 $p = Start-Process -FilePath $exe `
-  -ArgumentList @('run','G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK\game_scarlett_master.exe','--console','series-s','--execute') `
-  -WorkingDirectory 'G:\GTA\cool_fox\cool_fox-main' -RedirectStandardOutput $log -RedirectStandardError $err -PassThru -WindowStyle Normal
+  -ArgumentList @('run','<ROOT>\<DUMP>\game_scarlett_master.exe','--console','series-s','--execute') `
+  -WorkingDirectory '<ROOT>\cool_fox\cool_fox-main' -RedirectStandardOutput $log -RedirectStandardError $err -PassThru -WindowStyle Normal
 "pid=$($p.Id)  started=$(Get-Date -Format HH:mm:ss)"
 "NOW: load your save, stand still at the same spot, and take a screenshot."
 
@@ -67,4 +67,4 @@ Get-Process | Where-Object { $_.ProcessName -match '^victory' } | Stop-Process -
 Start-Sleep 2
 "leftover=" + @(Get-Process | Where-Object { $_.ProcessName -match '^victory' }).Count
 "err_bytes=" + (Get-Item $err -ErrorAction SilentlyContinue).Length
-"save your screenshot as: G:\GTA\cool_fox-优化方案\data\shot-$Tag.png"
+"save your screenshot as: <ROOT>\cool_fox-优化方案\data\shot-$Tag.png"

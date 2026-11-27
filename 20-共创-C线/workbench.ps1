@@ -1,4 +1,4 @@
-﻿param(
+param(
   [string]$Claim = '',      # 认领的 task_id：把该行状态改成 进行中
   [string]$Done  = '',      # 完成回填：把该行状态改成 已回填
   [string]$Note  = '',      # 附注，写进心跳
@@ -11,7 +11,7 @@
 #   .\workbench.ps1 -Claim r02-h1       认领
 #   .\workbench.ps1 -Done r02-h1 -Artifact outbox\r02-h1.md   回填
 
-$root = 'G:\GTA\cool_fox-优化方案\20-共创-C线'
+$root = '<ROOT>\cool_fox-优化方案\20-共创-C线'
 $board = Join-Path $root '工作台.md'
 if (-not (Test-Path $board)) { throw "找不到工作台：$board" }
 try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; $OutputEncoding = [System.Text.Encoding]::UTF8 } catch {}

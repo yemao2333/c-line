@@ -9,7 +9,7 @@
 | 显卡 | RTX 3060 Ti，8 GB（`video_memory()` 能返回 `[budget, used, ..]`） |
 | 内存 | 31.8 GB 物理，页面文件 2 GB，提交上限 33.84 GB |
 | 场景 | Xbox Series 版 GTA6，Series S 档位；世界内 674 draws / 824 ms 一帧，私有内存 16.7 GB |
-| 代码来源 | `G:\GTA\cool_fox\cool_fox-main`（VIctory 的 AMD 优化分支，GPL-3.0） |
+| 代码来源 | `<ROOT>\cool_fox\cool_fox-main`（VIctory 的 AMD 优化分支，GPL-3.0） |
 
 已知的账：默认三个预算项相加 **9,216 MB = 8,192 MB 预算的 112.5%**，所以世界首帧必定互相拒绝。
 

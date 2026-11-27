@@ -1,11 +1,11 @@
 2026-11-26T13:18:12.413794Z  INFO victory_loader::tls: static TLS redirected index=10 patched=53246
-2026-11-26T13:18:12.629724Z  INFO victory_loader::windows: image mapped base=0x7ffcb8ea0000 preferred=0x140000000 path=G:\GTA\victory-data\coolfox-cache\images\victory-image-b99f876b74d4a77f.dll
-2026-11-26T13:18:13.408975Z  INFO victory_hle::modules::files: virtual drive drive=G root=G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK hides_host_drive=true
-2026-11-26T13:18:13.417477Z  INFO victory_hle::modules::files: virtual drive drive=T root=G:\GTA\victory-data\coolfox-data\7952987A/temp hides_host_drive=false
-2026-11-26T13:18:13.439912Z  INFO victory_loader::windows: image mapped base=0x7ffd2f340000 preferred=0x180000000 path=G:\GTA\victory-data\coolfox-cache\images\victory-image-2d3fbea0ca5034e7.dll
-2026-11-26T13:18:13.443129Z  INFO victory_loader::windows: image mapped base=0x7ffd464b0000 preferred=0x180000000 path=G:\GTA\victory-data\coolfox-cache\images\victory-image-f2a1938cf34f2ba6.dll
-2026-11-26T13:18:13.446182Z  INFO victory_loader::windows: image mapped base=0x7ffd2b0e0000 preferred=0x180000000 path=G:\GTA\victory-data\coolfox-cache\images\victory-image-45d7eba75627fecc.dll
-2026-11-26T13:18:13.448215Z  INFO victory_loader::windows: image mapped base=0x7ffd425e0000 preferred=0x180000000 path=G:\GTA\victory-data\coolfox-cache\images\victory-image-cb71456919aada87.dll
+2026-11-26T13:18:12.629724Z  INFO victory_loader::windows: image mapped base=0x7ffcb8ea0000 preferred=0x140000000 path=<ROOT>\victory-data\coolfox-cache\images\victory-image-b99f876b74d4a77f.dll
+2026-11-26T13:18:13.408975Z  INFO victory_hle::modules::files: virtual drive drive=G root=<ROOT>\<DUMP> hides_host_drive=true
+2026-11-26T13:18:13.417477Z  INFO victory_hle::modules::files: virtual drive drive=T root=<ROOT>\victory-data\coolfox-data\7952987A/temp hides_host_drive=false
+2026-11-26T13:18:13.439912Z  INFO victory_loader::windows: image mapped base=0x7ffd2f340000 preferred=0x180000000 path=<ROOT>\victory-data\coolfox-cache\images\victory-image-2d3fbea0ca5034e7.dll
+2026-11-26T13:18:13.443129Z  INFO victory_loader::windows: image mapped base=0x7ffd464b0000 preferred=0x180000000 path=<ROOT>\victory-data\coolfox-cache\images\victory-image-f2a1938cf34f2ba6.dll
+2026-11-26T13:18:13.446182Z  INFO victory_loader::windows: image mapped base=0x7ffd2b0e0000 preferred=0x180000000 path=<ROOT>\victory-data\coolfox-cache\images\victory-image-45d7eba75627fecc.dll
+2026-11-26T13:18:13.448215Z  INFO victory_loader::windows: image mapped base=0x7ffd425e0000 preferred=0x180000000 path=<ROOT>\victory-data\coolfox-cache\images\victory-image-cb71456919aada87.dll
 2026-11-26T13:18:13.496898Z  INFO victory_loader::windows: imports bound hle=9 host=48 missing=0
 2026-11-26T13:18:13.505199Z  INFO victory_loader::windows: imports bound hle=4 host=18 missing=0
 2026-11-26T13:18:13.520221Z  INFO victory_loader::windows: imports bound hle=27 host=171 missing=0
@@ -42,7 +42,7 @@
 2026-11-26T13:18:13.636131Z  INFO victory_hle::modules::dstorage: dstorage: file opened path="G:\\textures.rpf" iid="43704f9f-27c6-4a9f-8815-d16527894df4"
 2026-11-26T13:18:13.636906Z  INFO victory_hle::modules::dstorage: dstorage: file opened path="G:\\audio.rpf" iid="43704f9f-27c6-4a9f-8815-d16527894df4"
 2026-11-26T13:18:13.637732Z  INFO victory_hle::modules::dstorage: dstorage: file opened path="G:\\script.rpf" iid="43704f9f-27c6-4a9f-8815-d16527894df4"
-2026-11-26T13:18:13.642705Z  INFO victory_hle::modules::files: virtual drive drive=Z root=G:\GTA\victory-data\coolfox-data\7952987A/storage
+2026-11-26T13:18:13.642705Z  INFO victory_hle::modules::files: virtual drive drive=Z root=<ROOT>\victory-data\coolfox-data\7952987A/storage
 2026-11-26T13:18:13.858125Z  INFO victory_hle::modules::display: HDR mode: disabled (SDR presentation) preference=0
 2026-11-26T13:18:13.862666Z  INFO victory_hle::modules::lifecycle: title window fitted to the screen width=1920 height=1080 to=(1834, 1032) limit=None
 2026-11-26T13:18:13.880723Z  INFO victory_gpu::device: D3D12.X device version=0x20004
@@ -1692,7 +1692,7 @@
 2026-11-26T13:18:17.180314Z  INFO victory_gpu::pipeline: shader translated stage="pixel" hash=98d64e449af39d03 user_data=2 samplers=0
 2026-11-26T13:18:17.180419Z  INFO victory_gpu::pipeline: shader translated stage="vertex" hash=81749e9de9a48b7b user_data=3 samplers=0
 2026-11-26T13:18:17.180959Z  INFO victory_gpu::pipeline: shader translated stage="pixel" hash=a09dcf112c9345a7 user_data=2 samplers=0
-2026-11-26T13:18:17.181009Z  INFO victory_loader::windows: image mapped base=0x7ffd19180000 preferred=0x180000000 path=G:\GTA\victory-data\coolfox-cache\images\victory-image-f44b2f3a6ef11c20.dll
+2026-11-26T13:18:17.181009Z  INFO victory_loader::windows: image mapped base=0x7ffd19180000 preferred=0x180000000 path=<ROOT>\victory-data\coolfox-cache\images\victory-image-f44b2f3a6ef11c20.dll
 2026-11-26T13:18:17.181128Z  INFO victory_gpu::pipeline::host: host pipeline shaders=[vertex f99dde99a70a0c43, pixel 98d64e449af39d03]
 2026-11-26T13:18:17.181880Z  INFO victory_loader::windows: imports bound hle=7 host=79 missing=0
 2026-11-26T13:18:17.181920Z  INFO victory_gpu::pipeline::host: host pipeline shaders=[vertex 81749e9de9a48b7b, pixel a09dcf112c9345a7]

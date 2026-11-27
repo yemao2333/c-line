@@ -1,4 +1,4 @@
-   Compiling victory-gpu v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-gpu)
+   Compiling victory-gpu v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-gpu)
 warning: variant `Title` is never constructed
     --> crates\victory-gpu\src\host.rs:7804:5
      |
@@ -94,7 +94,7 @@ warning: calls to `std::mem::drop` with a value that implements `Copy` does noth
     |
     = note: use `let _ = ...` to ignore the expression or result
 
-   Compiling victory-hle v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-hle)
+   Compiling victory-hle v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-hle)
 warning: `victory-gpu` (lib) generated 12 warnings
-   Compiling victory v0.1.0 (G:\GTA\cool_fox\cool_fox-main\apps\victory)
+   Compiling victory v0.1.0 (<ROOT>\cool_fox\cool_fox-main\apps\victory)
     Finished `release` profile [optimized + debuginfo] target(s) in 2m 11s

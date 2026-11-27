@@ -1,4 +1,4 @@
-﻿# r02-b1 回填 · 新口径（进世界后 200 s）两组：R10-control / R10-sendown0
+# r02-b1 回填 · 新口径（进世界后 200 s）两组：R10-control / R10-sendown0
 
 > 执行端：本机 Windows。任务单 `inbox\task-20261127-0248-16.md`。只报数，未判读。
 
@@ -53,7 +53,7 @@ window = world+200 s (from t=51 s) ；采样 42 条，窗内 35 条
 ## E 附：R10-control console 全文（74 条采样）
 
 ```text
-﻿label=R10-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+﻿label=R10-control exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
   t=   8s fps=       ms=         draws=       priv=  5.13 commitfree= 26.29
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.98 commitfree= 25.66
   t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.98 commitfree= 25.67
@@ -219,7 +219,7 @@ median_ms_world = 250.2 （filter v2，35 条世界样本，中位 draws=4030）
 
 ```text
 ﻿extra=VICTORY_SEND_OWN=0
-label=R10-sendown0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+label=R10-sendown0 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
   t=   8s fps=    30 ms=      33 draws=     1 priv=  6.21 commitfree= 25.91
   t=  14s fps=    30 ms=    33.3 draws=     4 priv=  7.21 commitfree= 25.68
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.21 commitfree= 25.69

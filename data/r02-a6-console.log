@@ -1,6 +1,6 @@
 SHA256=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
 commit_limit_gb=33.84 commit_used_gb=17.06 commit_free_gb=16.78
-label=R3-A2-baseline-v2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory-baseline.exe profile=fork seconds=200
+label=R3-A2-baseline-v2 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory-baseline.exe profile=fork seconds=200
 
   T Fps    Ms Draws PrivGB RssGB FreeGB CommitFreeGB
   - ---    -- ----- ------ ----- ------ ------------
@@ -48,8 +48,8 @@ label=R3-A2-baseline-v2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory
 
 
 median_ms_world = 255.8 （filter v2，29 条世界样本，中位 draws=4463）；max_priv_gb = 20.19 ；min_free_gb = 2.94 ；min_commit_free_gb = 0.26 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
-label=R3-B-reverted-v2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
+label=R3-B-reverted-v2 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
 
   T Fps    Ms Draws PrivGB RssGB FreeGB CommitFreeGB
   - ---    -- ----- ------ ----- ------ ------------
@@ -97,7 +97,7 @@ label=R3-B-reverted-v2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.
 
 
 median_ms_world = 272.5 （filter v2，32 条世界样本，中位 draws=4387）；max_priv_gb = 20.36 ；min_free_gb = 2.74 ；min_commit_free_gb = 0.38 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 --- bench-v2.csv ---
  1: time,label,seconds,samples,world_filter,world_samples,median_ms_world,median_draws,max_priv_gb,min_free_gb,min_commit_free_gb,leftover_procs,log
  2: 2026-11-26 22:44:50,R3-A2-baseline-v2,200,40,ms>40&draws>=200,29,255.8,4463,20.19,2.94,0.26,0,run-R3-A2-baseline-v2-1126-224038.log

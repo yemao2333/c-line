@@ -1,4 +1,4 @@
-﻿# r02-e1 · `fxceless/victory-fork` 取源 / 差异清点 / 隔离构建
+# r02-e1 · `fxceless/victory-fork` 取源 / 差异清点 / 隔离构建
 
 > 执行端：本机 Windows。任务单 `20-共创-C线\inbox\task-20261127-0430-18.md`。只列差异与数字，不含合并建议。
 
@@ -6,7 +6,7 @@
 
 | 项 | 值 |
 | --- | --- |
-| 命令 | `git clone --depth 1 https://github.com/fxceless/victory-fork.git G:\GTA\fork-eval\victory-fork` |
+| 命令 | `git clone --depth 1 https://github.com/fxceless/victory-fork.git <ROOT>\fork-eval\victory-fork` |
 | clone_EXIT | 0 |
 | clone 耗时 | 7 s |
 | commit | `52ac4ec0f8a03f103c146e60228e53612759d435` |
@@ -15,7 +15,7 @@
 | files | 223 |
 | size_mb | 224 |
 | remote（本机 git 的 `insteadOf` 生效后原样） | fetch/push：`https://gh-proxy.com/https://github.com/fxceless/victory-fork.git` |
-| 本地目标 | `G:\GTA\fork-eval\victory-fork`（新建；我们的树不是 git 仓库，`G:\GTA\cool_fox\cool_fox-main\.git` 不存在） |
+| 本地目标 | `<ROOT>\fork-eval\victory-fork`（新建；我们的树不是 git 仓库，`<ROOT>\cool_fox\cool_fox-main\.git` 不存在） |
 
 ## S2 差异清点
 
@@ -345,7 +345,7 @@ VICTORY_WRITE_SITES
 | RS_ONLY_IN_THEIRS | 17 |
 | RS_ONLY_IN_OURS | 83 |
 
-> 口径说明（原样）：扫描含 `G:\GTA\cool_fox\cool_fox-main\target\` 下由 build script 生成的 `out\private.rs`（12 条），任务单命令未排除 `target\`，此处不额外过滤。
+> 口径说明（原样）：扫描含 `<ROOT>\cool_fox\cool_fox-main\target\` 下由 build script 生成的 `out\private.rs`（12 条），任务单命令未排除 `target\`，此处不额外过滤。
 
 ### RS_ONLY_IN_THEIRS（17）
 
@@ -496,14 +496,14 @@ panic = "unwind"
 
 | 项 | 值 |
 | --- | --- |
-| 命令 | `cargo build --release --locked -p victory`（工作目录 `G:\GTA\fork-eval\victory-fork`） |
-| CARGO_TARGET_DIR | `G:\GTA\fork-eval\target` |
-| CARGO_HOME / RUSTUP_HOME | `G:\rust\cargo` / `G:\rust\rustup` |
+| 命令 | `cargo build --release --locked -p victory`（工作目录 `<ROOT>\fork-eval\victory-fork`） |
+| CARGO_TARGET_DIR | `<ROOT>\fork-eval\target` |
+| CARGO_HOME / RUSTUP_HOME | `<RUST>\cargo` / `<RUST>\rustup` |
 | RUSTFLAGS | `'`（空） |
 | build_EXIT | 0 |
 | elapsed | 116 s（日志末行 `Finished `release` profile [optimized + debuginfo] target(s) in 1m 54s`） |
 | errors | 0 |
-| exe 路径 | `G:\GTA\fork-eval\target\release\victory.exe` |
+| exe 路径 | `<ROOT>\fork-eval\target\release\victory.exe` |
 | exe_bytes | 65035254 |
 | written | 2026-11-27 04:33:11 |
 | exe_sha256 | `4B3D4D225A0800328C3A88DCD1496A339A89995563CFF2EBFB45628E264B2DA2` |
@@ -528,13 +528,13 @@ panic = "unwind"
 | 不运行游戏 | 遵守 | 无 `victory.exe run` / `--execute` 调用 |
 | 不改对方源码 | 遵守 | clone 后未编辑、未 `cargo add`/`update`；`--locked` 直接通过（两边 Cargo.lock 同一 SHA） |
 | 不 push | 遵守 | 仅 `git clone` 与只读 `git log`/`remote -v` |
-| 不删 `G:\GTA\fork-eval` 下任何东西 | 遵守 | 失败重试未发生（首次构建即 EXIT=0） |
+| 不删 `<ROOT>\fork-eval` 下任何东西 | 遵守 | 失败重试未发生（首次构建即 EXIT=0） |
 
 ## 产出文件
 
-1. `G:\GTA\fork-eval\report-e1.md`（本文件）
-2. `G:\GTA\fork-eval\build-e1.log`（cargo 全量输出，3460 B）
-3. `G:\GTA\fork-eval\build-e1-runner.log`（runner 记录：EXIT/耗时/errors/exe 信息）
-4. `G:\GTA\fork-eval\victory-fork\`（clone 内容）
-5. `G:\GTA\fork-eval\target\release\victory.exe`（隔离构建产物）
+1. `<ROOT>\fork-eval\report-e1.md`（本文件）
+2. `<ROOT>\fork-eval\build-e1.log`（cargo 全量输出，3460 B）
+3. `<ROOT>\fork-eval\build-e1-runner.log`（runner 记录：EXIT/耗时/errors/exe 信息）
+4. `<ROOT>\fork-eval\victory-fork\`（clone 内容）
+5. `<ROOT>\fork-eval\target\release\victory.exe`（隔离构建产物）
 6. `20-共创-C线\outbox\r02-e1-result.md`（回填件，内容同本文件）

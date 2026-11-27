@@ -1,9 +1,9 @@
-﻿# 项目 E · 回归自测一页（每次改动后照这个跑）
+# 项目 E · 回归自测一页（每次改动后照这个跑）
 
 ## 一条命令
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File G:\GTA\cool_fox-优化方案\10-实验脚本\smoke.ps1 -Label smoke-01
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File <ROOT>\cool_fox-优化方案\10-实验脚本\smoke.ps1 -Label smoke-01
 ```
 
 默认：`-Exe target\release\victory.exe`、`-Seconds 420`、`-WorldSeconds 200`、`-MinWorldSamples 25`，先跑 `auto-enter.ps1` 预检（默认 150 s，进世界后 10 s 收），再跑 `13-bench-ab.ps1 -Profile fork -WorldSeconds 200`（内部即 `bench.ps1`，判据全在 `bench.ps1`，smoke 不复制任何过滤/中位逻辑）。

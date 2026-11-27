@@ -1,4 +1,4 @@
-﻿# ARCHIVED EVIDENCE (r02-a7, 2026-11-26 23:07-23:25)
+# ARCHIVED EVIDENCE (r02-a7, 2026-11-26 23:07-23:25)
 # 用途：驱动 r02-a7 四组跑分的 runner（ 推目录 + 全 ASCII + BOM 绝对路径），
 # 首版因无 BOM 被 PS 5.1 按 ANSI 读而失败，此处保留为证据，不再执行。
 # r02-a7 runner (ASCII only; root derived from script location to survive encoding)
@@ -7,7 +7,7 @@ $ps51 = "$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe"
 $root = $PSScriptRoot
 $log  = Join-Path $root 'data\r02-a7-console.log'
 $ab   = Join-Path $root '13-bench-ab.ps1'
-$rel  = 'G:\GTA\cool_fox\cool_fox-main\target\release'
+$rel  = '<ROOT>\cool_fox\cool_fox-main\target\release'
 
 function W([string]$s) { Add-Content -LiteralPath $log -Value $s -Encoding UTF8 }
 

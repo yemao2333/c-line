@@ -1,4 +1,4 @@
-   Compiling victory-gpu v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-gpu)
+   Compiling victory-gpu v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-gpu)
 warning: value assigned to `slot` is never read
    --> crates\victory-gpu\src\list\thin.rs:916:9
     |

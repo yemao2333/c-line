@@ -1,14 +1,14 @@
-﻿# r02-a10 runner: S1 diag build, then S2 info+GPU_TIMING probe (150 s, one retry if early death)
+# r02-a10 runner: S1 diag build, then S2 info+GPU_TIMING probe (150 s, one retry if early death)
 # ASCII only; root from $PSScriptRoot; save with UTF-8 BOM.
-$env:CARGO_HOME  = 'G:\rust\cargo'
-$env:RUSTUP_HOME = 'G:\rust\rustup'
-$env:PATH = 'G:\rust\cargo\bin;D:\YunX-toolchain\w64devkit\w64devkit\bin;C:\Windows\System32;' + $env:PATH
+$env:CARGO_HOME  = '<RUST>\cargo'
+$env:RUSTUP_HOME = '<RUST>\rustup'
+$env:PATH = '<RUST>\cargo\bin;<TOOLCHAIN>\w64devkit\w64devkit\bin;C:\Windows\System32;' + $env:PATH
 $env:RUSTFLAGS = '-C target-cpu=native'
 
 $root   = $PSScriptRoot
 $data   = Join-Path $root 'data'
 $log    = Join-Path $data 'r02-a10-console.log'
-$repo   = 'G:\GTA\cool_fox\cool_fox-main'
+$repo   = '<ROOT>\cool_fox\cool_fox-main'
 $release= Join-Path $repo 'target\release\victory.exe'
 $diag   = Join-Path $repo 'target\diag\victory.exe'
 
@@ -27,7 +27,7 @@ W ("release_sha256_before=" + (HashOf $release))
 $buildLog = Join-Path $data 'build-diag.log'
 $t0 = Get-Date
 Push-Location $repo
-& 'G:\rust\cargo\bin\cargo.exe' build --profile diag -p victory --features diagnostics --locked 2>&1 | Out-File -LiteralPath $buildLog -Encoding utf8
+& '<RUST>\cargo\bin\cargo.exe' build --profile diag -p victory --features diagnostics --locked 2>&1 | Out-File -LiteralPath $buildLog -Encoding utf8
 $code = $LASTEXITCODE
 Pop-Location
 W ("EXIT=$code elapsed=$([int]((Get-Date)-$t0).TotalSeconds)s")
@@ -42,8 +42,8 @@ if ($code -ne 0 -or -not (Test-Path -LiteralPath $diag)) { W "S1_FAILED: stop"; 
 
 # ---------- S2 probe ----------
 function SetFork() {
-    $env:VICTORY_AMBIENT_AIR='1.5'; $env:VICTORY_CACHE_DIR='G:\GTA\victory-data\coolfox-cache'
-    $env:VICTORY_DATA_DIR='G:\GTA\victory-data\coolfox-data'
+    $env:VICTORY_AMBIENT_AIR='1.5'; $env:VICTORY_CACHE_DIR='<ROOT>\victory-data\coolfox-cache'
+    $env:VICTORY_DATA_DIR='<ROOT>\victory-data\coolfox-data'
     $env:VICTORY_TEXTURE_NO_WAIT='1'; $env:VICTORY_RELAY='2'; $env:VICTORY_WIDE_BACK='1'
     $env:VICTORY_CARD_REHASH_RUNS='1'; $env:VICTORY_JOIN_COPIES='1'; $env:VICTORY_INDIRECT_WINDOW='1'
     $env:VICTORY_RELAY_COPY='1'; $env:VICTORY_CARD_STEPS='2'; $env:VICTORY_INDIRECT_BATCH='2'
@@ -62,7 +62,7 @@ function RunOne([string]$tag, [int]$seconds) {
     foreach ($f in @($err,$out)) { if (Test-Path -LiteralPath $f) { Remove-Item -LiteralPath $f -Force } }
     Get-Process | Where-Object { $_.ProcessName -match '^victory' } | Stop-Process -Force -ErrorAction SilentlyContinue
     Start-Sleep 3
-    $p = Start-Process -FilePath $diag -ArgumentList @('run','G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK\game_scarlett_master.exe','--console','series-s','--execute') -WorkingDirectory $repo -RedirectStandardOutput $out -RedirectStandardError $err -PassThru -WindowStyle Normal
+    $p = Start-Process -FilePath $diag -ArgumentList @('run','<ROOT>\<DUMP>\game_scarlett_master.exe','--console','series-s','--execute') -WorkingDirectory $repo -RedirectStandardOutput $out -RedirectStandardError $err -PassThru -WindowStyle Normal
     W ("pid=" + $p.Id)
     $start = Get-Date
     for ($i = 0; $i -lt [int]($seconds / 5); $i++) {

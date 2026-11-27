@@ -1,6 +1,6 @@
 extra=VICTORY_SEND_OWN=0
-label=R10-sendown0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+label=R10-sendown0 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
 
-window = world+200 s (from t= s) £»²ÉÑù 0 Ìõ£¬´°ÄÚ 0 Ìõ
-median_ms_world =  £¨filter v2£¬0 ÌõÊÀ½çÑù±¾£¬ÖÐÎ» draws=£©£»max_priv_gb =  £»min_free_gb =  £»min_commit_free_gb =  £»leftover_procs = 0
-ÏêÇéÐ´Èë bench-v3.csv
+window = world+200 s (from t= s) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0 ï¿½ï¿½
+median_ms_world =  ï¿½ï¿½filter v2ï¿½ï¿½0 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î» draws=ï¿½ï¿½ï¿½ï¿½max_priv_gb =  ï¿½ï¿½min_free_gb =  ï¿½ï¿½min_commit_free_gb =  ï¿½ï¿½leftover_procs = 0
+ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ bench-v3.csv

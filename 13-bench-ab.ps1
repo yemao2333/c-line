@@ -1,4 +1,4 @@
-﻿param(
+param(
   [Parameter(Mandatory = $true)][string]$Label,
   [Parameter(Mandatory = $true)][string]$Exe,
   [int]$Seconds = 180,
@@ -17,12 +17,12 @@
 #   .\13-bench-ab.ps1 -Label C-tuned   -Exe ..\cool_fox\cool_fox-main\target\release\victory.exe -Profile tuned
 
 $ErrorActionPreference = 'Stop'
-$root = 'G:\GTA\cool_fox-优化方案'
+$root = '<ROOT>\cool_fox-优化方案'
 
 # ---- 本 fork 的旧启动器开关（两组共用，逐字照抄旧 Start-GTA6.cmd）----
 $env:VICTORY_AMBIENT_AIR = '1.5'
-$env:VICTORY_CACHE_DIR = 'G:\GTA\victory-data\coolfox-cache'
-$env:VICTORY_DATA_DIR = 'G:\GTA\victory-data\coolfox-data'
+$env:VICTORY_CACHE_DIR = '<ROOT>\victory-data\coolfox-cache'
+$env:VICTORY_DATA_DIR = '<ROOT>\victory-data\coolfox-data'
 $env:VICTORY_TEXTURE_NO_WAIT = '1'
 $env:VICTORY_RELAY = '2'
 $env:VICTORY_WIDE_BACK = '1'

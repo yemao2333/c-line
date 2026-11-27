@@ -1,4 +1,4 @@
-label=R10-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+label=R10-control exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
   t=   8s fps=       ms=         draws=       priv=  5.13 commitfree= 26.29
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.98 commitfree= 25.66
   t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.98 commitfree= 25.67
@@ -39,7 +39,7 @@ label=R10-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe p
   t= 247s fps=    30 ms=    33.3 draws=    10 priv= 13.79 commitfree= 18.99
   t= 253s fps=    30 ms=    33.9 draws=    11 priv= 14.08 commitfree= 18.45
   t= 259s fps=     3 ms=   332.1 draws=  2085 priv= 18.24 commitfree= 14.31
-  >> ½øÊÀ½ç£ºdraws=2085£¬ÊÀ½ç´°×Ô t=259 s Æð£¬²É 200 s
+  >> ï¿½ï¿½ï¿½ï¿½ï¿½ç£ºdraws=2085ï¿½ï¿½ï¿½ï¿½ï¿½ç´°ï¿½ï¿½ t=259 s ï¿½ð£¬²ï¿½ 200 s
   t= 265s fps=     4 ms=   244.8 draws=  2183 priv= 19.26 commitfree= 13.44
   t= 271s fps=     4 ms=   253.7 draws=  2785 priv= 19.32 commitfree= 13.29
   t= 277s fps=     3 ms=   317.7 draws=  1522 priv= 19.74 commitfree=  12.9
@@ -154,6 +154,6 @@ label=R10-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe p
 
 
 
-window = world+200 s (from t=259 s) £»²ÉÑù 74 Ìõ£¬´°ÄÚ 35 Ìõ
-median_ms_world = 250.2 £¨filter v2£¬35 ÌõÊÀ½çÑù±¾£¬ÖÐÎ» draws=4030£©£»max_priv_gb = 20.98 £»min_free_gb = 2.99 £»min_commit_free_gb = 11.74 £»leftover_procs = 0
-ÏêÇéÐ´Èë bench-v3.csv
+window = world+200 s (from t=259 s) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 74 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 35 ï¿½ï¿½
+median_ms_world = 250.2 ï¿½ï¿½filter v2ï¿½ï¿½35 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î» draws=4030ï¿½ï¿½ï¿½ï¿½max_priv_gb = 20.98 ï¿½ï¿½min_free_gb = 2.99 ï¿½ï¿½min_commit_free_gb = 11.74 ï¿½ï¿½leftover_procs = 0
+ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ bench-v3.csv

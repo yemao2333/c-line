@@ -35,7 +35,7 @@ the submitting thread stood waiting for the card 226.7 ms
 ## 3 执行方式（一次运行，用户在场）
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File "G:\GTA\cool_fox-优化方案\50-项目C\run-timeline.ps1"
+powershell -NoProfile -ExecutionPolicy Bypass -File "<ROOT>\cool_fox-优化方案\50-项目C\run-timeline.ps1"
 ```
 
 **关键操作**：脚本起跑后 **90 秒内手动点进世界**，之后别动鼠标键盘。

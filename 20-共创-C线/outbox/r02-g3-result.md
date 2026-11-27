@@ -57,7 +57,7 @@ fork_dirs_after=15
 | 11-28 00:40:31 | 标题把存档从 `Player~…\v88`（3 文件）**迁移为 `v90`**（2012/296/58 B），v88 目录被删 |
 | 11-28 01:00:20 | `telemetrycache.dat` 被截断为 **0 B**（01:23:24 又被写回 2,097,152 B） |
 | 11-28 01:13 | 我从 ours 覆盖回 `v88` 三件（sha 与 ours 相同），`restored_count=3` |
-| 11-28 01:34 | 把 `v90` 目录移出到 `G:\GTA\victory-data\fork-eval-data.quarantine-0134`，再从 ours 放回 `v88` 三件（为排除「v90 半写坏存档」假设；**该假设被随后一局否掉，见 §7**） |
+| 11-28 01:34 | 把 `v90` 目录移出到 `<ROOT>\victory-data\fork-eval-data.quarantine-0134`，再从 ours 放回 `v88` 三件（为排除「v90 半写坏存档」假设；**该假设被随后一局否掉，见 §7**） |
 
 ## 3 S3 90 s 探测（`VICTORY_KEYS=15/20/25/30/35/40:Enter`，`VICTORY_LOG=warn`）
 
@@ -231,7 +231,7 @@ t=255s <no victory process>
 
 | 项 | 结果 |
 | --- | --- |
-| `G:\GTA\cool_fox\cool_fox-main` 被写 | 无（全程只读；只对它跑过 `Get-FileHash`） |
+| `<ROOT>\cool_fox\cool_fox-main` 被写 | 无（全程只读；只对它跑过 `Get-FileHash`） |
 | fork exe | `31D97B4D70ECEF693550A7A7AA89AC6E128FD0FFCB7E265110A0C4F38B57CEB5`（65,738,683 B），**未变**，未重新编译 |
 | 我们 release exe | `4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C`（49,691,451 B），**未变** |
 | `bench.csv` / `bench-v2.csv` / `bench-v3.csv` | 12 / 22 / 31 行，**未写** |
@@ -245,9 +245,9 @@ t=255s <no victory process>
 
 ## 9 出处
 
-- 探针/跑批脚本：`G:\GTA\fork-eval\g3-s3.ps1`、`g3-probe.ps1`、`g3-diag.ps1`、`g3-run3.ps1`、`g3-watchdog.ps1`、`g3-watchdog2.ps1`（均为 UTF-8 BOM，`Parser::ParseFile` 0 error）。
+- 探针/跑批脚本：`<ROOT>\fork-eval\g3-s3.ps1`、`g3-probe.ps1`、`g3-diag.ps1`、`g3-run3.ps1`、`g3-watchdog.ps1`、`g3-watchdog2.ps1`（均为 UTF-8 BOM，`Parser::ParseFile` 0 error）。
 - 采样原文：`g3-s3v2.out.txt`、`g3-s3b.out.txt`、`g3-nokeys.out.txt`、`g3-nokeys300.out.txt`、`g3-keytest*.out.txt`、`g3-v88probe.out.txt`、`g3-emptycache.out.txt`、`g3-run3*.out.txt`、`g3-rep-fork-clean-*.out.txt`。
-- 进程日志：`g3-*.log` / `g3-*.err.log`、`G:\GTA\cool_fox-优化方案\data\run-fork-clean-*.log(.err.log)`、`run-fork-{1,2,2b,3b,3c}-*.log`。
-- 截图：`G:\GTA\fork-eval\g3-shot-010434.png`（黑屏 + fpsbox）。
+- 进程日志：`g3-*.log` / `g3-*.err.log`、`<ROOT>\cool_fox-优化方案\data\run-fork-clean-*.log(.err.log)`、`run-fork-{1,2,2b,3b,3c}-*.log`。
+- 截图：`<ROOT>\fork-eval\g3-shot-010434.png`（黑屏 + fpsbox）。
 - 看门狗记录：`g3-watchdog.log`（含我的误杀 8 条）、`g3-watchdog2.log`。
-- 台账：`G:\GTA\cool_fox-优化方案\data\bench-fork.csv`。
+- 台账：`<ROOT>\cool_fox-优化方案\data\bench-fork.csv`。

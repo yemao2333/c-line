@@ -1,7 +1,7 @@
-﻿param(
-  [string]$Exe = 'G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe',
-  [string]$Game = 'G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK\game_scarlett_master.exe',
-  [string]$Work = 'G:\GTA\cool_fox\cool_fox-main',
+param(
+  [string]$Exe = '<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe',
+  [string]$Game = '<ROOT>\<DUMP>\game_scarlett_master.exe',
+  [string]$Work = '<ROOT>\cool_fox\cool_fox-main',
   [int]$Seconds = 150,
   [int]$Attempts = 3
 )
@@ -15,12 +15,12 @@
 #   .\16-ledger-probe.ps1 -Attempts 5 -Seconds 180
 
 $ErrorActionPreference = 'Continue'
-$data = 'G:\GTA\cool_fox-优化方案\data'
+$data = '<ROOT>\cool_fox-优化方案\data'
 
 # ---- 本 fork 的旧开关集（与 13-bench-ab.ps1 -Profile fork 一致）----
 $env:VICTORY_AMBIENT_AIR = '1.5'
-$env:VICTORY_CACHE_DIR = 'G:\GTA\victory-data\coolfox-cache'
-$env:VICTORY_DATA_DIR = 'G:\GTA\victory-data\coolfox-data'
+$env:VICTORY_CACHE_DIR = '<ROOT>\victory-data\coolfox-cache'
+$env:VICTORY_DATA_DIR = '<ROOT>\victory-data\coolfox-data'
 $env:VICTORY_TEXTURE_NO_WAIT = '1'
 $env:VICTORY_RELAY = '2'
 $env:VICTORY_WIDE_BACK = '1'

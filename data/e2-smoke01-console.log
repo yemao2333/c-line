@@ -1,11 +1,11 @@
 === smoke label=smoke-01 start 2026-11-27 04:54:05
 exe_sha256=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
 commit_limit_gb=49.84 commit_free_gb=36.04
-label=smoke-01-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=smoke-01-preflight exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
 start=2026-11-27 04:54:10
 pid=20772
-stdout=G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\auto-smoke-01-preflight-1127-045409.log
-stderr=G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\auto-smoke-01-preflight-1127-045409.err.log
+stdout=<ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\auto-smoke-01-preflight-1127-045409.log
+stderr=<ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\auto-smoke-01-preflight-1127-045409.err.log
 t=  5s draws=1 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 1 draws/frame
 t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
 t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
@@ -30,7 +30,7 @@ samples=15
 leftover=0
 end=2026-11-27 04:55:41
 preflight_EXIT=0
-label=smoke-01 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+label=smoke-01 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
   t=   8s fps=    30 ms=    33.3 draws=     1 priv=   6.5 commitfree= 24.33
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.95 commitfree=  24.4
   t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree=  24.4
@@ -105,6 +105,6 @@ label=smoke-01 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe prof
 
 
 
-window = world+200 s (from t= s) £»²ÉÑù 34 Ìõ£¬´°ÄÚ 34 Ìõ
-median_ms_world =  £¨filter v2£¬0 ÌõÊÀ½çÑù±¾£¬ÖÐÎ» draws=£©£»max_priv_gb = 6.95 £»min_free_gb = 18.01 £»min_commit_free_gb = 24.33 £»leftover_procs = 0
-ÏêÇéÐ´Èë bench-v3.csv
+window = world+200 s (from t= s) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 34 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 34 ï¿½ï¿½
+median_ms_world =  ï¿½ï¿½filter v2ï¿½ï¿½0 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î» draws=ï¿½ï¿½ï¿½ï¿½max_priv_gb = 6.95 ï¿½ï¿½min_free_gb = 18.01 ï¿½ï¿½min_commit_free_gb = 24.33 ï¿½ï¿½leftover_procs = 0
+ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ bench-v3.csv

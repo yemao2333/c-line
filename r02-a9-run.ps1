@@ -1,11 +1,11 @@
-﻿# r02-a9 runner: four serial groups (R5-control / wideback0 / cardsteps0 / relaycopy0)
+# r02-a9 runner: four serial groups (R5-control / wideback0 / cardsteps0 / relaycopy0)
 # ASCII only; root derived from script location; must be saved with UTF-8 BOM.
 $env:Path = "$env:SystemRoot\System32;$env:SystemRoot\System32\WindowsPowerShell\v1.0;$env:Path"
 $ps51 = "$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe"
 $root = $PSScriptRoot
 $log  = Join-Path $root 'data\r02-a9-console.log'
 $ab   = Join-Path $root '13-bench-ab.ps1'
-$rel  = 'G:\GTA\cool_fox\cool_fox-main\target\release'
+$rel  = '<ROOT>\cool_fox\cool_fox-main\target\release'
 
 function W([string]$s) { Add-Content -LiteralPath $log -Value $s -Encoding UTF8 }
 

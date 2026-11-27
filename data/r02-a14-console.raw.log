@@ -4,7 +4,7 @@ commit_limit_gb=49.84 commit_free_gb=38.08
 book_before=3
 === S1 R8-before-book at 01:47:22
 extra=VICTORY_PIPELINE_BOOK=1
-label=R8-before-book exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R8-before-book exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    31 ms=    31.8 draws=     1 priv=  6.28 commitfree=  26.7
   t=  14s fps=    30 ms=    33.3 draws=     4 priv=  7.15 commitfree= 26.23
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.23 commitfree=  26.3
@@ -91,8 +91,8 @@ label=R8-before-book exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.ex
 
 
 
-median_ms_world = 267.8 £¨filter v2£¬32 ÌõÊÀ½çÑù±¾£¬ÖĞÎ» draws=4948£©£»max_priv_gb = 20.89 £»min_free_gb = 3.8 £»min_commit_free_gb = 12.36 £»leftover_procs = 0
-ÏêÇéĞ´Èë G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\bench-v2.csv
+median_ms_world = 267.8 ï¿½ï¿½filter v2ï¿½ï¿½32 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î» draws=4948ï¿½ï¿½ï¿½ï¿½max_priv_gb = 20.89 ï¿½ï¿½min_free_gb = 3.8 ï¿½ï¿½min_commit_free_gb = 12.36 ï¿½ï¿½leftover_procs = 0
+ï¿½ï¿½ï¿½ï¿½Ğ´ï¿½ï¿½ <ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\bench-v2.csv
 S1_exit=0
 book_after_run=5
 === S2 warm at 01:51:33
@@ -103,11 +103,11 @@ warm_EXIT=1 warm_elapsed=1s
 2026-11-26T17:51:33.961295Z  INFO victory_gpu::host: host D3D12 device ready
 2026-11-26T17:51:33.961455Z  INFO victory_gpu::descriptor::host: host view heaps hold 1000000 views; view indices are clamped to the null slot at the end from the first shader on views=1000000 raw_twins=false
 0 pipelines known, 0 made before (efb900b470e1ead1), 0 bad; 0 to make, 4 processes
-Error: ç³»ç»Ÿæ‰¾ä¸åˆ°æŒ‡å®šçš„è·¯å¾„ã€?(os error 3)
+Error: ç³»ç»Ÿæ‰¾ä¸åˆ°æŒ‡å®šçš„è·¯å¾„ï¿½?(os error 3)
 
 book_after_warm=5
 === S3 R8-after-warm at 01:51:34
-label=R8-after-warm exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R8-after-warm exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    24 ms=    41.7 draws=     1 priv=  6.15 commitfree= 26.53
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.96 commitfree= 26.31
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.23 commitfree= 26.21
@@ -194,8 +194,8 @@ label=R8-after-warm exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe
 
 
 
-median_ms_world = 256.1 £¨filter v2£¬32 ÌõÊÀ½çÑù±¾£¬ÖĞÎ» draws=4710£©£»max_priv_gb = 20.82 £»min_free_gb = 4.17 £»min_commit_free_gb = 12.69 £»leftover_procs = 0
-ÏêÇéĞ´Èë G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\bench-v2.csv
+median_ms_world = 256.1 ï¿½ï¿½filter v2ï¿½ï¿½32 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î» draws=4710ï¿½ï¿½ï¿½ï¿½max_priv_gb = 20.82 ï¿½ï¿½min_free_gb = 4.17 ï¿½ï¿½min_commit_free_gb = 12.69 ï¿½ï¿½leftover_procs = 0
+ï¿½ï¿½ï¿½ï¿½Ğ´ï¿½ï¿½ <ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\bench-v2.csv
 S3_exit=0
 leftover_after_group=0
 === final_procs=0

@@ -1,4 +1,4 @@
-﻿# r02-a10 回填 · diagnostics 按管线归因（S1 编 diag / S2 150 s GPU_TIMING 探针）
+# r02-a10 回填 · diagnostics 按管线归因（S1 编 diag / S2 150 s GPU_TIMING 探针）
 
 > 执行端：本机 Windows（豆包执行面）。任务单 `inbox\task-20261127-0028-10.md`。
 > 只回填原文与数字，不判读、不换算、不改口径。
@@ -7,7 +7,7 @@
 
 | 项 | 任务单要求 | 本次实际 |
 | --- | --- | --- |
-| S1 构建命令 | `cargo build --profile diag -p victory --features diagnostics --locked` | 同命令，工作目录 `G:\GTA\cool_fox\cool_fox-main` |
+| S1 构建命令 | `cargo build --profile diag -p victory --features diagnostics --locked` | 同命令，工作目录 `<ROOT>\cool_fox\cool_fox-main` |
 | S1 产物 | `target\diag\victory.exe` | `target\diag\victory.exe`，回填见 §B |
 | S1 侧证 | release 产物未被覆盖，SHA 仍 `58E60D62…A4EFF45` | 构前 `release_sha256_before`、构后 `release_sha256_after` 均 `58E60D62…A4EFF45`，见 §B |
 | S2 可执行 | `target\diag\victory.exe` | 同 |

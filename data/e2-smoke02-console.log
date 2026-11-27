@@ -1,11 +1,11 @@
 === smoke label=smoke-02-settle-room start 2026-11-27 05:12:30
 exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
 commit_limit_gb=49.84 commit_free_gb=35.96
-label=smoke-02-settle-room-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=smoke-02-settle-room-preflight exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
 start=2026-11-27 05:12:36
 pid=14152
-stdout=G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\auto-smoke-02-settle-room-preflight-1127-051236.log
-stderr=G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\auto-smoke-02-settle-room-preflight-1127-051236.err.log
+stdout=<ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\auto-smoke-02-settle-room-preflight-1127-051236.log
+stderr=<ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\auto-smoke-02-settle-room-preflight-1127-051236.err.log
 t=  5s draws=1 ms=40 title=Americas | VIctory 25 fps 40.0 ms/frame 1 draws/frame
 t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
 t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
@@ -31,7 +31,7 @@ leftover=0
 end=2026-11-27 05:14:08
 preflight_EXIT=0
 extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space;VICTORY_SETTLE_ROOM=1
-label=smoke-02-settle-room exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+label=smoke-02-settle-room exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
   t=   8s fps=    26 ms=    38.5 draws=     1 priv=   6.2 commitfree= 24.33
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.31
   t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 24.29
@@ -43,7 +43,7 @@ label=smoke-02-settle-room exe=G:\GTA\cool_fox\cool_fox-main\target\release\vict
   t=  56s fps=    30 ms=    33.4 draws=     8 priv=  9.53 commitfree= 17.76
   t=  62s fps=    26 ms=    37.8 draws=    11 priv= 13.64 commitfree= 17.27
   t=  68s fps=     3 ms=   317.5 draws=  2192 priv= 18.01 commitfree= 12.93
-  >> ½øÊÀ½ç£ºdraws=2192£¬ÊÀ½ç´°×Ô t=68 s Æð£¬²É 200 s
+  >> ï¿½ï¿½ï¿½ï¿½ï¿½ç£ºdraws=2192ï¿½ï¿½ï¿½ï¿½ï¿½ç´°ï¿½ï¿½ t=68 s ï¿½ð£¬²ï¿½ 200 s
   t=  74s fps=     2 ms=     405 draws=  1695 priv=  18.7 commitfree= 12.32
   t=  80s fps=     3 ms=     330 draws=  1927 priv=    19 commitfree= 12.04
   t=  86s fps=     4 ms=   243.7 draws=  1527 priv= 19.07 commitfree= 11.95
@@ -127,9 +127,9 @@ label=smoke-02-settle-room exe=G:\GTA\cool_fox\cool_fox-main\target\release\vict
 
 
 
-window = world+200 s (from t=68 s) £»²ÉÑù 44 Ìõ£¬´°ÄÚ 34 Ìõ
-median_ms_world = 242.8 £¨filter v2£¬34 ÌõÊÀ½çÑù±¾£¬ÖÐÎ» draws=4315£©£»max_priv_gb = 20.68 £»min_free_gb = 3.37 £»min_commit_free_gb = 10.51 £»leftover_procs = 0
-ÏêÇéÐ´Èë bench-v3.csv
+window = world+200 s (from t=68 s) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 44 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 34 ï¿½ï¿½
+median_ms_world = 242.8 ï¿½ï¿½filter v2ï¿½ï¿½34 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î» draws=4315ï¿½ï¿½ï¿½ï¿½max_priv_gb = 20.68 ï¿½ï¿½min_free_gb = 3.37 ï¿½ï¿½min_commit_free_gb = 10.51 ï¿½ï¿½leftover_procs = 0
+ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ bench-v3.csv
 bench_EXIT=0
 v3_lines_before=5 after=6
 row=2026-11-27 05:18:43,smoke-02-settle-room,200,420,44,68,34,ms>40&draws>=200,242.8,4315,20.68,3.37,10.51,0,run-smoke-02-settle-room-1127-051409.log

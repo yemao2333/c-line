@@ -25,7 +25,7 @@ warm_line=83581 pipelines known, 0 made before (efb900b470e1ead1), 0 bad; 83581 
 after_warm: known_pipelines_bytes=50326544
 known_pipelines_head32=33000000884f148a67b0e3ae9f8b708c416551040105eaaf3a4f6c87b0803581
 === S3 R9-after-warm2 at 02:25:20
-label=R9-after-warm2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R9-after-warm2 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   9s fps=    31 ms=    31.8 draws=     1 priv=  6.21 commitfree=  25.3
   t=  15s fps=    30 ms=    33.3 draws=     8 priv=  6.98 commitfree= 25.36
   t=  21s fps=    30 ms=    33.3 draws=     4 priv=  7.26 commitfree= 25.11
@@ -112,8 +112,8 @@ label=R9-after-warm2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.ex
 
 
 
-median_ms_world = 298.5 £¨filter v2£¬32 ÌõÊÀ½çÑù±¾£¬ÖÐÎ» draws=3205£©£»max_priv_gb = 20.46 £»min_free_gb = 3.06 £»min_commit_free_gb = 11.78 £»leftover_procs = 0
-ÏêÇéÐ´Èë G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\bench-v2.csv
+median_ms_world = 298.5 ï¿½ï¿½filter v2ï¿½ï¿½32 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î» draws=3205ï¿½ï¿½ï¿½ï¿½max_priv_gb = 20.46 ï¿½ï¿½min_free_gb = 3.06 ï¿½ï¿½min_commit_free_gb = 11.78 ï¿½ï¿½leftover_procs = 0
+ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ <ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\bench-v2.csv
 S3_exit=0
 leftover_after_group=0
 final_procs=0

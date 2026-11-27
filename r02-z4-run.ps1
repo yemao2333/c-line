@@ -1,7 +1,7 @@
-﻿$ErrorActionPreference = 'Continue'
+$ErrorActionPreference = 'Continue'
 # r02-z4-run.ps1 — 三（barrier 作用域）用现成诊断位做实测：VICTORY_BARRIER_TEST=groups 3 rep
-$root='G:\GTA\cool_fox-优化方案'; $scripts=Join-Path $root '10-实验脚本'
-$exe='G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe'
+$root='<ROOT>\cool_fox-优化方案'; $scripts=Join-Path $root '10-实验脚本'
+$exe='<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe'
 "=== r02-z4 run start " + (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')
 "exe_sha256=" + (Get-FileHash $exe -Algorithm SHA256).Hash
 foreach ($t in 'grp-1','grp-2','grp-3') {

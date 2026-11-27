@@ -1,16 +1,16 @@
-﻿param(
+param(
   [Parameter(Mandatory = $true)][string]$Label,
   [Parameter(Mandatory = $true)][string]$Exe,
   [int]$Seconds = 240,
   [string]$Keys = '25:Enter,30:Enter,35:Enter,40:Enter,45:Space',
-  [string]$Game = 'G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK\game_scarlett_master.exe',
-  [string]$Work = 'G:\GTA\cool_fox\cool_fox-main',
+  [string]$Game = '<ROOT>\<DUMP>\game_scarlett_master.exe',
+  [string]$Work = '<ROOT>\cool_fox\cool_fox-main',
   [int]$EnterFloor = 1000,
   # >0: stop that many seconds after the first draws>=EnterFloor sample (smoke uses it)
   [int]$StopAfterEntered = 0
 )
 
-$data = 'G:\GTA\cool_fox-优化方案\data'
+$data = '<ROOT>\cool_fox-优化方案\data'
 if (-not (Test-Path -LiteralPath $data)) { New-Item -ItemType Directory -Path $data | Out-Null }
 $stamp = Get-Date -Format 'MMdd-HHmmss'
 $log = Join-Path $data ("auto-{0}-{1}.log" -f $Label, $stamp)
@@ -21,8 +21,8 @@ if (-not (Test-Path -LiteralPath $Game)) { throw "no title exe: $Game" }
 
 # fork profile env (same set as 13-bench-ab.ps1 -Profile fork), plus the scripted keys
 $env:VICTORY_AMBIENT_AIR = '1.5'
-$env:VICTORY_CACHE_DIR = 'G:\GTA\victory-data\coolfox-cache'
-$env:VICTORY_DATA_DIR = 'G:\GTA\victory-data\coolfox-data'
+$env:VICTORY_CACHE_DIR = '<ROOT>\victory-data\coolfox-cache'
+$env:VICTORY_DATA_DIR = '<ROOT>\victory-data\coolfox-data'
 $env:VICTORY_TEXTURE_NO_WAIT = '1'
 $env:VICTORY_RELAY = '2'
 $env:VICTORY_WIDE_BACK = '1'

@@ -1,7 +1,7 @@
 SHA256=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
 commit_limit_gb=33.84 commit_used_gb=16.81 commit_free_gb=17.03
-exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe  bytes=49681038  written=2026-11-26 22:02:32
---- attempt 1 : G:\GTA\cool_fox-优化方案\data\ledger-a1-1126-223308.err.log ---
+exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe  bytes=49681038  written=2026-11-26 22:02:32
+--- attempt 1 : <ROOT>\cool_fox-优化方案\data\ledger-a1-1126-223308.err.log ---
 attempt 1: captured 5 / 5 lines
 === 账本 ===
 [2m2026-11-26T14:33:10.337106Z[0m [32m INFO[0m [2mvictory_gpu::list::thin[0m[2m:[0m threads that translate lists (VICTORY_THIN_THREADS) [3mthreads[0m[2m=[0m6

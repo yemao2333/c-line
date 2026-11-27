@@ -30,9 +30,9 @@ baseline_intact=True
 
 | 项 | 路径 |
 | --- | --- |
-| 构建日志 | `G:\GTA\cool_fox-优化方案\data\build-r02-a1.log` |
-| 产物 | `G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe` |
-| A 组对照物（未覆盖） | `G:\GTA\cool_fox\cool_fox-main\target\release\victory-baseline.exe` |
+| 构建日志 | `<ROOT>\cool_fox-优化方案\data\build-r02-a1.log` |
+| 产物 | `<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe` |
+| A 组对照物（未覆盖） | `<ROOT>\cool_fox\cool_fox-main\target\release\victory-baseline.exe` |
 | SHA256 取法 | `Get-FileHash target\release\victory.exe -Algorithm SHA256` |
 
 ## 异常

@@ -1,6 +1,6 @@
-﻿$ErrorActionPreference = 'Continue'
-$root = 'G:\GTA\cool_fox-优化方案'
-$exe  = 'G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe'
+$ErrorActionPreference = 'Continue'
+$root = '<ROOT>\cool_fox-优化方案'
+$exe  = '<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe'
 $expect = '58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45'
 $ps = Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\powershell.exe'
 "=== r02-a12 start " + (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')

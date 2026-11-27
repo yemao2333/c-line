@@ -1,6 +1,6 @@
-﻿cargo.exe :    Compiling proc-macro2 v1.0.107
-所在位置 G:\GTA\cool_fox-优化方案\r02-a10-run.ps1:30 字符: 1
-+ & 'G:\rust\cargo\bin\cargo.exe' build --profile diag -p victory --fea ...
+cargo.exe :    Compiling proc-macro2 v1.0.107
+所在位置 <ROOT>\cool_fox-优化方案\r02-a10-run.ps1:30 字符: 1
++ & '<RUST>\cargo\bin\cargo.exe' build --profile diag -p victory --fea ...
 + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : NotSpecified: (   Compiling proc-macro2 v1.0.107:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
@@ -45,7 +45,7 @@
    Compiling toml_datetime v1.1.3+spec-1.1.0
    Compiling serde_spanned v1.1.3
    Compiling toml v1.2.2+spec-1.1.0
-   Compiling victory-shader v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-shader)
+   Compiling victory-shader v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-shader)
    Compiling utf8parse v0.2.2
    Compiling zlib-rs v0.6.8
    Compiling thiserror-impl v2.0.21
@@ -63,7 +63,7 @@
    Compiling is_terminal_polyfill v1.70.2
    Compiling windows-core v0.62.2
    Compiling colorchoice v1.0.5
-   Compiling victory-pe v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-pe)
+   Compiling victory-pe v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-pe)
    Compiling windows-numerics v0.3.1
    Compiling tracing v0.1.44
    Compiling windows-collections v0.3.2
@@ -73,18 +73,18 @@
    Compiling winapi-util v0.1.11
    Compiling windows v0.62.2
    Compiling strsim v0.11.1
-   Compiling victory-core v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-core)
-   Compiling victory-gpu v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-gpu)
+   Compiling victory-core v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-core)
+   Compiling victory-gpu v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-gpu)
    Compiling clap_lex v1.1.2
-   Compiling victory-formats v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-formats)
+   Compiling victory-formats v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-formats)
    Compiling heck v0.5.0
    Compiling clap_builder v4.6.7
    Compiling same-file v1.0.6
-   Compiling victory-pipeline v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-pipeline)
-   Compiling victory-loader v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-loader)
+   Compiling victory-pipeline v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-pipeline)
+   Compiling victory-loader v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-loader)
    Compiling opus-pure v0.2.4
    Compiling walkdir v2.5.1
-   Compiling victory-game v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-game)
+   Compiling victory-game v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-game)
    Compiling clap_derive v4.6.9
    Compiling clap v4.6.9
 warning: unused variable: `batched`
@@ -141,7 +141,7 @@ warning: calls to `std::mem::drop` with a value that implements `Copy` does noth
     |
     = note: use `let _ = ...` to ignore the expression or result
 
-   Compiling victory-hle v0.1.0 (G:\GTA\cool_fox\cool_fox-main\crates\victory-hle)
+   Compiling victory-hle v0.1.0 (<ROOT>\cool_fox\cool_fox-main\crates\victory-hle)
 warning: `victory-gpu` (lib) generated 5 warnings (run `cargo fix --lib -p victory-gpu` to apply 1 suggestion)
-   Compiling victory v0.1.0 (G:\GTA\cool_fox\cool_fox-main\apps\victory)
+   Compiling victory v0.1.0 (<ROOT>\cool_fox\cool_fox-main\apps\victory)
     Finished `diag` profile [optimized + debuginfo] target(s) in 4m 32s

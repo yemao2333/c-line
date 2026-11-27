@@ -2,18 +2,18 @@
 
 > 执行端：本机 Windows。任务单 `inbox\task-20261127-0835-21.md`。只清点、不改任何东西、不下结论。
 
-产物：`G:\GTA\kelvaroq-eval\inventory.md`，24,206 B / 289 行，UTF-8（无 BOM）。
+产物：`<ROOT>\kelvaroq-eval\inventory.md`，24,206 B / 289 行，UTF-8（无 BOM）。
 
 ## 清点对象与规模
 
 | 项 | 值 |
 | --- | --- |
-| 被清点仓库 | `G:\GTA\kelvaroq-main`（只读） |
-| 补丁目录 | `G:\GTA\kelvaroq-main\native\patches`（唯一目录，`-Recurse` 全量） |
+| 被清点仓库 | `<ROOT>\kelvaroq-main`（只读） |
+| 补丁目录 | `<ROOT>\kelvaroq-main\native\patches`（唯一目录，`-Recurse` 全量） |
 | 补丁个数 | **61**（与任务单的 61 一致） |
 | 补丁行数合计 | 见 §1 表「行数」列，逐条照抄 `Measure-Object -Line` |
 | 目标文件条目合计 | **83**（61 个补丁去重后的 `--- a/`、`+++ b/` 目标路径） |
-| 参照树 | `G:\GTA\cool_fox\cool_fox-main`（`Test-Path` 逐条判定） |
+| 参照树 | `<ROOT>\cool_fox\cool_fox-main`（`Test-Path` 逐条判定） |
 | 无 diff 头的补丁 | **0** |
 
 ## 存在性统计（`Test-Path` 结果，仅计数）
@@ -54,14 +54,14 @@
 | 改 `cool_fox-main` | **未改**；该树最新 mtime 05:10:50（本轮之前最后一次构建） |
 | 编译 / 运行游戏 | **均未**；全流程只有 `Get-ChildItem` / `Get-Content` / `Select-String` / `Test-Path` |
 | 结论/建议 | **未写**；inventory.md 只有表格数据与原文照抄 |
-| 输出位置 | 仅 `G:\GTA\kelvaroq-eval\`（`inventory.md`、`f1-presence.json`、`s1-rows.txt`、`build-inventory.ps1`） |
+| 输出位置 | 仅 `<ROOT>\kelvaroq-eval\`（`inventory.md`、`f1-presence.json`、`s1-rows.txt`、`build-inventory.ps1`） |
 | 数字与文件名 | 未改写、未换算；补丁名与目标路径逐字来自 `--- a/`、`+++ b/` 头 |
 
 ## 交付文件
 
 | 文件 | 大小（B） | 说明 |
 | --- | --- | --- |
-| `G:\GTA\kelvaroq-eval\inventory.md` | 24,206 | 正式产物（四节） |
-| `G:\GTA\kelvaroq-eval\f1-presence.json` | 13,556 | S2 原始存在性数据（每补丁每目标的 `there` 布尔） |
-| `G:\GTA\kelvaroq-eval\s1-rows.txt` | 4,807 | S1 原始行（`patch|lines|targets|subject`） |
-| `G:\GTA\kelvaroq-eval\build-inventory.ps1` | 6,129 | 生成脚本（可复跑，只读输入） |
+| `<ROOT>\kelvaroq-eval\inventory.md` | 24,206 | 正式产物（四节） |
+| `<ROOT>\kelvaroq-eval\f1-presence.json` | 13,556 | S2 原始存在性数据（每补丁每目标的 `there` 布尔） |
+| `<ROOT>\kelvaroq-eval\s1-rows.txt` | 4,807 | S1 原始行（`patch|lines|targets|subject`） |
+| `<ROOT>\kelvaroq-eval\build-inventory.ps1` | 6,129 | 生成脚本（可复跑，只读输入） |

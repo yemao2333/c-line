@@ -1,4 +1,4 @@
-﻿=== r02-a10 start 2026-11-27 00:27:23
+=== r02-a10 start 2026-11-27 00:27:23
 release_sha256_before=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
 EXIT=0 elapsed=275s
 errors=0
@@ -13,5 +13,5 @@ hits_total=373
 L13946: 2026-11-26T16:34:32.269364Z  WARN victory_gpu::host: slow host list ms=63 commands=0
 L13947: 2026-11-26T16:34:32.535986Z  WARN victory_gpu::host: slow host list ms=134 commands=0
 L13948: 2026-11-26T16:34:32.749342Z  WARN victory_gpu::host: slow host list ms=62 commands=0
-err_file=G:\GTA\cool_fox-优化方案\data\r02-a10-gputiming-info.err.log
+err_file=<ROOT>\cool_fox-优化方案\data\r02-a10-gputiming-info.err.log
 === r02-a10 done 2026-11-27 00:34:35

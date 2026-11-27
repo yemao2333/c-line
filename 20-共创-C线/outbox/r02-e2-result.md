@@ -1,10 +1,10 @@
-﻿# r02-e2 回填 · 三阶段流水线（A 自动进世界 / B 冒烟回归 / C 最小移植）
+# r02-e2 回填 · 三阶段流水线（A 自动进世界 / B 冒烟回归 / C 最小移植）
 
 > 执行端：本机 Windows。任务单 `inbox\task-20261127-0440-19.md`。每阶段单独成节，只报数不判读。
 
 ## A / P1 —— 自动进世界（`10-实验脚本\auto-enter.ps1`）
 
-脚本：`G:\GTA\cool_fox-优化方案\10-实验脚本\auto-enter.ps1`（UTF-8 带 BOM，`Parser::ParseFile` 0 错）。
+脚本：`<ROOT>\cool_fox-优化方案\10-实验脚本\auto-enter.ps1`（UTF-8 带 BOM，`Parser::ParseFile` 0 错）。
 
 | 参数 | 值 |
 | --- | --- |
@@ -37,9 +37,9 @@ A2: >> ENTERED at t=65 s draws=2536   / entered=True entered_at_s=65 leftover=0
 
 ## B / P1 —— 冒烟回归（`10-实验脚本\smoke.ps1` + `70-项目E\regression.md`）
 
-脚本：`G:\GTA\cool_fox-优化方案\10-实验脚本\smoke.ps1`（UTF-8 带 BOM，`Parser::ParseFile` 0 错，`parse_errors=0`）。判据全部来自 `10-实验脚本\bench.ps1` 的 filter v2（`Ms>40 且 Draws>=200`），脚本本身不复制判据、只读 `data\bench-v3.csv` 末行断言四项：`world_samples >= 25`、`world_from_s` 非空、`leftover_procs = 0`、`median_ms_world` 非空。退出码 `SMOKE=PASS` → 0，`SMOKE=FAIL` → 1。
+脚本：`<ROOT>\cool_fox-优化方案\10-实验脚本\smoke.ps1`（UTF-8 带 BOM，`Parser::ParseFile` 0 错，`parse_errors=0`）。判据全部来自 `10-实验脚本\bench.ps1` 的 filter v2（`Ms>40 且 Draws>=200`），脚本本身不复制判据、只读 `data\bench-v3.csv` 末行断言四项：`world_samples >= 25`、`world_from_s` 非空、`leftover_procs = 0`、`median_ms_world` 非空。退出码 `SMOKE=PASS` → 0，`SMOKE=FAIL` → 1。
 
-回归口径一页：`G:\GTA\cool_fox-优化方案\70-项目E\regression.md`（2739 B）。基线取 `bench-v3.csv` L2 `R10-control` 的 `median_ms_world=250.2`，回归线 `<= 275.2`（+10%），比对段固定 `world_seconds=200`、`-Profile fork`。
+回归口径一页：`<ROOT>\cool_fox-优化方案\70-项目E\regression.md`（2739 B）。基线取 `bench-v3.csv` L2 `R10-control` 的 `median_ms_world=250.2`，回归线 `<= 275.2`（+10%），比对段固定 `world_seconds=200`、`-Profile fork`。
 
 ### smoke-01：作废（执行端中止，未注入按键）
 
@@ -114,7 +114,7 @@ A2: >> ENTERED at t=65 s draws=2536   / entered=True entered_at_s=65 leftover=0
 
 | 项 | 值 |
 | --- | --- |
-| 命令 | `cargo build --release --locked -p victory`（`CARGO_HOME=G:\rust\cargo`、`RUSTUP_HOME=G:\rust\rustup`、`RUSTFLAGS=-C target-cpu=native`，工作目录 `G:\GTA\cool_fox\cool_fox-main`） |
+| 命令 | `cargo build --release --locked -p victory`（`CARGO_HOME=<RUST>\cargo`、`RUSTUP_HOME=<RUST>\rustup`、`RUSTFLAGS=-C target-cpu=native`，工作目录 `<ROOT>\cool_fox\cool_fox-main`） |
 | 起止 | 2026-11-27 05:08:37 → 05:10:49 |
 | cargo 自报 | `Finished \`release\` profile [optimized + debuginfo] target(s) in 2m 11s` |
 | errors | 0（`e2-c3-build.err.log` 中 `^error` 行 0 条） |
@@ -173,7 +173,7 @@ A2: >> ENTERED at t=65 s draws=2536   / entered=True entered_at_s=65 leftover=0
 | `.cargo\config.toml` | mtime 11-26 21:34:57，未动 |
 | `crates\victory-shader\**` | 最新 mtime 11-25 22:33:14，未动 |
 | `target\release\victory-baseline.exe` | 72,407,911 B，SHA `9627DF10…`，未覆盖 |
-| `G:\GTA\victory-data\coolfox-cache\pipelines` | 8 个文件长度与 mtime 与清点一致（最新 11-27 03:53:07），未写 |
+| `<ROOT>\victory-data\coolfox-cache\pipelines` | 8 个文件长度与 mtime 与清点一致（最新 11-27 03:53:07），未写 |
 | `VICTORY_CAPTURE_FRAMES` / `VICTORY_RECORD_FRAMES` | 全程未设 |
 | 并发 | 全程单局，`procs=0` 收尾 |
 

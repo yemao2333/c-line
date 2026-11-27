@@ -1,5 +1,5 @@
-﻿extra=VICTORY_SEND_OWN=0
-label=R10-sendown0 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+extra=VICTORY_SEND_OWN=0
+label=R10-sendown0 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
   t=   8s fps=    30 ms=      33 draws=     1 priv=  6.21 commitfree= 25.91
   t=  14s fps=    30 ms=    33.3 draws=     4 priv=  7.21 commitfree= 25.68
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.21 commitfree= 25.69

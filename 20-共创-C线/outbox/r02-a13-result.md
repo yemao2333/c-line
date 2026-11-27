@@ -1,4 +1,4 @@
-﻿# r02-a13 回填 · R7 四组（并行页映射，release 产物，各 200 s）
+# r02-a13 回填 · R7 四组（并行页映射，release 产物，各 200 s）
 
 > 执行端：本机 Windows。任务单 `inbox\task-20261127-0121-13.md`。只报数，不判读 `MAP_THREADS` 各档差别。
 
@@ -74,7 +74,7 @@ NOT_OBSERVED
 SHA256=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
 commit_limit_gb=49.84 commit_free_gb=37.97
 === group R7-control extra= at 01:26:12
-label=R7-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R7-control exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    30 ms=    33.3 draws=     1 priv=  6.24 commitfree= 26.67
   t=  14s fps=    30 ms=    33.3 draws=     4 priv=  7.32 commitfree= 26.45
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.31 commitfree=  26.5
@@ -162,12 +162,12 @@ label=R7-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe pr
 
 
 median_ms_world = 260 （filter v2，33 条世界样本，中位 draws=4787）；max_priv_gb = 20.91 ；min_free_gb = 4.49 ；min_commit_free_gb = 12.87 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 group_exit=0
 leftover_after_group=0
 === group R7-map8 extra=VICTORY_MAP_THREADS=8 at 01:30:32
 extra=VICTORY_MAP_THREADS=8
-label=R7-map8 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R7-map8 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    26 ms=    38.5 draws=     1 priv=   6.2 commitfree= 26.97
   t=  14s fps=    30 ms=    33.3 draws=     4 priv=  7.28 commitfree= 26.67
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.29 commitfree= 26.66
@@ -255,12 +255,12 @@ label=R7-map8 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profi
 
 
 median_ms_world = 261.6 （filter v2，33 条世界样本，中位 draws=4378）；max_priv_gb = 20.9 ；min_free_gb = 3.65 ；min_commit_free_gb = 12.77 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 group_exit=0
 leftover_after_group=0
 === group R7-map4 extra=VICTORY_MAP_THREADS=4 at 01:34:47
 extra=VICTORY_MAP_THREADS=4
-label=R7-map4 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R7-map4 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=    32 ms=    31.7 draws=     1 priv=  6.48 commitfree= 26.56
   t=  14s fps=    30 ms=    33.3 draws=     4 priv=  7.25 commitfree= 26.34
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.24 commitfree= 26.39
@@ -348,12 +348,12 @@ label=R7-map4 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profi
 
 
 median_ms_world = 285.5 （filter v2，33 条世界样本，中位 draws=4946）；max_priv_gb = 20.85 ；min_free_gb = 3.72 ；min_commit_free_gb = 12.61 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 group_exit=0
 leftover_after_group=0
 === group R7-mapauto extra=VICTORY_MAP_THREADS=auto at 01:39:01
 extra=VICTORY_MAP_THREADS=auto
-label=R7-mapauto exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
+label=R7-mapauto exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=200
   t=   8s fps=       ms=         draws=       priv=  3.81 commitfree= 27.91
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  7.02 commitfree= 26.92
   t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.96 commitfree= 26.91
@@ -441,7 +441,7 @@ label=R7-mapauto exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe pr
 
 
 median_ms_world = 279.5 （filter v2，30 条世界样本，中位 draws=4927）；max_priv_gb = 20.69 ；min_free_gb = 3.76 ；min_commit_free_gb = 12.86 ；leftover_procs = 0
-详情写入 G:\GTA\cool_fox-优化方案\data\bench-v2.csv
+详情写入 <ROOT>\cool_fox-优化方案\data\bench-v2.csv
 group_exit=0
 leftover_after_group=0
 === final_procs=0

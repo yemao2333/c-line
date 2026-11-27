@@ -1,4 +1,4 @@
-﻿#Requires -RunAsAdministrator
+#Requires -RunAsAdministrator
 <#
     12-页面文件.ps1 —— P0-1：把提交上限从 33.84 GB 抬到 48 GB 以上
 
@@ -16,10 +16,10 @@
         右键「使用 PowerShell 运行」→ UAC 选“是”
       或先开管理员 PowerShell，再：
         Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
-        & 'G:\GTA\cool_fox-优化方案\12-页面文件.ps1'
+        & '<ROOT>\cool_fox-优化方案\12-页面文件.ps1'
 
     回滚（同样需要管理员 + 重启）：
-        & 'G:\GTA\cool_fox-优化方案\12-页面文件.ps1' -Revert
+        & '<ROOT>\cool_fox-优化方案\12-页面文件.ps1' -Revert
 
     历史：2026-11-26 首次运行时 New-CimInstance 抛 InvalidType(0x80041005)，
     原因是 Win32_PageFileSetting.InitialSize 为 UInt32 而 PS 传的是 Int32。

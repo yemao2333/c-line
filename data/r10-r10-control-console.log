@@ -1,4 +1,4 @@
-﻿label=R10-control exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+label=R10-control exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
   t=   8s fps=       ms=         draws=       priv=  5.13 commitfree= 26.29
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.98 commitfree= 25.66
   t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.98 commitfree= 25.67

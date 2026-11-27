@@ -1,4 +1,4 @@
-﻿=== r02-b1 (attempt 2) start 2026-11-27 02:51:06
+=== r02-b1 (attempt 2) start 2026-11-27 02:51:06
 SHA256=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
 commit_limit_gb=49.84 commit_free_gb=37.13
 v2_lines_before=22
@@ -9,13 +9,13 @@ v1_sha_before=0FF0549288706F5B94EF3E221CD82236E9D8FD993EB20B9FB94BD4C9C10F2D00
 group_EXIT=0 waited_s=475
 world_line=>> 进世界：draws=2085，世界窗自 t=259 s 起，采 200 s
 window_line=window = world+200 s (from t=259 s) ；采样 74 条，窗内 35 条
-group_console=G:\GTA\cool_fox-优化方案\data\r10-r10-control-console.log
+group_console=<ROOT>\cool_fox-优化方案\data\r10-r10-control-console.log
 leftover_after_R10-control =0
 === R10-sendown0 start 02:59:16
 group_EXIT=0 waited_s=265
 world_line=>> 进世界：draws=2300，世界窗自 t=51 s 起，采 200 s
 window_line=window = world+200 s (from t=51 s) ；采样 42 条，窗内 35 条
-group_console=G:\GTA\cool_fox-优化方案\data\r10-r10-sendown0-console.log
+group_console=<ROOT>\cool_fox-优化方案\data\r10-r10-sendown0-console.log
 leftover_after_R10-sendown0 =0
 === bench-v3.csv 全文 ===
  1: time,label,world_seconds,cap_seconds,samples,world_from_s,world_samples,world_filter,median_ms_world,median_draws,max_priv_gb,min_free_gb,min_commit_free_gb,leftover_procs,log

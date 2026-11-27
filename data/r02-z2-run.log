@@ -4,11 +4,11 @@ exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
 === smoke label=z2-base-1 start 2026-11-27 11:08:09
 exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
 commit_limit_gb=49.84 commit_free_gb=34.89
-label=z2-base-1-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=z2-base-1-preflight exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
 start=2026-11-27 11:08:12
 pid=19468
-stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-base-1-preflight-1127-110812.log
-stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-base-1-preflight-1127-110812.err.log
+stdout=<ROOT>\cool_fox-优化方案\data\auto-z2-base-1-preflight-1127-110812.log
+stderr=<ROOT>\cool_fox-优化方案\data\auto-z2-base-1-preflight-1127-110812.err.log
 t=  5s draws=1 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 1 draws/frame
 t= 10s draws=5 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 5 draws/frame
 t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
@@ -37,7 +37,7 @@ leftover=0
 end=2026-11-27 11:09:51
 preflight_EXIT=0
 extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
-label=z2-base-1 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+label=z2-base-1 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
   t=   8s fps=    31 ms=    32.6 draws=     1 priv=  6.27 commitfree= 23.44
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.98 commitfree= 23.51
   t=  20s fps=    30 ms=    33.3 draws=     4 priv=  7.22 commitfree= 23.27
@@ -285,11 +285,11 @@ leftover=0
 === smoke label=z2-base-2 start 2026-11-27 11:21:27
 exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
 commit_limit_gb=49.84 commit_free_gb=35.27
-label=z2-base-2-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=z2-base-2-preflight exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
 start=2026-11-27 11:21:29
 pid=5828
-stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-base-2-preflight-1127-112129.log
-stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-base-2-preflight-1127-112129.err.log
+stdout=<ROOT>\cool_fox-优化方案\data\auto-z2-base-2-preflight-1127-112129.log
+stderr=<ROOT>\cool_fox-优化方案\data\auto-z2-base-2-preflight-1127-112129.err.log
 t=  5s draws=1 ms=42 title=Americas | VIctory 24 fps 42.0 ms/frame 1 draws/frame
 t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
 t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
@@ -317,7 +317,7 @@ leftover=0
 end=2026-11-27 11:23:02
 preflight_EXIT=0
 extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
-label=z2-base-2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+label=z2-base-2 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
   t=   8s fps=    30 ms=      33 draws=     1 priv=   6.2 commitfree= 23.42
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  7.09 commitfree=  23.4
   t=  20s fps=    30 ms=    33.4 draws=     8 priv=  6.96 commitfree= 23.55
@@ -567,11 +567,11 @@ leftover=0
 === smoke label=z2-batchoff-1 start 2026-11-27 11:34:42
 exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
 commit_limit_gb=49.84 commit_free_gb=35.26
-label=z2-batchoff-1-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=z2-batchoff-1-preflight exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
 start=2026-11-27 11:34:44
 pid=2068
-stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-batchoff-1-preflight-1127-113444.log
-stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-batchoff-1-preflight-1127-113444.err.log
+stdout=<ROOT>\cool_fox-优化方案\data\auto-z2-batchoff-1-preflight-1127-113444.log
+stderr=<ROOT>\cool_fox-优化方案\data\auto-z2-batchoff-1-preflight-1127-113444.err.log
 t=  5s draws=1 ms=39.5 title=Americas | VIctory 25 fps 39.5 ms/frame 1 draws/frame
 t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
 t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
@@ -600,7 +600,7 @@ leftover=0
 end=2026-11-27 11:36:28
 preflight_EXIT=0
 extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space;VICTORY_INDIRECT_BATCH=0;VICTORY_JOIN_COPIES=0
-label=z2-batchoff-1 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+label=z2-batchoff-1 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
   t=   8s fps=    30 ms=      33 draws=     1 priv=  6.22 commitfree= 23.42
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.95 commitfree=  23.5
   t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 23.53
@@ -846,11 +846,11 @@ leftover=0
 === smoke label=z2-batchoff-2 start 2026-11-27 11:47:56
 exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
 commit_limit_gb=49.84 commit_free_gb=35.04
-label=z2-batchoff-2-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=z2-batchoff-2-preflight exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
 start=2026-11-27 11:47:59
 pid=22884
-stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-batchoff-2-preflight-1127-114759.log
-stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-batchoff-2-preflight-1127-114759.err.log
+stdout=<ROOT>\cool_fox-优化方案\data\auto-z2-batchoff-2-preflight-1127-114759.log
+stderr=<ROOT>\cool_fox-优化方案\data\auto-z2-batchoff-2-preflight-1127-114759.err.log
 t=  5s draws=1 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 1 draws/frame
 t= 10s draws=6 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 6 draws/frame
 t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
@@ -877,7 +877,7 @@ leftover=0
 end=2026-11-27 11:49:31
 preflight_EXIT=0
 extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space;VICTORY_INDIRECT_BATCH=0;VICTORY_JOIN_COPIES=0
-label=z2-batchoff-2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+label=z2-batchoff-2 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
   t=   8s fps=    30 ms=    33.4 draws=     1 priv=  6.48 commitfree= 23.45
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 23.62
   t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree= 23.61
@@ -1123,11 +1123,11 @@ leftover=0
 === smoke label=z2-memtight-1 start 2026-11-27 12:00:59
 exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
 commit_limit_gb=49.84 commit_free_gb=34.67
-label=z2-memtight-1-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=z2-memtight-1-preflight exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
 start=2026-11-27 12:01:01
 pid=24284
-stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-memtight-1-preflight-1127-120101.log
-stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-memtight-1-preflight-1127-120101.err.log
+stdout=<ROOT>\cool_fox-优化方案\data\auto-z2-memtight-1-preflight-1127-120101.log
+stderr=<ROOT>\cool_fox-优化方案\data\auto-z2-memtight-1-preflight-1127-120101.err.log
 t=  5s draws=1 ms=38.3 title=Americas | VIctory 26 fps 38.3 ms/frame 1 draws/frame
 t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
 t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
@@ -1153,7 +1153,7 @@ leftover=0
 end=2026-11-27 12:02:29
 preflight_EXIT=0
 extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space;VICTORY_MEMORY_CARD_MB=1536;VICTORY_KEEP_SNAPSHOTS_MB=64;VICTORY_INPLACE_MB=512;VICTORY_TEXTURE_BUDGET_MB=768
-label=z2-memtight-1 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+label=z2-memtight-1 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
   t=   8s fps=    30 ms=    33.3 draws=     1 priv=   6.5 commitfree= 23.13
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree=  23.2
   t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.93 commitfree= 23.16
@@ -1399,11 +1399,11 @@ leftover=0
 === smoke label=z2-memtight-2 start 2026-11-27 12:13:56
 exe_sha256=4230CCF9B085D040489EBF2AB7421290AAF7DC3151B6C938EB2BAB793ABC5F3C
 commit_limit_gb=49.84 commit_free_gb=34.76
-label=z2-memtight-2-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=z2-memtight-2-preflight exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
 start=2026-11-27 12:13:59
 pid=3840
-stdout=G:\GTA\cool_fox-优化方案\data\auto-z2-memtight-2-preflight-1127-121359.log
-stderr=G:\GTA\cool_fox-优化方案\data\auto-z2-memtight-2-preflight-1127-121359.err.log
+stdout=<ROOT>\cool_fox-优化方案\data\auto-z2-memtight-2-preflight-1127-121359.log
+stderr=<ROOT>\cool_fox-优化方案\data\auto-z2-memtight-2-preflight-1127-121359.err.log
 t=  5s draws=1 ms=33.6 title=Americas | VIctory 30 fps 33.6 ms/frame 1 draws/frame
 t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
 t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
@@ -1430,7 +1430,7 @@ leftover=0
 end=2026-11-27 12:15:27
 preflight_EXIT=0
 extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space;VICTORY_MEMORY_CARD_MB=1536;VICTORY_KEEP_SNAPSHOTS_MB=64;VICTORY_INPLACE_MB=512;VICTORY_TEXTURE_BUDGET_MB=768
-label=z2-memtight-2 exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
+label=z2-memtight-2 exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=800 world_seconds=600
   t=   9s fps=    24 ms=    42.1 draws=     1 priv=  6.17 commitfree= 18.79
   t=  15s fps=    30 ms=    33.3 draws=     8 priv=  6.99 commitfree= 23.11
   t=  21s fps=    30 ms=    33.4 draws=     8 priv=  6.96 commitfree= 23.14

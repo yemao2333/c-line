@@ -10,10 +10,10 @@
 | 2 | `0023-compare-result-reuse.patch` | 145 | `crates\victory-gpu\src\host.rs` | **1** | 未执行 | 未执行 | 未执行 | 未执行 | 无 |
 | 3 | `0030-scoped-card-barriers.patch` | 139 | `crates\victory-gpu\src\host.rs` | **1** | 未执行 | 未执行 | 未执行 | 未执行 | 无 |
 
-命令（三个补丁同一形状，`cwd = G:\GTA\cool_fox\cool_fox-main`，git 为 `D:\qwen_coder\Git\cmd\git.exe`）：
+命令（三个补丁同一形状，`cwd = <ROOT>\cool_fox\cool_fox-main`，git 为 `<GIT>\cmd\git.exe`）：
 
 ```powershell
-& git apply --check --verbose "G:\GTA\kelvaroq-main\native\patches\<patch>"
+& git apply --check --verbose "<ROOT>\kelvaroq-main\native\patches\<patch>"
 ```
 
 > 注：该树**不是 git 仓库**（`.git` 不存在），但 `git apply` 不需要仓库即可对本工作目录的文件做检查/应用；本次只用 `--check`，未做任何写入。
@@ -134,6 +134,6 @@ error: crates/victory-gpu/src/host.rs: patch does not apply
 
 | 文件 | 说明 |
 | --- | --- |
-| `G:\GTA\kelvaroq-eval\f4-check-0032-contiguous-readback-copies.log` | `git apply --check --verbose` 原始输出（11 行） |
-| `G:\GTA\kelvaroq-eval\f4-check-0023-compare-result-reuse.log` | 同上（14 行） |
-| `G:\GTA\kelvaroq-eval\f4-check-0030-scoped-card-barriers.log` | 同上（11 行） |
+| `<ROOT>\kelvaroq-eval\f4-check-0032-contiguous-readback-copies.log` | `git apply --check --verbose` 原始输出（11 行） |
+| `<ROOT>\kelvaroq-eval\f4-check-0023-compare-result-reuse.log` | 同上（14 行） |
+| `<ROOT>\kelvaroq-eval\f4-check-0030-scoped-card-barriers.log` | 同上（11 行） |

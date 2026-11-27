@@ -1,11 +1,11 @@
 === smoke label=smoke-01b start 2026-11-27 04:59:59
 exe_sha256=58E60D624CABC7BDD9EC203F24AF3EEC1CA4A65FB1865B27CBC57E299A4EFF45
 commit_limit_gb=49.84 commit_free_gb=36.07
-label=smoke-01b-preflight exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
+label=smoke-01b-preflight exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe seconds=150 floor=1000 keys=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
 start=2026-11-27 05:00:02
 pid=13692
-stdout=G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\auto-smoke-01b-preflight-1127-050002.log
-stderr=G:\GTA\cool_fox-ÓÅ»¯·½°¸\data\auto-smoke-01b-preflight-1127-050002.err.log
+stdout=<ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\auto-smoke-01b-preflight-1127-050002.log
+stderr=<ROOT>\cool_fox-ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½\data\auto-smoke-01b-preflight-1127-050002.err.log
 t=  5s draws=1 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 1 draws/frame
 t= 10s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
 t= 15s draws=8 ms=33.3 title=Americas | VIctory 30 fps 33.3 ms/frame 8 draws/frame
@@ -31,7 +31,7 @@ leftover=0
 end=2026-11-27 05:01:27
 preflight_EXIT=0
 extra=VICTORY_KEYS=25:Enter,30:Enter,35:Enter,40:Enter,45:Space
-label=smoke-01b exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
+label=smoke-01b exe=<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe profile=fork seconds=420 world_seconds=200
   t=   8s fps=    30 ms=    33.3 draws=     1 priv=  6.49 commitfree= 24.33
   t=  14s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree=  24.4
   t=  20s fps=    30 ms=    33.3 draws=     8 priv=  6.94 commitfree=  24.4
@@ -43,7 +43,7 @@ label=smoke-01b exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe pro
   t=  61s fps=    30 ms=    33.3 draws=     9 priv=  7.88 commitfree= 22.74
   t=  67s fps=    30 ms=    33.3 draws=     9 priv= 12.69 commitfree= 18.51
   t=  73s fps=     4 ms=   259.1 draws=  2416 priv= 17.82 commitfree= 13.24
-  >> ½øÊÀ½ç£ºdraws=2416£¬ÊÀ½ç´°×Ô t=73 s Æð£¬²É 200 s
+  >> ï¿½ï¿½ï¿½ï¿½ï¿½ç£ºdraws=2416ï¿½ï¿½ï¿½ï¿½ï¿½ç´°ï¿½ï¿½ t=73 s ï¿½ð£¬²ï¿½ 200 s
   t=  79s fps=     3 ms=   339.5 draws=  1290 priv= 18.64 commitfree= 12.25
   t=  85s fps=     4 ms=   261.8 draws=  4497 priv= 19.24 commitfree= 11.93
   t=  91s fps=     4 ms=   284.1 draws=  2952 priv=  19.7 commitfree= 11.47
@@ -129,9 +129,9 @@ label=smoke-01b exe=G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe pro
 
 
 
-window = world+200 s (from t=73 s) £»²ÉÑù 45 Ìõ£¬´°ÄÚ 35 Ìõ
-median_ms_world = 246 £¨filter v2£¬35 ÌõÊÀ½çÑù±¾£¬ÖÐÎ» draws=4421£©£»max_priv_gb = 20.83 £»min_free_gb = 3.64 £»min_commit_free_gb = 10.38 £»leftover_procs = 0
-ÏêÇéÐ´Èë bench-v3.csv
+window = world+200 s (from t=73 s) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 45 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 35 ï¿½ï¿½
+median_ms_world = 246 ï¿½ï¿½filter v2ï¿½ï¿½35 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î» draws=4421ï¿½ï¿½ï¿½ï¿½max_priv_gb = 20.83 ï¿½ï¿½min_free_gb = 3.64 ï¿½ï¿½min_commit_free_gb = 10.38 ï¿½ï¿½leftover_procs = 0
+ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ bench-v3.csv
 bench_EXIT=0
 v3_lines_before=4 after=5
 row=2026-11-27 05:06:10,smoke-01b,200,420,45,73,35,ms>40&draws>=200,246,4421,20.83,3.64,10.38,0,run-smoke-01b-1127-050127.log

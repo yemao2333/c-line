@@ -1,6 +1,6 @@
-﻿param(
+param(
   [Parameter(Mandatory = $true)][string]$Label,
-  [string]$Exe = 'G:\GTA\cool_fox\cool_fox-main\target\release\victory.exe',
+  [string]$Exe = '<ROOT>\cool_fox\cool_fox-main\target\release\victory.exe',
   [int]$Seconds = 200,
   # 额外/覆盖的开关："VICTORY_THIN_THREADS=8;VICTORY_WINDOW_KB=4096"
   [string]$Extra = '',
@@ -9,13 +9,13 @@
 
 # 机制探查：只跑一局、采帧、落日志，用来二分定位。
 $ErrorActionPreference = 'Stop'
-$data = 'G:\GTA\cool_fox-优化方案\data'
-$game = 'G:\GTA\GTA6.Xbox.v1.0.2.1-CYBERLEEK\game_scarlett_master.exe'
-$work = 'G:\GTA\cool_fox\cool_fox-main'
+$data = '<ROOT>\cool_fox-优化方案\data'
+$game = '<ROOT>\<DUMP>\game_scarlett_master.exe'
+$work = '<ROOT>\cool_fox\cool_fox-main'
 
 $env:VICTORY_AMBIENT_AIR = '1.5'
-$env:VICTORY_CACHE_DIR = 'G:\GTA\victory-data\coolfox-cache'
-$env:VICTORY_DATA_DIR = 'G:\GTA\victory-data\coolfox-data'
+$env:VICTORY_CACHE_DIR = '<ROOT>\victory-data\coolfox-cache'
+$env:VICTORY_DATA_DIR = '<ROOT>\victory-data\coolfox-data'
 $env:VICTORY_TEXTURE_NO_WAIT = '1'
 $env:VICTORY_RELAY = '2'
 $env:VICTORY_WIDE_BACK = '1'
